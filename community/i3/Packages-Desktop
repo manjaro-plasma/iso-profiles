@@ -17,7 +17,6 @@ dmidecode
 downgrade
 epdfview
 fakeroot
-ff-theme-util
 ffmpeg
 ffmpegthumbnailer
 flac
@@ -50,6 +49,7 @@ htop
 inxi
 isousb
 json-c
+kvantum-manjaro
 libdvdcss
 libgpod
 libtool
@@ -118,6 +118,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 upower
+vertex-maia-themes
 vi
 vibrancy-colors
 viewnior

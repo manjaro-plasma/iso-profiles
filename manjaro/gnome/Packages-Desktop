@@ -6,7 +6,8 @@ dmidecode
 hexchat
 gthumb
 evince
-firefox
+>basic epiphany
+>extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
 manjaro-gnome-maia-theme #branding theme for GDM 
@@ -62,7 +63,7 @@ gvfs-smb
 inxi
 imagewriter
 #cli tool#
-pacui
+#pacui
 mc
 mhwd-tui
 ########
@@ -135,6 +136,8 @@ xorg-twm
 xorg-xinit
 yelp
 
+ms-office-online
+
 #extra depends for file-roller
 >extra gnome-getting-started-docs
 >extra p7zip
@@ -153,7 +156,7 @@ yelp
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra flashplugin
+#>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer

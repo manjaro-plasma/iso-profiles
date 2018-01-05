@@ -27,6 +27,8 @@ file-roller
 gedit
 gnome-disk-utility
 gtk3-classic
+gtk2-compatibility
+gtk-theme-breath
 gufw
 gvfs
 hibernator
@@ -40,7 +42,7 @@ limepanel
 lxappearance-gtk3
 maia-console
 manjaro-architect
-manjaro-browser-settings
+manjaro-browser-settings-native
 manjaro-bspwm-settings
 manjaro-pulse
 manjaro-zsh-config
@@ -68,15 +70,19 @@ poppler
 ps_mem
 pulseaudio-ctl
 ranger
+rofi
+rofi-scripts
 rootmenu
 spacefm
 speedtest-cli
 st-manjaro
+sterminal
 sxhkd
 terminus-font
 thermald
 tree
 udevil
+w3m
 xcursor-breeze
 xdg-su
 xdg-user-dirs
