@@ -5,7 +5,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -180,6 +179,7 @@ pavucontrol
 
 ## Themes QT/GTK/SDDM
 >extra manjaro-wallpapers-17.0
+#breath-wallpaper
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
@@ -217,7 +217,7 @@ powertop
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
->extra vlc-nightly
+>extra vlc
 >extra viewnior
 >extra xfburn
 >extra yelp

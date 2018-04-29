@@ -11,6 +11,7 @@ binutils
 bison
 blueman
 bmenu
+cantarell-fonts
 clipit
 dfc
 dmidecode
@@ -27,6 +28,7 @@ gcc
 gcolor2
 gconf
 gimp
+git
 gksu
 gnome-keyring
 gparted
@@ -37,6 +39,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gtk3-classic
 gtksourceview-pkgbuild
 gufw
 gvfs
@@ -50,10 +53,12 @@ inxi
 isousb
 json-c
 kvantum-manjaro
+>multilib lib32-flex
 libdvdcss
 libgpod
 libtool
-lightdm-gtk-greeter-settings
+lightdm-settings
+lightdm-slick-greeter
 lm_sensors
 lxappearance
 lxinput
@@ -81,7 +86,6 @@ ncdu
 netctl
 networkmanager
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -95,6 +99,7 @@ p7zip
 palemoon-bin
 pamac
 patch
+patchutils
 pcmanfm
 perl-file-mimeinfo
 pkg-config
@@ -107,6 +112,7 @@ ranger
 sbxkb
 screenfetch
 speedtest-cli
+subversion
 syslog-ng
 terminus-font
 transmission-gtk
@@ -123,7 +129,7 @@ vi
 vibrancy-colors
 viewnior
 vim
-vlc-nightly
+vlc
 volumeicon
 w3m
 wmutils
