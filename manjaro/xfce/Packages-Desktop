@@ -71,7 +71,7 @@ cantarell-fonts
 # noto-fonts-cjk         # big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
+ttf-bitstream-vera       # needed as xfce4-terminal Monospace default
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -231,8 +231,8 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-settings
->basic manjaro-xfce-minimal-settings
+manjaro-xfce-settings
+#>basic manjaro-xfce-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -261,5 +261,4 @@ xdg-su
 ## Misc
 manjaro-hotfixes
 
-vibrancy-colors
-
+vibrancy-icons-teal
