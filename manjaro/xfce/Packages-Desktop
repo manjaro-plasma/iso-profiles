@@ -231,8 +231,8 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
-manjaro-xfce-settings
-#>basic manjaro-xfce-minimal-settings
+>extra manjaro-xfce-settings
+>basic manjaro-xfce-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
