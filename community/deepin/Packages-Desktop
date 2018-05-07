@@ -12,6 +12,7 @@ firefox
 flex
 >extra dconf-editor
 deepin-calendar
+>extra deepin-anything
 >extra deepin-calculator
 deepin-file-manager
 deepin-gtk-theme
@@ -31,7 +32,7 @@ dmidecode
 >extra evolution
 >extra file-roller
 >extra galculator
-gcc
+>extra gcc
 >multilib gcc-libs-multilib
 >multilib gcc-multilib
 gedit
@@ -101,7 +102,7 @@ screenfetch
 >extra subversion
 >extra sushi
 syslog-ng
-terminus-font
+>extra terminus-font
 >extra transmission-gtk
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
