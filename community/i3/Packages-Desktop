@@ -43,7 +43,7 @@ groff
 >extra gstreamer
 gtk3-classic
 >extra gtksourceview-pkgbuild
-gufw
+>extra gufw
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -124,6 +124,7 @@ ttf-bitstream-vera
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
+>basic ufw
 upower
 >extra vertex-maia-themes
 vi
