@@ -39,6 +39,7 @@ gnome-themes-standard
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
+gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp

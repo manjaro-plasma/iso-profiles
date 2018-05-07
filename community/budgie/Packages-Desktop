@@ -18,6 +18,7 @@ baobab
 dconf-editor
 hexchat
 evince
+libappindicator-gtk3
 gnome-calculator
 gnome-control-center
 gnome-calendar
