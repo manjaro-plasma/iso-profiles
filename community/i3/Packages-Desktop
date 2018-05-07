@@ -137,8 +137,8 @@ w3m
 wmutils
 >extra xarchiver
 xautolock
-xcursor-chameleon-pearl
-xcursor-maia
+>extra xcursor-chameleon-pearl
+>extra xcursor-maia
 xdg-su
 xdg-utils
 xdotool
