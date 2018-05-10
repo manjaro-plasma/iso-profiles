@@ -118,13 +118,14 @@ manjaro-openbox-theming-icons
 manjaro-openbox-theming-theme
 manjaro-wallpapers-18.0
 manjaro-zsh-config
+manjaro-guake-config
 openbox-themes
 
 ## utilities
 android-file-transfer       # android file
 android-tools               # adb and fastboot
 android-udev                # rules for attaching android devices to usb
-epdfview                    # pdf
+qpdfview                    # pdf
 galculator                  # calculator
 gcolor2                     # colorpicker
 gparted                     # partition tool
