@@ -12,7 +12,8 @@ xf86-input-mouse
 ## system requirements
 bash-completion
 gamin
-gksu
+#gksu
+zensu
 gnome-keyring
 gtk3-classic                # toolkit
 gvfs                        # gnome virtual filesystem
