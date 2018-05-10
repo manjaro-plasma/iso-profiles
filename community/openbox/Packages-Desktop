@@ -10,15 +10,10 @@ xf86-input-libinput
 xf86-input-mouse
 
 ## system requirements
-adwaita-icon-theme          # system icons
 bash-completion
 gamin
 gksu
-gnome-icon-theme            # gnome icons
-gnome-icon-theme-extras     # -
-gnome-icon-theme-symbolic   # -
 gnome-keyring
-gnome-themes-extra          # extra gnome theming
 gtk3-classic                # toolkit
 gvfs                        # gnome virtual filesystem
 gvfs-afc                    # apple
@@ -27,9 +22,6 @@ gvfs-smb                    # windows network shares
 polkit                      # policy
 poppler                     
 python2-xdg
-ttf-dejavu                  # ttf fonts
-ttf-droid                   # -
-ttf-roboto                  # -
 xdg-user-dirs
 xdg-utils
 
@@ -68,6 +60,7 @@ exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
 lxsession-gtk3              # session manager
+obconf
 xfce4-settings-gtk3
 
 ## package manager
@@ -102,31 +95,30 @@ bind-tools                  #
 net-tools                   #
 nmap                        #
 
+## system tool
+clonezilla
+fsarchiver
+testdisk
+
 ## browser
 lynx                        # text based browser used by ranger and mc
 chromium                    # opensource browser
 
 ## mail
-sylpheed                    # slim and fast mail client
+claws-mail                  # slim and fast mail client
 
 ## theming
-gtk-theme-breath
-hicolor-icon-theme
+manjaro-openbox-common
+manjaro-openbox-extra-skel
 manjaro-openbox-grub-theme
+manjaro-openbox-scripts
 manjaro-openbox-settings
+manjaro-openbox-theming-fonts
+manjaro-openbox-theming-icons
+manjaro-openbox-theming-theme
 manjaro-wallpapers-18.0
 manjaro-zsh-config
 openbox-themes
-vibrancy-colors
-xcursor-breeze
-
-## iconic fonts used by theming
-manjaro-openbox-fonts       # handpicked fonts
-ttf-font-awesome
-ttf-font-logos
-ttf-icomoon-icons
-ttf-material-icons
-ttf-polybar-icons
 
 ## utilities
 android-file-transfer       # android file
