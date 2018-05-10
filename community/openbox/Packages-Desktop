@@ -103,7 +103,8 @@ testdisk
 
 ## browser
 lynx                        # text based browser used by ranger and mc
-chromium                    # opensource browser
+basilisk-bin
+#chromium                    # opensource browser
 
 ## mail
 claws-mail                  # slim and fast mail client
