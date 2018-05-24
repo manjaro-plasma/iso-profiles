@@ -56,12 +56,12 @@ testdisk
 ## manjaro
 #####################
 manjaro-documentation-en
-manjaro-hello
+#manjaro-hello
 
 #####################
 ## edition theming and settings
 #####################
-manjaro-openbox-grub-theme-18.0
+manjaro-openbox-grub-theme-blue
 manjaro-openbox-scripts
 manjaro-openbox-settings
 >basic manjaro-openbox-minimal-skel
