@@ -1,0 +1,125 @@
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+manjaro-settings-manager
+xfce4-settings-gtk3
+
+manjaro-openbox-basic-config
+manjaro-openbox-grub-theme-glassfield
+manjaro-openbox-scripts
+manjaro-openbox-settings
+
+##-------------------
+## theme meta package
+# adapta-maia-theme
+# manjaro-openbox-adapta-maia
+# manjaro-openbox-wallpapers-18.0
+# papirus-maia-icon-theme
+# manjaro-wallpapers-18.0
+# xcursor-breeze
+manjaro-openbox-theme-18.0
+
+##-------------------
+## fonts meta package
+# manjaro-openbox-fonts
+# ttf-font-awesome
+# ttf-font-logos
+# ttf-icomoon-icons
+# ttf-material-icons
+# ttf-polybar-icons
+manjaro-openbox-theme-fonts
+manjaro-zsh-config
+
+lightdm
+lightdm-slick-greeter
+
+xed
+
+lynx
+midori
+
+mc
+pcmanfm-gtk3
+ranger
+
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+#####################
+## packages core
+#####################
+arandr
+compton
+conky
+dunst
+exo-gtk3
+fakeroot
+i3lock
+imagemagick
+jgmenu
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+lxsession-gtk3
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+rofi
+skippy-xd
+scrot
+termite
+termite-terminfo
+tint2
+wireless_tools
+wmctrl
+xcape
+xcb-util-cursor
+xcmenu
+xdotool
+zenity
+
+#####################
+## system icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#####################
+## system fonts
+ttf-dejavu
+ttf-roboto
+
+#####################
+## system
+gamin
+gksu-polkit
+gnome-keyring
+gtk3-classic
+polkit
+polkit-gnome
+python2-xdg
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#####################
+## xorg
+xorg-server
+xorg-server-common
+xorg-xbacklight
+xorg-xinit
+xorg-xkill
+xorg-xprop
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse

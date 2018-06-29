@@ -39,7 +39,7 @@
 </menu>
 
 <menu id="preferences" label="Preferences">
-    <menu id="openbox-config" label="Openbox">
+    <menu id="openbox" label="Openbox">
         <item label="Customize Look and Feel">
             <action name="Execute">
                 <command>lxappearance</command>
@@ -99,11 +99,6 @@
                 <command>xfce4-appearance-settings</command>
             </action>
         </item>
-        <item label="Audio Settings">
-            <action name="Execute">
-                <command>pavucontrol</command>
-            </action>
-        </item>
         <item label="Add/Remove Software">
             <action name="Execute">
                 <command>pamac-manager</command>
@@ -128,7 +123,7 @@
     </item>
     <item label="Wallpaper">
         <action name="Execute">
-            <command>nitrogen</command>
+            <command>pcmanfm --desktop-pref</command>
         </action>
     </item>
     <item label="Rofi Theme">
@@ -139,9 +134,8 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
-
     <separator label="Install Manjaro Openbox"/>
-        <item label="Calamares Installer">
+    <item label="Calamares Installer">
         <action name="Execute">
             <command>sudo calamares</command>
         </action>
@@ -151,52 +145,39 @@
             <command>termite -e "sudo setup"</command>
         </action>
     </item>
-
     <separator label="Manjaro Openbox"/>
     <item label="Terminal">
         <action name="Execute">
             <command>termite</command>
         </action>
     </item>
-    <item label="File Manager">
+    <item label="Pcman FM">
         <action name="Execute">
-            <command>thunar</command>
+            <command>pcmanfm</command>
         </action>
     </item>
-    <item label="Web Browser">
+    <item label="Midnight Commander">
         <action name="Execute">
-            <command>chromium</command>
+            <command>termite -e mc</command>
         </action>
     </item>
-    <item label="Text Editor">
+    <item label="Midori Browser">
         <action name="Execute">
-            <command>xed</command>
-        </action>
-    </item>
-    <item label="Calculator">
-        <action name="Execute">
-            <command>galculator</command>
+            <command>midori https://manjaro.org</command>
         </action>
     </item>
     <separator/>
-
     <menu id="disk-utilities"/>
-
     <menu id="screenshot"/>
-
     <menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
     <separator/>
-
     <menu id="pipe-placesmenu" label="Places" execute="manjaro-places-pipemenu --recent ~/"/>
     <separator/>
-
     <menu id="preferences"/>
     <menu id="keybinds" label="Keybinds" execute="manjaro-kb-pipemenu"/>
     <separator/>
-
     <menu id="help" label="Help and Info" execute="manjaro-help-pipemenu"/>
     <separator/>
-    
     <item label="Switch Menu">
         <action name="Execute">
             <command>switchmenu -dynamic</command>
@@ -214,5 +195,4 @@
         </action>
     </item>
 </menu>
-
 </openbox_menu>
