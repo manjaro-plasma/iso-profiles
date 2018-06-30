@@ -1,5 +1,5 @@
-calamares
->manjaro grub-theme-live-manjaro
+calamares-git
+>manjaro grub-theme-live-manjaro-dev
 >sonar grub-theme-live-sonar
 gsmartcontrol
 manjaro-architect
@@ -9,3 +9,6 @@ mkinitcpio-nfs-utils
 nbd
 >sonar sonar-calamares-branding
 squashfs-tools
+clonezilla
+gparted
+testdisk
