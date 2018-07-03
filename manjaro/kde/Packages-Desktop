@@ -245,7 +245,8 @@ imagewriter
 >extra inkscape
 inxi
 #>extra krita
-firefox
+>extra firefox
+>basic falkon
 ms-office-online
 >extra libreoffice-fresh
 manjaro-hello
