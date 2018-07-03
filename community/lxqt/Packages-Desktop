@@ -9,6 +9,7 @@ dmidecode
 >extra octopi-repoeditor
 >extra vlc
 >extra qpdfview
+firefox
 gvfs
 inxi
 juffed-qt5
@@ -38,7 +39,6 @@ powertop
 qterminal
 octopi
 octopi-notifier-qt5
-qupzilla
 sddm-qt-manjaro-theme
 alsa-utils
 avahi
