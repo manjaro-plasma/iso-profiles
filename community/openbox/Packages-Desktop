@@ -1,107 +1,113 @@
 #-------------------------------------------------
-##### OPENBOX PROFILE
+##### OPENBOX MINIMAL/BASIC PROFILE
 
 #---------=> media player
-smplayer
-smplayer-skins
-smplayer-themes
-
-deadbeef
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra deadbeef
 
 #---------=> sound support
-alsa-firmware
-alsa-utils
-alsa-plugins
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
 
 #---------=> media controls/codecs/plugins
-ffmpeg
-pamixer
-pavucontrol
-playerctl
-pulseaudio
-pulseaudio-alsa
+>extra ffmpeg
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
+
+#---------=> graphical
+>extra gcolor2
+gpicview
+viewnior
 
 #---------=> connect packages
-gvfs
-gvfs-afc
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-udiskie
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra udiskie
 
 #---------=> office
-abiword
-gnumeric
+>extra abiword
+>extra gnumeric
+qpdfview
 
 #---------=> manjaro
 manjaro-documentation-en
 
 #---------=> package manager
-pamac
-yay
+>extra pamac
+>extra yay
 
 #---------=> build support
-autoconf
-automake
-binutils
-bison
-flex
-gc
-gcc
-git
-guile
-libatomic_ops
-libmpc
-m4
-make
-package-query
-patch
-pkg-config
-yajl
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
 
 #---------=> internet apps
-chromium
-sylpheed
+>extra chromium
+midoro
+>extra sylpheed
 
 #---------=> text editor
-dash
-micro-manjaro
-terminus-font
-vim
+>extra dash
+>extra micro-manjaro
+>extra terminus-font
 xed
 
 #---------=> filemanager
+>extra catfish
 lynx
 mc
-p7zip
+>extra mlocate
+>extra p7zip
 ranger
-unarchiver
-xarchiver
+>extra unarchiver
+>extra xarchiver
 pcmanfm-gtk3
-spacefm
 
 #---------=> disk utilities
-clonezilla
-gnome-disk-utility
-mintstick
-xfburn
+>extra clonezilla
+>extra gnome-disk-utility
+>extra mintstick
+>extra xfburn
 
 #---------=> basic utilities
-galculator
-gcolor2
-gpicview
+>extra galculator
 gsimplecal
-qpdfview
-viewnior
 xterm
 
 #---------=> network utilities
-arp-scan
-bind-tools
-net-tools
-openssh
-traceroute
-whois
+>extra arp-scan
+>extra bind-tools
+>extra net-tools
+>extra openssh
+>extra traceroute
+>extra whois
+
+#---------=> settings config package
+>basic manjaro-openbox-basic-config
+>extra manjaro-openbox-minimal-config
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -115,7 +121,6 @@ xfce4-settings-gtk3
 #---------=> edition theming and settings
 manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
-manjaro-openbox-minimal-config
 
 #---------=> theme meta package
 # adapta-maia-theme
@@ -161,6 +166,7 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
+nitrogen
 numlockx
 ob-autostart
 obconf
