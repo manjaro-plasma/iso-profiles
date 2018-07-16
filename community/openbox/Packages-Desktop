@@ -1,0 +1,241 @@
+#-------------------------------------------------
+##### OPENBOX MINIMAL/FULL PROFILE
+
+#---------=> media player
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra deadbeef
+
+#---------=> sound support
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
+
+#---------=> media controls/codecs/plugins
+>extra ffmpeg
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
+
+#---------=> graphic applications
+>extra gcolor2
+>extra gimp
+gpicview
+viewnior
+
+#---------=> connect packages
+>extra blueman
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra udiskie
+
+#---------=> extra fonts
+noto-fonts
+
+#---------=> office
+>extra libreoffice-fresh
+qpdfview
+
+#---------=> manjaro
+manjaro-documentation-en
+
+#---------=> package manager
+>extra pamac
+>extra yay
+
+#---------=> build support
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
+
+#---------=> internet apps
+>extra chromium
+>basic midori
+>extra sylpheed
+
+#---------=> text editor
+>extra dash
+>extra micro-manjaro
+>extra terminus-font
+xed
+
+#---------=> filemanager
+>extra catfish
+>extra ffmpegthumbnailer
+lynx
+mc
+>extra mlocate
+>extra poppler-data
+>extra poppler-glib
+>extra p7zip
+ranger
+>extra thunar-archive-plugin-gtk3
+>extra thunar-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra tumbler
+>extra unarchiver
+>extra xarchiver
+>basic pcmanfm-gtk3
+
+#---------=> disk utilities
+>extra timeshift
+>extra clonezilla
+>extra gnome-disk-utility
+>extra mintstick
+>extra xfburn
+
+#---------=> basic utilities
+>extra galculator
+gsimplecal
+xterm
+
+#---------=> network utilities
+>extra arp-scan
+>extra bind-tools
+>extra net-tools
+>extra openssh
+>extra traceroute
+>extra whois
+
+#---------=> settings config package
+openbox-desktop-settings
+openbox-common-desktop-settings
+>basic openbox-minimal-desktop-settings
+>extra openbox-regular-desktop-settings
+
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
+
+#---------=> settings manager
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+manjaro-settings-manager
+xfce4-settings-gtk3
+
+#---------=> edition theming and settings
+manjaro-openbox-grub-theme-glassfield
+manjaro-openbox-scripts
+
+#---------=> theme meta package
+# adapta-maia-theme
+# manjaro-openbox-adapta-maia
+# manjaro-openbox-wallpapers-18.0
+# papirus-maia-icon-theme
+# manjaro-wallpapers-18.0
+# xcursor-breeze
+manjaro-openbox-theme-18.0
+
+#---------=> fonts meta package
+# manjaro-openbox-fonts
+# ttf-font-awesome
+# ttf-font-logos
+# ttf-icomoon-icons
+# ttf-material-icons
+# ttf-polybar-icons
+manjaro-openbox-theme-fonts
+manjaro-zsh-config
+
+#---------=> network
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+#---------=> display manager and greeter
+lightdm
+lightdm-slick-greeter
+
+#---------=> core
+arandr
+compton
+conky
+dunst
+exo-gtk3
+fakeroot
+i3lock
+imagemagick
+jgmenu
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+rofi
+skippy-xd
+scrot
+termite
+termite-terminfo
+tint2
+wireless_tools
+wmctrl
+xcape
+xcb-util-cursor
+xcmenu
+xdotool
+zenity
+
+#---------=> system icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#---------=> system fonts
+freetype2
+ttf-dejavu
+ttf-roboto
+
+#---------=> system
+accountsservice
+gamin
+gksu-polkit
+gnome-keyring
+gtk3-classic
+polkit
+polkit-gnome
+python2-xdg
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#---------=> xorg
+xorg-server
+xorg-server-common
+xorg-xbacklight
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xf86-input-libinput
+
