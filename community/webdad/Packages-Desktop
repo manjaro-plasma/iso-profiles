@@ -107,7 +107,7 @@ pamac
 >extra manjaro-printer
 
 # 3d Printing
-mattercontrol 
+#mattercontrol 
 avrdude
 
 ## Optional dependencies for hplip
