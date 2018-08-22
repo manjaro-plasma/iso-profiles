@@ -67,7 +67,7 @@ accountsservice  # Enhanced user accounts
 python-dbus
 compton
 gnome-keyring
-grub-theme-manjaro-dev
+grub-theme-manjaro
 light-locker
 mate-polkit
 gksu-polkit
