@@ -87,11 +87,14 @@ mintstick
 xfburn
 
 #---------=> basic utilities
+clonezilla
 galculator
 gcolor2
+gparted
 gpicview
 gsimplecal
 qpdfview
+testdisk
 viewnior
 xterm
 

@@ -117,7 +117,9 @@ usb_modeswitch
 #---------=> disk utilities
 clonezilla
 gnome-disk-utility
+gparted
 mintstick
+testdisk
 xfburn
 
 #---------=> basic utilities
