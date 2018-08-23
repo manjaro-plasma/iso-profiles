@@ -9,8 +9,8 @@ smplayer
 smplayer-skins
 smplayer-themes
 deadbeef
-audacious-gtk3
-audacious-plugins-gtk3
+audacious
+audacious-plugins
 vlc
 
 #---------=> sound support
