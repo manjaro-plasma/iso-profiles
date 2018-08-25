@@ -1,3 +1,4 @@
+# useradd defaults file for Manjaro Linux
 # useradd defaults file for ArchLinux
 # original changes by TomK
 GROUP=users

@@ -1,4 +1,5 @@
-# useradd defaults file for Manjaro Linux
+# useradd defaults file for Manjaro Openbox Linux
+# shell changed by fhdk
 # useradd defaults file for ArchLinux
 # original changes by TomK
 GROUP=users

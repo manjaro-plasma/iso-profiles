@@ -12,12 +12,10 @@ firefox
 flex
 >extra dconf-editor
 deepin-calendar
-# >extra deepin-anything
 >extra deepin-calculator
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
->extra deepin-help
 >extra deepin-image-viewer
 >extra deepin-movie
 >extra deepin-music
@@ -62,6 +60,7 @@ inxi
 >extra libimobiledevice
 >extra libreoffice-fresh
 libtool
+KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
 m4
 make
 manjaro-alsa
