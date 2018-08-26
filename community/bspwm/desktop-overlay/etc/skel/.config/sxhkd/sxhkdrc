@@ -205,13 +205,13 @@ super + button{4,5}
 # __________________
 
 ~button1
-	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/LaunchMenu
+	DidIClickDesktop.sh && gapdrag
 
 ~button2
-	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/BspwmWindowMenui
+	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/BspwmDesktopMenui
 		
 ~button3
-	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/BspwmDesktopMenui
+	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/LaunchMenu
 
 # Switch workspace by scrolling on the desktop. Causes scrolling issues on some systems.
 #~button4
