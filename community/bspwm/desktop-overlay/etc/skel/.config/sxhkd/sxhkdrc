@@ -205,7 +205,7 @@ super + button{4,5}
 # __________________
 
 ~button1
-	DidIClickDesktop.sh && gapdrag
+	DidIClickDesktop.sh && gapgrab
 
 ~button2
 	DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/BspwmDesktopMenui
