@@ -2,10 +2,11 @@
 ##### OPENBOX MINIMAL/FULL PROFILE
 
 #---------=> media player
+>extra audacious-gtk3
+>extra deadbeef
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
->extra deadbeef
 
 #---------=> sound support
 >extra alsa-firmware
@@ -69,40 +70,45 @@ manjaro-documentation-en
 >extra yajl
 
 #---------=> internet apps
->extra chromium
->basic midori
+chromium
 >extra sylpheed
 
 #---------=> text editor
->extra dash
->extra micro-manjaro
->extra terminus-font
+dash
+micro-manjaro
+terminus-font
 xed
 
 #---------=> filemanager
 >extra catfish
+engrampa
 >extra ffmpegthumbnailer
 lynx
 mc
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
->extra p7zip
+p7zip
 ranger
 >extra thunar-archive-plugin-gtk3
 >extra thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
->extra unarchiver
->extra xarchiver
 >basic pcmanfm-gtk3
+unace
+unarchiver
+unarj
+unrar
+unzip
 
 #---------=> disk utilities
 >extra timeshift
 >extra clonezilla
 >extra gnome-disk-utility
+gparted
 >extra mintstick
+testdisk
 >extra xfburn
 
 #---------=> basic utilities
@@ -138,22 +144,27 @@ manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
 
 #---------=> theme meta package
-# adapta-maia-theme
-# manjaro-openbox-adapta-maia
-# manjaro-openbox-wallpapers-18.0
-# papirus-maia-icon-theme
-# manjaro-wallpapers-18.0
-# xcursor-breeze
-manjaro-openbox-theme-18.0
+# metapkg: manjaro-openbox-theme-18.0
+# theme, icons, cursors, wallpapers
+adapta-maia-theme
+manjaro-openbox-adapta-maia
+manjaro-openbox-wallpapers-18.0
+papirus-maia-icon-theme
+manjaro-wallpapers-18.0
+xcursor-breeze
+
 
 #---------=> fonts meta package
-# manjaro-openbox-fonts
-# ttf-font-awesome
-# ttf-font-logos
-# ttf-icomoon-icons
-# ttf-material-icons
-# ttf-polybar-icons
-manjaro-openbox-theme-fonts
+# metapkg: manjaro-openbox-theme-fonts
+# fonts
+manjaro-openbox-fonts
+ttf-dejavu
+ttf-font-awesome
+ttf-font-logos
+ttf-icomoon-icons
+ttf-material-icons
+ttf-polybar-icons
+ttf-roboto
 manjaro-zsh-config
 
 #---------=> network
@@ -213,8 +224,6 @@ hicolor-icon-theme
 
 #---------=> system fonts
 freetype2
-ttf-dejavu
-ttf-roboto
 
 #---------=> system
 accountsservice
