@@ -26,9 +26,8 @@ dunstify
 feh
 >extra file-roller
 >extra gedit
-micro-manjaro
+>basic micro-manjaro
 >extra gnome-disk-utility
->extra gnome-keyring
 >extra gtk3-classic
 >extra gtk2-compatibility
 gtk-theme-breath
@@ -44,6 +43,7 @@ libdnet
 libnotify
 limepanel
 >extra lxappearance-gtk3
+>extra lxsession-gtk3
 maia-console
 manjaro-architect
 >extra manjaro-browser-settings-native
@@ -53,7 +53,6 @@ manjaro-architect
 >basic manjaro-alsa
 manjaro-zsh-config
 >extra mate-notification-daemon
->extra mate-polkit
 >basic dunst
 mhwd-tui
 moc
@@ -83,10 +82,10 @@ rofi-scripts
 rootmenu
 >extra spacefm
 speedtest-cli
-srandrd
 sterminal
 sxhkd
 terminus-font
+testdisk
 thermald
 tree
 udevil
