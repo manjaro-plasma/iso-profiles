@@ -274,7 +274,7 @@ super + shift + b
 	$BROWSER
     		
 super + e
-	spacefm -n
+	pcmanfm
 
 super + shift + e
 	st -f "Terminus:size=14:style=regular" ranger
