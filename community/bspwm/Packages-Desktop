@@ -1,10 +1,8 @@
-
 >basic dunst
 >basic i3lock
 >basic links
 >basic manjaro-alsa
 >basic manjaro-bspwm-settings-minimal
->basic micro-manjaro
 >basic ufw
 >basic xlogin
 >extra accountsservice
@@ -14,7 +12,6 @@
 >extra dconf
 >extra file-roller
 >extra firefox
->extra gedit
 >extra gnome-disk-utility
 >extra gtk2-compatibility
 >extra gtk3-classic
@@ -41,6 +38,7 @@
 >extra pavucontrol
 >extra pcmanfm-gtk3
 >extra pulseaudio-ctl
+>extra timeshift
 >extra zathura-pdf-poppler
 >multilib manjaro-alsa
 alsa-firmware
@@ -79,6 +77,7 @@ maia-console
 manjaro-architect
 manjaro-zsh-config
 mhwd-tui
+micro-manjaro
 moc
 mpv
 ncdu
