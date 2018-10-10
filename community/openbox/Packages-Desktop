@@ -104,7 +104,7 @@ unzip
 
 #---------=> disk utilities
 >extra timeshift
->extra clonezilla
+#>extra clonezilla
 >extra gnome-disk-utility
 gparted
 >extra mintstick
