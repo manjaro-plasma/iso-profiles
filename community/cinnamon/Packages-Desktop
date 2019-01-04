@@ -149,7 +149,6 @@ xorg-xinit
 >extra xplayer
 >extra xreader
 >extra xviewer-plugins
->extra yaourt
 xdg-user-dirs
 xorg-server
 xorg-xhost

@@ -126,7 +126,6 @@ xorg-twm
 xorg-xinit
 >extra xsane
 >extra xsane-gimp
->extra yaourt
 xdg-user-dirs
 xorg-xhost
 xorg-server
