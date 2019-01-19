@@ -11,6 +11,7 @@ bison
 >extra dconf-editor
 deepin-calendar
 >extra deepin-calculator
+deepin-editor
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
@@ -35,7 +36,6 @@ flex
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gedit
 >extra gimp
 >extra git
 >extra gparted
