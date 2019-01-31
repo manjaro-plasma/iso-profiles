@@ -14,7 +14,6 @@
 >extra file-roller
 >extra firefox
 >extra gnome-disk-utility
->extra gtk2-compatibility
 >extra gtk3-classic
 >extra gufw
 >extra gvfs
@@ -60,7 +59,6 @@ delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
-dunstify
 feh
 grub-theme-manjaro-dev
 gtk-theme-breath

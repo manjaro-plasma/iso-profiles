@@ -104,7 +104,7 @@ unzip
 
 #---------=> disk utilities
 >extra timeshift
->extra clonezilla
+#>extra clonezilla
 >extra gnome-disk-utility
 gparted
 >extra mintstick
@@ -125,10 +125,8 @@ xterm
 >extra whois
 
 #---------=> settings config package
-openbox-desktop-settings
-openbox-common-desktop-settings
->basic openbox-minimal-desktop-settings
->extra openbox-regular-desktop-settings
+manjaro-openbox-config
+manjaro-openbox-desktop-settings
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -140,7 +138,7 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> edition theming and settings
-manjaro-openbox-grub-theme-glassfield
+manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 
 #---------=> theme meta package
