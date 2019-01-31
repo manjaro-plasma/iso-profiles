@@ -10,6 +10,7 @@
 >extra adwaita-maia-gtk3
 >extra compton
 >extra dconf
+>extra ffmpegthumbnailer
 >extra file-roller
 >extra firefox
 >extra gnome-disk-utility
@@ -44,7 +45,6 @@
 alsa-firmware
 alsa-plugins
 alsa-utils
-atool
 bc
 bmenu
 brandr
@@ -62,11 +62,10 @@ dfc
 downgrade
 dunstify
 feh
-ffmpegthumbnailer
 grub-theme-manjaro-dev
 gtk-theme-breath
+gtop
 hibernator
-highlight
 htop
 inxi
 libdnet
@@ -91,9 +90,9 @@ networkmanager-vpnc
 openresolv
 pacui
 perl-file-mimeinfo
-poppler
 ps_mem
 ranger
+manjaro-ranger-settings
 rofi
 rofi-scripts
 rootmenu
@@ -105,7 +104,6 @@ testdisk
 thermald
 tree
 udevil
-w3m
 xcape
 xcursor-breeze
 xdg-su
