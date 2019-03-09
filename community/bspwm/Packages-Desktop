@@ -17,7 +17,6 @@
 >extra gtk3-classic
 >extra gufw
 >extra gvfs
->extra gvfs
 >extra gvfs-afc
 >extra gvfs-gphoto2
 >extra gvfs-mtp
@@ -36,10 +35,13 @@
 >extra mygtkmenui
 >extra papirus-maia-icon-theme
 >extra pavucontrol
->extra pcmanfm-gtk3
+>extra thunar-gtk3
+>extra thunar-archive-plugin-gtk3
+>extra thunar-shares-plugin-gtk3
 >extra pulseaudio-ctl
 >extra timeshift
 >extra zathura-pdf-poppler
+>extra xreader
 >multilib manjaro-alsa
 alsa-firmware
 alsa-plugins
@@ -78,7 +80,7 @@ micro-manjaro
 moc
 mpv
 ncdu
-nerd-fonts-terminus
+nerd-fonts-noto-sans-mono
 networkmanager
 networkmanager-dmenu
 networkmanager-openconnect
