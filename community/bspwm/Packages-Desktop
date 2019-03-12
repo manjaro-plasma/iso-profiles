@@ -33,7 +33,6 @@
 >extra mate-polkit
 >extra morc_menu
 >extra mygtkmenui
->extra papirus-maia-icon-theme
 >extra pavucontrol
 >extra thunar-gtk3
 >extra thunar-archive-plugin-gtk3
@@ -42,6 +41,18 @@
 >extra timeshift
 >extra zathura-pdf-poppler
 >extra xreader
+>extra system-config-printer
+>extra cups-filters
+>extra cups-pdf
+>extra foomatic
+>extra gutenprint
+>extra ffmpeg
+>extra speex
+>extra wavpack
+>extra faad2
+>extra taglib
+>extra libmpcdec
+>extra libreoffice-fresh
 >multilib manjaro-alsa
 alsa-firmware
 alsa-plugins
@@ -89,6 +100,7 @@ networkmanager-pptp
 networkmanager-vpnc
 openresolv
 pacui
+papirus-maia-icon-theme
 perl-file-mimeinfo
 ps_mem
 ranger
