@@ -1,0 +1,6 @@
+[Added Associations]
+text/plain=micro.desktop;libreoffice-writer.desktop;
+application/x-shellscript=micro.desktop;
+
+[Default Applications]
+text/plain=micro.desktop
