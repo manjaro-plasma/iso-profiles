@@ -118,7 +118,7 @@ caja-open-terminal
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
->extra vlc-nightly
+>extra vlc
 >extra empathy
 >extra uget
 >extra transmission-gtk
