@@ -79,7 +79,7 @@ manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-demos
->extra nemo-bulk-rename
+# >extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview
 >extra nemo-python
@@ -153,4 +153,5 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra yay
 zensu
