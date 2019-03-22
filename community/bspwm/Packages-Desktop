@@ -26,7 +26,8 @@
 >extra lightdm
 >extra lightdm-slick-greeter
 >extra lxappearance-gtk3
->extra lxsession-gtk3
+>extra lxrandr-gtk3
+>extra lxinput-gtk3
 >extra manjaro-browser-settings
 >extra manjaro-bspwm-settings
 >extra manjaro-pulse
