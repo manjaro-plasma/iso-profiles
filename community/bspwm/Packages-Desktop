@@ -10,6 +10,7 @@
 >extra adwaita-maia-gtk3
 >extra compton
 >extra dconf
+>extra dunstify
 >extra ffmpegthumbnailer
 >extra file-roller
 >extra firefox
