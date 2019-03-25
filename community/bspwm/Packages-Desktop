@@ -23,6 +23,7 @@
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-smb
+>extra hplib-minimal
 >extra light-locker
 >extra lightdm
 >extra lightdm-slick-greeter
