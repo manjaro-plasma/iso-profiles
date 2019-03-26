@@ -35,12 +35,9 @@
 >extra manjaro-pulse
 >extra mate-notification-daemon
 >extra mate-polkit
->extra morc_menu
 >extra mygtkmenui
 >extra pavucontrol
->extra thunar-gtk3
->extra thunar-archive-plugin-gtk3
->extra thunar-shares-plugin-gtk3
+>extra pcmanfm-gtk3
 >extra pulseaudio-ctl
 >extra timeshift
 >extra zathura-pdf-poppler
@@ -64,6 +61,7 @@
 alsa-firmware
 alsa-plugins
 alsa-utils
+atool
 bc
 bmenu
 brandr
@@ -106,9 +104,11 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
+yay
 pacui
 papirus-maia-icon-theme
 perl-file-mimeinfo
+poppler
 ps_mem
 ranger
 manjaro-ranger-settings
@@ -138,6 +138,7 @@ xorg-server
 xorg-xinit
 xorg-xprop
 xorg-xsetroot
-yay
 zensu
 zsh-completions
+highlight
+
