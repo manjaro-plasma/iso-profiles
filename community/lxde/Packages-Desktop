@@ -108,7 +108,6 @@ manjaro-lxde-xfce4-notifyd
 manjaro-lxde-xfce4-volumed-pulse
 poppler-data   #CKJ support for pdf
 qt5ct
-qt5-styleplugins
 
 # theming
 gnome-icon-theme
