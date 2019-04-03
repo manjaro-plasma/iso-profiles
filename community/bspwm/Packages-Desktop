@@ -37,7 +37,10 @@
 >extra mate-polkit
 >extra mygtkmenui
 >extra pavucontrol
->extra pcmanfm-gtk3
+>extra thunar-gtk3
+>extra thunar-archive-plugin-gtk3	
+>extra thunar-shares-plugin-gtk3
+>extra tumbler
 >extra pulseaudio-ctl
 >extra timeshift
 >extra zathura-pdf-poppler
