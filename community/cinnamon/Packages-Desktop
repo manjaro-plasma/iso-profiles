@@ -98,7 +98,7 @@ openresolv
 openssh
 >extra openvpn
 >extra p7zip
-pamac
+pamac-gtk
 papirus-maia-icon-theme
 >extra parcellite
 patch

@@ -20,7 +20,7 @@ mate
 marco
 brisk-menu
 mate-notification-theme-slate
-mate-menu
+mate-menus
 mate-control-center
 mate-calc
 mate-desktop
@@ -77,7 +77,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+pamac-gtk
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl

@@ -91,7 +91,7 @@ networkmanager-vpnc
 nss-mdns
 ntp
 openresolv
-pamac
+pamac-gtk
 patch
 >extra patchutils
 pkg-config

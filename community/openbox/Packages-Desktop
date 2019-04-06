@@ -101,7 +101,7 @@
 ##### EDITION BASE PACKAGES
 
 #---------=> package manager
-pamac
+pamac-gtk
 pacui
 
 #---------=> office

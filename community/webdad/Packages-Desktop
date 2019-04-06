@@ -89,7 +89,7 @@ gnome-mahjongg
 aisleriot
 
 ## Package management
-pamac
+pamac-gtk
 
 ## Java
 #>extra jdk8-openjdk
@@ -125,7 +125,6 @@ accountsservice  # Enhanced user accounts handling
 
 # bluetooth
 bluez-cups
-bluez-firmware
 bluez-hid2hci
 bluez-plugins
 
@@ -186,7 +185,7 @@ gufw
 #>extra hexchat
 evince
 inxi
->extra vlc-nightly
+>extra vlc
 >extra lollypop
 >extra empathy
 #>extra uget

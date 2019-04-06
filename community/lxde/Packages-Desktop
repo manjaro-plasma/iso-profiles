@@ -64,7 +64,6 @@ pkg-config
 git
 patchutils
 subversion
-yaourt
 
 ## Display manager
 lightdm
@@ -89,7 +88,7 @@ pcmanfm
 xfce4-power-manager
 light-locker
 cantarell-fonts
-pamac
+pamac-gtk
 obconf
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
@@ -210,7 +209,7 @@ manjaro-hotfixes
 >extra transmission-gtk
 >extra gimp
 >extra libreoffice-fresh
->extra vlc-nightly
+>extra vlc
 >extra thunderbird
 >extra xfburn
 >extra yelp

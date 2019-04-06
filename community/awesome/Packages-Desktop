@@ -104,7 +104,7 @@ gufw
 gnome-disk-utility
 chromium
 catfish
-pamac
+pamac-gtk
 thunar-gtk3
 thunar-volman-gtk3
 thunar-archive-plugin-gtk3

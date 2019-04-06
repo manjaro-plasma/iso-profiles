@@ -95,7 +95,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+pamac-gtk
 polkit-gnome
 powertop
 pulseaudio-bluetooth
