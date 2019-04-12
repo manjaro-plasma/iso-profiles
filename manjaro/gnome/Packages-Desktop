@@ -11,9 +11,10 @@ evince
 >extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
-manjaro-gdm-theme #branding theme for GDM 
+manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
+manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -21,6 +22,7 @@ gnome-desktop
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
+fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
 gnome-screenshot
@@ -47,6 +49,7 @@ papirus-maia-icon-theme
 >extra gnome-weather
 >extra gnome-maps
 >extra gnome-todo
+gtkhash-nautilus
 >extra seahorse
 file-roller
 gparted
@@ -71,13 +74,17 @@ mhwd-tui
 ########
 manjaro-alsa
 manjaro-artwork
-manjaro-wallpapers-17.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
+illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
+grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
+manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -96,6 +103,7 @@ nss-mdns
 numlockx
 openresolv
 pamac-gtk
+flatpak
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -112,6 +120,7 @@ terminus-font
 totem
 tracker
 tracker-miners
+>extra noto-fonts-compat
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -135,6 +144,7 @@ xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
+>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
 ms-office-online
@@ -145,25 +155,24 @@ ms-office-online
 >extra unrar
 >extra unace
 >extra lrzip
->extra libreoffice-fresh
+>extra gtk3-print-backends
+>extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy
 >extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
->extra brasero
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-#>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
->extra blueman
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
+>extra gnome-shell-extension-gsconnect
 
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
