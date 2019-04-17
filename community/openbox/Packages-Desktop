@@ -1,4 +1,3 @@
-#-------------------------------------------------
 ##### OPENBOX MINIMAL/EXTRA PROFILE
 
 #---------=> media player
@@ -12,9 +11,7 @@
 >extra ffmpeg
 >extra libmad
 >extra mpg123
->extra pamixer
 >extra pavucontrol
->extra playerctl
 
 #---------=> graphic applications
 >extra gcolor2
@@ -23,7 +20,7 @@
 >extra viewnior
 
 #---------=> connect packages
->extra blueberry
+>extra blueman
 >extra bluez
 >extra gvfs
 >extra gvfs-mtp
@@ -50,10 +47,6 @@
 >extra python-pyqt5
 >extra splix
 >extra system-config-printer
-
-#---------=> package manager
->extra pamac
->extra pacui
 
 #---------=> build support
 >extra autoconf
@@ -103,8 +96,15 @@
 #---------=> basic utilities
 >extra galculator
 
+#---------=> package manager
+pamac-gtk
+
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
+
+#---------=> package manager
+pamac-cli
+pacui
 
 #---------=> office
 qpdfview
@@ -113,9 +113,6 @@ qpdfview
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
-
-#---------=> CLI internet apps
-lynx
 
 #---------=> GUI internet apps
 chromium
@@ -132,9 +129,15 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
+pamixer
+playerctl
 pulseaudio
 pulseaudio-alsa
 volumeicon
+
+#---------=> CLI internet apps
+lynx
+w3m
 
 #---------=> CLI file manager
 mc
@@ -144,9 +147,10 @@ ranger
 thunar-gtk3
 
 #---------=> disk utilities
-timeshift
+clonezilla
 gparted
 testdisk
+timeshift
 
 #---------=> basic utilities
 catimg
@@ -154,13 +158,16 @@ dmidecode
 feh
 gsimplecal
 hddtemp
+htop
 inxi
 jp2a
 mesa-demos
 neofetch
 ps_mem
+tlp-rdw
+tlpui
 tree
-w3m
+upower
 xterm
 
 #---------=> network utilities
@@ -178,35 +185,31 @@ lightdm-slick-greeter
 
 #---------=> settings manager
 lxappearance-gtk3
-lxappearance-obconf-gtk3
+#lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
+#xfce4-power-manager-gtk3
 
 #---------=> desktop settings and config
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
 
 #---------=> edition theming and settings
-manjaro-grub-theme-brown
-manjaro-slick-greeter-theme-brown
+manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
-
-#---------=> theme meta package
-# metapkg: manjaro-openbox-theme-18.0
-# theme, icons, cursors, wallpapers
-matcha-gtk-theme
 manjaro-openbox-maia
-manjaro-openbox-wallpapers-18.0
+manjaro-openbox-wallpapers
+manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
 manjaro-wallpapers-by-lunix-cool-logo
 manjaro-wallpapers-by-lunix-manjaro
+manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
+matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
 
-#---------=> fonts meta package
-# metapkg: manjaro-openbox-theme-fonts
-# fonts
+#---------=> fonts packages
 manjaro-openbox-fonts
 ttf-dejavu
 ttf-font-awesome
@@ -230,7 +233,6 @@ conky
 dunst
 exo-gtk3
 fakeroot
-feh
 i3lock
 imagemagick
 jgmenu
@@ -274,7 +276,6 @@ freetype2
 
 #---------=> system
 accountsservice
-gamin
 gksu-polkit
 gnome-keyring
 gtk3-classic
