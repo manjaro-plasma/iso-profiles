@@ -97,6 +97,8 @@ appimagelauncher
 flatpak
 #fwupd 
 octopi
+alpm-octopi-utils
+octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
 #manjaro-application-utility
