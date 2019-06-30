@@ -97,9 +97,7 @@ appimagelauncher
 flatpak
 #fwupd 
 octopi
-octopi-notifier-frameworks
-octopi-cachecleaner
-octopi-repoeditor
+alpm-octopi-utils
 octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
