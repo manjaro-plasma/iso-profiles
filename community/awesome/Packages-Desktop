@@ -237,8 +237,8 @@ manjaro-zsh-config
 >extra libva-intel-driver
 >extra libva-mesa-driver
 >extra libva-vdpau-driver
->extra mesa-demos
->extra >multilib lib32-mesa-demos
+#>extra mesa-demos
+#>extra >multilib lib32-mesa-demos
 >extra numlockx
 >extra xdg-user-dirs
 xorg-server
