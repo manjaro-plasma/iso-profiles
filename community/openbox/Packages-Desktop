@@ -232,7 +232,7 @@ openresolv
 
 ##---------> core
 arandr
-compton
+picom
 conky
 dunst
 exo-gtk3

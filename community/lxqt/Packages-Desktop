@@ -167,8 +167,7 @@ networkmanager-qt
 openresolv
 
 ##------------> core
-compton
-compton-conf
+picom
 lxqt-about
 lxqt-admin
 lxqt-config
