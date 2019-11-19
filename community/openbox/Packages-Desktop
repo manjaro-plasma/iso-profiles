@@ -18,20 +18,10 @@
 >extra pulseaudio-alsa
 >extra volumeicon
 
-
 ##---------> graphic applications
 >extra gcolor2
 >extra gimp
 >extra pix
-
-##---------> connect packages
->extra blueman
->extra bluez
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
->extra udiskie
 
 ##---------> extra fonts
 >extra noto-fonts
@@ -54,7 +44,7 @@
 >extra system-config-printer
 
 ##---------> file utilities
->extra catfish
+#>extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
 >extra mlocate
@@ -74,21 +64,20 @@
 ##---------> disk utilities
 >extra gnome-disk-utility
 >extra mintstick
->extra xfburn
+#>extra xfburn
 
 ##---------> GUI internet apps
 chromium
 >extra firefox
 >extra thunderbird
 
-##---------> flatpak snap
-#>extra apparmor
+##---------> flatpak support
 #>extra flatpak
-#>extra fpakman
-#>extra snapd
 
-##---------> firewall
->extra firewalld
+##---------> snap support
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
 
 ##---------> powermanager
 >extra xfce4-power-manager-gtk3
@@ -104,6 +93,7 @@ chromium
 
 ##---------> GUI package manager
 >extra pamac-gtk
+>extra bauh
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -122,10 +112,10 @@ wallpapers-juhraya
 
 ##---------> edition theming and settings
 kvantum-theme-matcha
-manjaro-grub-theme-glassfield
+manjaro-grub-theme-sunset
 manjaro-openbox-matcha
 manjaro-openbox-scripts
-manjaro-slick-greeter-theme-glassfield
+manjaro-slick-greeter-theme-sunset
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -154,6 +144,17 @@ alsa-plugins
 ##---------> CLI internet apps
 lynx
 w3m
+
+##---------> connect packages
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
 
 ##---------> GUI file manager
 pcmanfm-gtk3
@@ -184,7 +185,6 @@ pastebinit
 ps_mem
 tree
 upower
-xterm
 
 ##---------> network utilities
 arp-scan
@@ -194,6 +194,16 @@ openssh
 traceroute
 whois
 
+##---------> network
+blueman
+bluez
+firewalld
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
 ##---------> display manager and greeter
 lightdm
 lightdm-settings
@@ -201,7 +211,7 @@ lightdm-slick-greeter
 
 ##---------> settings manager
 lxappearance-gtk3
-#lxappearance-obconf-gtk3
+# lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
@@ -223,17 +233,10 @@ ttf-material-icons
 ttf-polybar-icons
 ttf-roboto
 
-##---------> network
-# network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
-
 ##---------> core
 arandr
-picom
-conky
+compton
+conky-lua-nv
 dunst
 exo-gtk3
 fakeroot
@@ -246,7 +249,7 @@ libmpdclient
 lxmenu-data
 nitrogen
 numlockx
-ob-autostart
+# ob-autostart
 obconf
 obkey-gtk3
 obmenu-generator
@@ -258,7 +261,7 @@ skippy-xd
 termite
 termite-terminfo
 tint2
-#wireless_tools
+# wireless_tools
 wmctrl
 xcape
 xcb-util-cursor
@@ -300,7 +303,7 @@ freetype2
 accountsservice
 gksu-polkit
 gnome-keyring
-gtk3-classic
+gtk3
 manjaro-hotfixes
 polkit
 polkit-gnome
@@ -325,3 +328,4 @@ xorg-xkill
 xorg-xprop
 xorg-xwininfo
 xf86-input-libinput
+xterm
