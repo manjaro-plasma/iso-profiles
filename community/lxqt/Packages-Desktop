@@ -1,119 +1,47 @@
 #-------------------------------------------------
-##### LXQT MINIMAL/FULL PROFILE
+##### LXQT PROFILE
 
 ## Connect Packages
->extra android-tools
->extra android-udev
->extra gvfs
->extra gvfs-afc
->extra gvfs-gphoto2
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
->extra mtpfs
->extra udiskie
->extra udisks2
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
 
 ## Extra Fonts
->extra noto-fonts
->extra ttf-bitstream-vera
->extra ttf-droid
->extra ttf-inconsolata
+noto-fonts
+ttf-bitstream-vera
+ttf-droid
+ttf-inconsolata
 
 ## Extra Network packages
->extra avahi
->extra mobile-broadband-provider-info
->extra modemmanager-qt
->extra networkmanager-dispatcher-ntpd
->extra networkmanager-openconnect
->extra networkmanager-openvpn
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra nss-mdns
->extra openssh
->extra usb_modeswitch
+avahi
+networkmanager-openvpn
+nss-mdns
+openssh
 
 ## Apps and Libraries for Sound/Audio/Video
->extra alsa-firmware
->extra alsa-utils
->extra audacious
->extra ffmpeg
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra libdvdcss
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
->extra manjaro-pulse
->extra manjaro-alsa
->extra vlc
-
-## Printer
-## meta-pkg manjaro-printer
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra python-pyqt5
->extra splix
->extra system-config-printer
->extra simple-scan
-
-## AUR Support/Development
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra git
->extra libtool
->extra m4
->extra make
->extra patch
->extra patchutils
->extra pkg-config
->extra subversion
-
-## Package management
->extra pamac-qt
-
-## Office
-#>extra libreoffice-still
-
-## Graphics
->extra pinta
-
-## Internet applications
->extra trojita
-
-## Text editor
->extra juffed-qt5
-
-## Disc utilities
-#>extra gparted
-#>extra imagewriter
+alsa-firmware
+alsa-utils
 
 ## File management
->extra ark
->extra p7zip
->extra unarchiver
->extra unrar
+ark
+p7zip
+unarchiver
+unrar
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 ##------------> edition theming and settings
 kvantum-theme-matcha
-manjaro-grub-theme-blurred
+manjaro-grub-theme-sunset
 manjaro-icons
 manjaro-lxqt-config
 manjaro-lxqt-desktop-settings
@@ -127,8 +55,10 @@ wallpapers-juhraya
 xcursor-breeze
 
 ##------------> display manager and greeter
+light-locker
 lightdm
 lightdm-slick-greeter
+lightdm-slick-greeter-theme-sunset
 
 ##------------> office
 qpdfview
@@ -204,9 +134,8 @@ freetype2
 
 ##------------> system
 accountsservice
-gksu-polkit
 gnome-keyring
-gtk3-classic
+gtk3
 manjaro-hotfixes
 perl-file-mimeinfo
 polkit
@@ -216,6 +145,7 @@ xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+zensu
 
 ##------------> xorg
 xorg-server

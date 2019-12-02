@@ -1,107 +1,18 @@
-##### OPENBOX MINIMAL/EXTRA PROFILE
-
-##---------> media player
->extra deadbeef
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
-
-##---------> media controls/codecs/plugins
->extra ffmpeg
->extra libmad
->extra mpg123
->extra pavucontrol
->extra pamixer
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
->extra volumeicon
-
-##---------> graphic applications
->extra gcolor2
->extra gimp
->extra pix
-
-##---------> extra fonts
->extra noto-fonts
-
-##---------> office
-#>extra libreoffice-fresh
-
-##---------> office
-## metapackage manjaro-printer
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra python-pyqt5
->extra splix
->extra system-config-printer
-
 ##---------> file utilities
-#>extra catfish
->extra engrampa
->extra ffmpegthumbnailer
->extra mlocate
->extra poppler-data
->extra poppler-glib
->extra p7zip
->extra thunar-archive-plugin-gtk3
->extra thunar-media-tags-plugin
->extra thunar-volman-gtk3
->extra tumbler
->extra unace
->extra unarchiver
->extra unarj
->extra unrar
->extra unzip
-
-##---------> disk utilities
->extra gnome-disk-utility
->extra mintstick
-#>extra xfburn
-
-##---------> GUI internet apps
-chromium
->extra firefox
->extra thunderbird
-
-##---------> flatpak support
-#>extra flatpak
-
-##---------> snap support
-#>extra apparmor
-#>extra snapd
-#>extra snapd-glib
+engrampa
+mlocate
+p7zip
+thunar-volman-gtk3
+unarchiver
+unzip
 
 ##---------> powermanager
->extra xfce4-power-manager-gtk3
->extra tlp-rdw
->extra tlpui
-
-##---------> wallpapers
->extra manjaro-openbox-wallpapers
->extra manjaro-openbox-wallpapers-matrix
->extra manjaro-wallpapers-by-lunix-cool-logo
->extra manjaro-wallpapers-by-lunix-manjaro
->extra manjaro-wallpapers-by-lunix-openbox
-
-##---------> GUI package manager
->extra pamac-gtk
->extra bauh
-
-#-------------------------------------------------
-##### EDITION BASE PACKAGES
-
-##---------> launcher/indexer
-albert
+xfce4-power-manager
+tlp-rdw
+tlpui
 
 ##---------> xapps
+pix
 xed
 xpad
 xreader
@@ -123,6 +34,7 @@ xcursor-breeze
 
 ##---------> package manager
 pamac-cli
+pamac-gtk
 pacui
 
 ##---------> manjaro user infomartion
@@ -141,6 +53,9 @@ alsa-firmware
 alsa-utils
 alsa-plugins
 
+##---------> GUI internet apps
+firefox
+
 ##---------> CLI internet apps
 lynx
 w3m
@@ -157,7 +72,6 @@ udiskie
 udisks2
 
 ##---------> GUI file manager
-pcmanfm-gtk3
 thunar-gtk3
 
 ##---------> CLI file manager
@@ -165,9 +79,7 @@ mc
 ranger
 
 ##---------> disk utilities
-clonezilla
 gparted
-testdisk
 timeshift
 
 ##---------> CLI basic utilities
@@ -195,8 +107,6 @@ traceroute
 whois
 
 ##---------> network
-blueman
-bluez
 firewalld
 network-manager-applet
 networkmanager
@@ -205,15 +115,15 @@ networkmanager-openvpn
 openresolv
 
 ##---------> display manager and greeter
+light-locker
 lightdm
 lightdm-settings
 lightdm-slick-greeter
 
 ##---------> settings manager
 lxappearance-gtk3
-# lxappearance-obconf-gtk3
 manjaro-settings-manager
-xfce4-settings-gtk3
+xfce4-settings
 
 ##---------> desktop settings and config
 manjaro-openbox-config
@@ -238,7 +148,7 @@ arandr
 compton
 conky-lua-nv
 dunst
-exo-gtk3
+exo
 fakeroot
 i3lock
 imagemagick
@@ -249,7 +159,6 @@ libmpdclient
 lxmenu-data
 nitrogen
 numlockx
-# ob-autostart
 obconf
 obkey-gtk3
 obmenu-generator
@@ -261,7 +170,6 @@ skippy-xd
 termite
 termite-terminfo
 tint2
-# wireless_tools
 wmctrl
 xcape
 xcb-util-cursor
@@ -301,7 +209,6 @@ freetype2
 
 ##---------> system
 accountsservice
-gksu-polkit
 gnome-keyring
 gtk3
 manjaro-hotfixes
@@ -312,6 +219,7 @@ squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+zensu
 
 ##---------> xorg
 xorg-fonts-75dpi

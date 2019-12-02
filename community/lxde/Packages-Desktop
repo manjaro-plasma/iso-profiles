@@ -1,120 +1,22 @@
-##################################
-## extra packages
-
-##------------> Java
-#>extra jdk8-openjdk
-#>extra jre8-openjdk-headless
-#>extra jre8-openjdk
-
-##------------> Printing Support
-## manjaro-printer meta package
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra python-pyqt5
->extra splix
->extra system-config-printer
-
-##------------> Scanner Support
->extra simple-scan
-
-##------------> Extra Fonts
-#>extra ttf-bitstream-vera
-#>extra ttf-inconsolata
-#>extra ttf-indic-otf
-#>extra ttf-liberation
-#>extra ttf-droid
-
-##------------> Extra Applications
->extra guvcview
->extra transmission-gtk
->extra gimp
->extra vlc
->extra thunderbird
->extra xfburn
->extra yelp
-
-##------------> Network
->extra avahi
->extra networkmanager-openconnect
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra networkmanager-dispatcher-ntpd
->extra nss-mdns # NSS support for mDNS (optdepend for avahi)
->extra mobile-broadband-provider-info
->extra modemmanager
->extra openssh
->extra samba
->extra usb_modeswitch
-
-##------------> Libraries for Sound/Audio/Video
->extra ffmpeg
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra libdvdcss
->multilib manjaro-alsa
->extra manjaro-pulse
->extra pavucontrol
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
-
-
 ##------------> Connect Packages
->extra android-tools
->extra android-udev
->extra gvfs-afc
->extra gvfs-gphoto2
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
->extra mtpfs
->extra udiskie
->extra udisks2
-
-##------------> screen lock
->extra light-locker
-
-##------------> network
->extra blueberry
->extra bluez
->extra bluez-libs
-
-##------------> file utilites
->extra ffmpegthumbnailer  # tumbler - for video thumbnails
-#>extra gconf              # fix qt-theme
->extra libgsf             # tumbler - for ODF thumbnails
->extra libopenraw         # tumbler - for RAW thumbnails
->extra poppler-data   #CKJ support for pdf
-
-##------------> Optional dependencies engrampa
->extra p7zip  # 7Z and ARJ archive support
->extra unace  # ACE archive support
->extra unrar  # RAR archive support
->extra mesa-demos
->multilib lib32-mesa-demos
-
+android-tools
+android-udev
+gvfs-afc
+gvfs-gphoto2
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
 
 ##------------> xfce utils
->extra manjaro-lxde-xfce4-notifyd
->extra manjaro-lxde-xfce4-volumed-pulse
-#>extra xfce4-notifyd
->extra xfce4-notifyd-gtk3
-#>extra xfce4-power-manager
->extra xfce4-power-manager-gtk3
->extra xfce4-volumed-pulse
-
-############################################
-## minimal / base packages
+manjaro-lxde-xfce4-notifyd
+manjaro-lxde-xfce4-volumed-pulse
+xfce4-notifyd
+xfce4-power-manager
+xfce4-volumed-pulse
 
 ##------------> Power manager
 tlp-rdw
@@ -124,16 +26,13 @@ tlpui
 lxde-wallpapers
 
 ##------------> theming and settings
+kvantum-theme-matcha
 manjaro-lxde-config
 manjaro-lxde-desktop-settings
-
 manjaro-lxde-logout-banner
-manjaro-zsh-config
-
-kvantum-theme-matcha
-matcha-gtk-theme
 manjaro-openbox-matcha
-
+manjaro-zsh-config
+matcha-gtk-theme
 papirus-icon-theme
 papirus-maia-icon-theme
 xcursor-breeze
@@ -143,18 +42,20 @@ engrampa
 galculator-gtk2
 gnome-disk-utility
 gparted
-
-##------------> gui package manager
-pamac-gtk
+p7zip
+unace
+unrar
 
 ##------------> package manager
-pamac-common
-pamac-cli
 pacui
+pamac-cli
+pamac-common
+pamac-gtk
 
 ##------------> office
-epdfview
-gpicview
+xapps
+xed
+xreader
 
 ##------------> text editor gui
 leafpad
@@ -176,6 +77,7 @@ alsa-utils
 alsa-plugins
 
 ##------------> Display manager
+light-locker
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -184,9 +86,9 @@ lightdm-gtk-greeter-settings
 firefox
 
 ##------------> base cli apps
-inxi
 dmidecode
 htop
+inxi
 mlocate
 numlockx
 pastebinit
@@ -206,56 +108,32 @@ ttf-dejavu
 ttf-roboto
 
 ##------------> network
+avahi
 firewalld
 network-manager-applet
 networkmanager
 networkmanager-openvpn
+nss-mdns
 openresolv
+openssh
 
 ##------------> filemanager
-#pcmanfm
 pcmanfm-gtk3
 
 ##------------> core
-#lxappearance
 lxappearance-gtk3
-#lxappearance-obconf
-lxappearance-obconf-gtk3
 lxde-common
 lxhotkey
-#lxinput
 lxinput-gtk3
-#lxlauncher
 lxlauncher-gtk3
-#lxpanel
 lxpanel-gtk3
-#lxrandr
 lxrandr-gtk3
-#lxsession
 lxsession-gtk3
-#lxtask
 lxtask-gtk3
 lxterminal
+obconf
 perl-file-mimeinfo
-
-##------------> AUR Support/Development
-# Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
-git
-patchutils
-subversion
+picom
 
 ##------------> system icon themes
 gnome-icon-theme
@@ -268,15 +146,15 @@ freetype2
 #polkit is provided by lxsession
 accountsservice
 dconf
-gksu-polkit
 gnome-keyring
-gtk3-classic
+gtk3
 manjaro-hotfixes
 python2-xdg
 squashfs-tools
+xdg-su
 xdg-user-dirs
 xdg-utils
-xdg-su
+zensu
 
 ##------------> Xorg Input Drivers
 xf86-input-libinput
