@@ -115,8 +115,8 @@ lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
 
 ## GTK3
-gtk3-classic
->multilib lib32-gtk3-classic
+gtk3
+>multilib lib32-gtk3
 
 ## XFCE Group
 exo-gtk3
