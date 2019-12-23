@@ -60,7 +60,6 @@ xorg-xprop
 ## Misc
 ###################################
 >basic ufw
-gtk3-classic
 lightdm
 lightdm-slick-greeter
 libappindicator-gtk3
