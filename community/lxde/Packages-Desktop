@@ -116,6 +116,7 @@ networkmanager-openvpn
 nss-mdns
 openresolv
 openssh
+python-pyqt5
 
 ##------------> filemanager
 pcmanfm-gtk3
@@ -150,6 +151,7 @@ gnome-keyring
 gtk3
 manjaro-hotfixes
 python2-xdg
+python-xdg
 squashfs-tools
 xdg-su
 xdg-user-dirs

@@ -92,9 +92,11 @@ numlockx
 powertop
 
 ##------------> network
+firewalld
 network-manager-applet
 networkmanager-qt
 openresolv
+python-pyqt5
 
 ##------------> core
 picom
@@ -140,6 +142,7 @@ manjaro-hotfixes
 perl-file-mimeinfo
 polkit
 python2-xdg
+python-xdg
 squashfs-tools
 xdg-su
 xdg-user-dirs
