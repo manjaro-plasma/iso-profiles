@@ -69,7 +69,7 @@ gnome-keyring
 grub-theme-manjaro
 light-locker
 mate-polkit
-gksu-polkit
+zensu
 perl-file-mimeinfo
 pavucontrol
 pa-applet
