@@ -1,13 +1,16 @@
 adapta-maia-theme
 alsa-firmware
 alsa-utils
+>extra apparmor
 autoconf
 automake
 avahi
 >extra baobab
+>extra bauh
 binutils
 bison
 >extra blueman
+cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
@@ -18,6 +21,7 @@ dmidecode
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
+flatpak
 flex
 >extra galculator
 >extra gcc
@@ -28,11 +32,13 @@ flex
 >extra git
 >extra gnome-disk-utility
 gnome-keyring
+>extra gnome-online-accounts
 >extra gnome-screenshot
 gnome-system-log
 >extra gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnu-free-fonts
 >extra gparted
 >extra gprename
 grub-theme-manjaro-dev
@@ -43,6 +49,7 @@ grub-theme-manjaro-dev
 >extra gst-plugins-ugly
 >extra gstreamer
 gtkhash-nemo
+>extra gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
@@ -53,12 +60,10 @@ icon-naming-utils
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-kvantum-manjaro
 >multilib lib32-flex
 libtool
 >extra libdvdcss
 >extra libgsf
->extra libreoffice-fresh
 lightdm-settings
 lightdm-slick-greeter
 m4
@@ -75,10 +80,10 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
->extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
+>extra ms-office-online
 >extra mugshot
 >multilib lib32-mesa-demos
 # >extra nemo-bulk-rename
@@ -98,7 +103,7 @@ openresolv
 openssh
 >extra openvpn
 >extra p7zip
-pamac-gtk
+pamac
 papirus-maia-icon-theme
 >extra parcellite
 patch
@@ -116,9 +121,10 @@ pulseaudio-zeroconf
 >extra pygtk # needed for deluge
 python2-ptyprocess
 python-ptyprocess
-qt5ct
 qt5-styleplugins
 screenfetch
+>extra snapd
+>basic squashfs-tools
 >extra subversion
 >extra system-config-printer
 >extra terminus-font
@@ -132,9 +138,7 @@ ttf-bitstream-vera
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
->extra vertex-maia-themes
 vi
->extra vlc
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs-gtk
@@ -142,17 +146,17 @@ xdg-utils
 xed
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 xorg-twm
 xorg-xinit
+>extra xplayer
 >extra xreader
 >extra xviewer-plugins
-xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra xorg-xrandr
 >extra yay
+yelp
 zensu
