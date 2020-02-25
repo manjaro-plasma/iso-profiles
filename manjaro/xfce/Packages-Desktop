@@ -45,21 +45,21 @@ udisks2
 
 ## AUR Support/Development
 # Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
 >extra patchutils
@@ -67,8 +67,8 @@ pkg-config
 
 ## Fonts
 cantarell-fonts
-# noto-fonts             # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
@@ -79,11 +79,17 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
-pamac-gtk
-flatpak
+>extra apparmor
+#>extra gnome-software-snap
+>extra flatpak
+>extra bauh
+pamac
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
 
 ## Java
 >extra jdk8-openjdk
@@ -91,21 +97,7 @@ flatpak
 >extra jre8-openjdk
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra system-config-printer
-
-## Optional dependencies for hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
+>extra manjaro-printer
 
 ## Display manager
 lightdm
@@ -113,31 +105,26 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
 
-## GTK3
-gtk3
->multilib lib32-gtk3
-
 ## XFCE Group
-exo-gtk3
-garcon-gtk3
-thunar-gtk3
+exo
+garcon
+thunar
 thunar-volman
 tumbler
-xfce4-appfinder-gtk3
-xfce4-panel-gtk3
-xfce4-power-manager-gtk3
-xfce4-session-gtk3
-xfce4-settings-gtk3
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
 xfce4-terminal
-xfconf-gtk3
-xfdesktop-gtk3
-xfwm4-gtk3
+xfconf
+xfdesktop
+xfwm4
 
 ## XFCE Extras
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gconf              # fix qt-theme
 gksu
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
@@ -148,7 +135,6 @@ menulibre
 orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
-file-roller
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
@@ -165,7 +151,7 @@ xfce4-clipman-plugin
 >extra xfce4-mpc-plugin
 >extra xfce4-netload-plugin
 >extra xfce4-notes-plugin
-xfce4-notifyd-gtk3
+xfce4-notifyd
 xfce4-screenshooter
 >extra xfce4-sensors-plugin
 >extra xfce4-smartbookmark-plugin
@@ -176,7 +162,7 @@ xfce4-taskmanager
 >extra xfce4-verve-plugin
 >extra xfce4-wavelan-plugin
 >extra xfce4-weather-plugin
-xfce4-whiskermenu-plugin-gtk3
+xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
@@ -184,6 +170,7 @@ pavucontrol
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
+>extra wallpapers-juhraya
 gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
@@ -207,8 +194,9 @@ gufw
 htop
 qpdfview
 inxi
->extra libreoffice-still
-ms-office-online
+#>extra libreoffice-still
+#>extra microsoft-office-online-jak
+#>extra freeoffice
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -222,7 +210,7 @@ mugshot
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
->basic sylpheed # mail client
+#>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
@@ -245,9 +233,7 @@ manjaro-browser-settings
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 
 ## Xorg Server and Graphics
@@ -270,7 +256,18 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
+>extra timeshift
+>extra kernel-alive
 
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
+>basic squashfs-tools
+xiccd # enable color profile settings
+
+## Handshake tools
+#faucet-tool
+#hnsd-git
+#hsd-git
+#veracrypt
+#cryptoseed

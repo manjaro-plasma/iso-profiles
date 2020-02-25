@@ -1,6 +1,7 @@
 adwaita-icon-theme
+adwaita-maia
 alsa-firmware
-appimagelauncher
+>extra apparmor
 baobab
 dconf-editor
 dmidecode
@@ -9,12 +10,14 @@ gthumb
 evince
 >basic epiphany
 >extra firefox
+>extra firefox-gnome-theme-maia
+>extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme #branding theme for GDM: 18.0 
-gedit 
+manjaro-gdm-theme-19.0 #branding theme for GDM: 19.0 
+gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
-manjaro-gnome-vanilla
+#manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -30,7 +33,8 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-#gnome-shell-extension-pamac-update
+gnome-shell-extension-nightshellswitcher
+gnome-shell-extension-nightthemeswitcher
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -40,8 +44,6 @@ gnome-user-docs
 gnome-user-share
 gnome-wallpapers
 papirus-maia-icon-theme
-#gnome-screensaver #if use lightdm we need a screensaver 
-#gnome-initial-setup
 >extra gnome-calendar
 >extra bijiben
 >extra gnome-characters
@@ -76,11 +78,13 @@ manjaro-alsa
 manjaro-artwork
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
+>extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
+manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
-grub-theme-manjaro #grub theme for installed S.O.
+manjaro-gnome-assets-19.0
+>extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
@@ -102,14 +106,20 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac-gtk
-flatpak
+#gnome-software-snap
+>extra flatpak
+>extra bauh
+pamac
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 >extra simple-scan
+>basic squashfs-tools
 sushi
 alsa-utils
 avahi
@@ -121,6 +131,8 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -128,8 +140,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-arc-maia-icon-theme
-#firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
 xdg-user-dirs
@@ -137,17 +147,15 @@ xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
-
-ms-office-online
+>extra caffeine-ng
+>extra libappindicator-gtk3
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
@@ -156,7 +164,6 @@ ms-office-online
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy
@@ -167,28 +174,12 @@ ms-office-online
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >extra libdvdcss
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 >extra manjaro-printer
+>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
-
-#AUR complete support ( base devel + yaourt )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-#>extra yaourt
-manjaro-aur-support #introduce for testing in community
+>extra manjaro-aur-support #introduce for testing in community
 
