@@ -1,231 +1,27 @@
-##### OPENBOX MINIMAL/EXTRA PROFILE
+##### EDITION PACKAGES
 
-##---------> media player
->extra deadbeef
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
+## internet browser
+firefox
 
-##---------> media controls/codecs/plugins
->extra ffmpeg
->extra libmad
->extra mpg123
->extra pavucontrol
->extra pamixer
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
->extra volumeicon
-
-##---------> graphic applications
->extra gcolor2
->extra gimp
->extra pix
-
-##---------> extra fonts
->extra noto-fonts
-
-##---------> office
-## metapackage manjaro-printer
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra python-pyqt5
->extra splix
->extra system-config-printer
-
-##---------> file utilities
->extra engrampa
->extra ffmpegthumbnailer
->extra mlocate
->extra poppler-data
->extra poppler-glib
->extra p7zip
->extra thunar-archive-plugin-gtk3
->extra thunar-media-tags-plugin
->extra thunar-volman-gtk3
->extra tumbler
->extra unace
->extra unarchiver
->extra unarj
->extra unrar
->extra unzip
-
-##---------> disk utilities
->extra gnome-disk-utility
-
-##---------> GUI internet apps
->extra firefox
->extra thunderbird
-
-##---------> flatpak support
-#>extra flatpak
-
-##---------> snap/flatpak manager
-#>extra bauh
-
-##---------> snap support
-#>extra apparmor
-#>extra snapd
-#>extra snapd-glib
-
-##---------> powermanager
->extra xfce4-power-manager-gtk3
->extra tlp-rdw
->extra tlpui
-
-##---------> wallpapers
->extra manjaro-openbox-wallpapers
->extra manjaro-openbox-wallpapers-matrix
->extra manjaro-wallpapers-by-lunix-cool-logo
->extra manjaro-wallpapers-by-lunix-manjaro
->extra manjaro-wallpapers-by-lunix-openbox
-
-##---------> GUI package manager
->extra pamac-gtk
-
-##---------> launcher/indexer
->extra albert
-
-#-------------------------------------------------
-##### EDITION BASE PACKAGES
-
-##---------> internet browser
-chromium
-
-##---------> xapps
+## xapps
 xed
 xpad
 xreader
 xviewer
 
-##---------> wallpapers
-wallpapers-juhraya
-
-##---------> edition theming and settings
-kvantum-theme-matcha
-manjaro-grub-theme-sunset
-manjaro-openbox-matcha
-manjaro-openbox-scripts
-manjaro-slick-greeter-theme-sunset
-manjaro-zsh-config
-matcha-gtk-theme
-papirus-maia-icon-theme
-xcursor-breeze
-
-##---------> package manager
-pamac-cli
-pacui
-
-##---------> manjaro user infomartion
-manjaro-application-utility
-manjaro-documentation-en
-manjaro-hello
-
-##---------> CLI text editor
-dash
-micro-manjaro
-terminus-font
-vim
-
-##---------> sound support
-alsa-firmware
-alsa-utils
-alsa-plugins
-
-##---------> CLI internet apps
-lynx
-w3m
-
-##---------> connect packages
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-udiskie
-udisks2
-
-##---------> GUI file manager
-pcmanfm-gtk3
-thunar-gtk3
-
-##---------> CLI file manager
-mc
-ranger
-
-##---------> disk utilities
-gparted
-mintstick
-timeshift
-
-##---------> cloning and recovery
-clonezilla
-testdisk
-
-##---------> CLI basic utilities
-catimg
-dmidecode
-feh
-gsimplecal
-hddtemp
-htop
-inxi
-jp2a
-mesa-demos
-neofetch
-pastebinit
-ps_mem
-tree
-upower
-
-##---------> network utilities
-arp-scan
-bind-tools
-net-tools
-openssh
-traceroute
-whois
-
-##---------> bluetooth
-blueman
-bluez
-
-##---------> network
-firewalld
-network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
-
-##---------> display manager and greeter
-lightdm
-lightdm-settings
-lightdm-slick-greeter
-
-##---------> settings manager
-kvantum-qt5
-lxappearance-gtk3
-manjaro-settings-manager
-obconf
-qt5ct
-xfce4-settings-gtk3
-
-##---------> desktop settings and config
+## fonts, theming, icons, cursors
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
-
-##---------> fonts packages
 manjaro-openbox-fonts
+manjaro-openbox-scripts
+manjaro-zsh-config
+terminus-font
 ttf-dejavu
 ttf-font-awesome
 ttf-font-logos
@@ -233,14 +29,96 @@ ttf-icomoon-icons
 ttf-material-icons
 ttf-polybar-icons
 ttf-roboto
+xcursor-vanilla-dmz
 
-##---------> core
+## settings manager
+kvantum-qt5
+lxappearance-gtk3
+manjaro-settings-manager
+obconf
+qt5ct
+xfce4-settings-gtk3
+
+## package manager
+pamac-cli
+pamac-gtk
+
+## display manager and greeter
+lxdm
+
+## manjaro user infomartion
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+
+## GUI file manager
+engrampa
+thunar-gtk3
+xfce4-power-manager-gtk3
+
+## CLI file manager
+mc
+
+## disk utilities
+gparted
+mintstick
+timeshift
+
+## cloning and recovery
+clonezilla
+testdisk
+
+## CLI basic utilities
+dmidecode
+gsimplecal
+hddtemp
+htop
+inxi
+mesa-demos
+pastebinit
+ps_mem
+tree
+upower
+
+## sound support
+alsa-firmware
+alsa-utils
+alsa-plugins
+volumeicon
+
+## connect packages
+gvfs
+gvfs-nfs
+gvfs-smb
+udiskie
+udisks2
+
+## network utilities
+arp-scan
+bind-tools
+net-tools
+openssh
+traceroute
+whois
+
+## bluetooth
+blueman
+bluez
+
+## network
+firewalld
+python-pyqt5  # dep of firewall-applet
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+## core
 arandr
-picom
 conky-lua-nv
 dunst
 exo-gtk3
-fakeroot
 i3lock
 imagemagick
 jgmenu
@@ -253,6 +131,7 @@ numlockx
 obkey-gtk3
 obmenu-generator
 openbox
+picom
 polybar
 rofi
 scrot
@@ -263,57 +142,30 @@ tint2
 wmctrl
 xcape
 xcb-util-cursor
-xcmenu
 xdotool
 zenity
 
-##---------> build support
-autoconf
-automake
-binutils
-bison
-flex
-gc
-gcc
-git
-guile
-libatomic_ops
-libmpc
-m4
-make
-package-query
-patch
-pkg-config
-yajl
-
-##---------> system icon themes
-adwaita-icon-theme
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-extra
-hicolor-icon-theme
-
-##---------> system fonts
+## system fonts
 freetype2
 
-##---------> system
+## system
 accountsservice
-zensu
 gnome-keyring
 gtk3
 manjaro-hotfixes
 polkit
 polkit-gnome
-python2-xdg
+python-xdg
 squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+zensu
 
-##---------> xorg
-xorg-fonts-75dpi
+## xorg
+xf86-input-libinput
 xorg-fonts-100dpi
+xorg-fonts-75dpi
 xorg-fonts-type1
 xorg-server
 xorg-server-common
@@ -325,5 +177,4 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xorg-xwininfo
-xf86-input-libinput
 xterm

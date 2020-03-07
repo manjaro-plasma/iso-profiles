@@ -138,7 +138,7 @@
     <separator label="Install Manjaro Openbox"/>
     <item label="Manjaro User Guide">
         <action name="Execute">
-            <command>qpdfview "/usr/share/doc/manjaro/Beginner_User_Guide.pdf"</command>
+            <command>xreader "/usr/share/doc/manjaro/Beginner_User_Guide.pdf"</command>
         </action>
     </item>
     <item label="Calamares Installer">
