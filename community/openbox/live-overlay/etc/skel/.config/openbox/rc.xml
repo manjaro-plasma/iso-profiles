@@ -19,7 +19,7 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Manjaro-Openbox-Matcha-dark-sea</name>
+    <name>PacBang</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -61,13 +61,10 @@
     </font>
   </theme>
   <desktops>
-    <number>4</number>
+    <number>1</number>
     <firstdesk>0</firstdesk>
     <names>
       <name>1</name>
-      <name>2</name>
-      <name>3</name>
-      <name>4</name>
     </names>
     <popupTime>800</popupTime>
   </desktops>

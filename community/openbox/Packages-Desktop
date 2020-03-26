@@ -5,9 +5,11 @@ firefox
 
 ## xapps
 xed
-xpad
 xreader
 xviewer
+
+## power management
+xfce4-power-manager
 
 ## fonts, theming, icons, cursors
 adwaita-icon-theme
@@ -20,7 +22,12 @@ manjaro-openbox-config
 manjaro-openbox-desktop-settings
 manjaro-openbox-fonts
 manjaro-openbox-scripts
+manjaro-pacbang-grub-theme
+manjaro-pacbang-gtk-theme
+manjaro-pacbang-lxdm-theme
+manjaro-pacbang-wallpapers
 manjaro-zsh-config
+moka-icon-theme
 terminus-font
 ttf-dejavu
 ttf-font-awesome
@@ -36,30 +43,41 @@ kvantum-qt5
 lxappearance-gtk3
 manjaro-settings-manager
 obconf
+qt5-styleplugins
 qt5ct
-xfce4-settings-gtk3
+xfce4-settings
 
 ## package manager
 pamac-cli
 pamac-gtk
 
 ## display manager and greeter
-lxdm
+lxdm-gtk3
 
 ## manjaro user infomartion
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
 
-## GUI file manager
+## file management
+catfish
 engrampa
-thunar-gtk3
-xfce4-power-manager-gtk3
-
-## CLI file manager
+ffmpegthumbnailer
 mc
+mlocate
+p7zip
+poppler-data
+poppler-glib
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tumbler
+unarchiver
+unzip
 
 ## disk utilities
+gnome-disk-utility
 gparted
 mintstick
 timeshift
@@ -74,7 +92,6 @@ gsimplecal
 hddtemp
 htop
 inxi
-mesa-demos
 pastebinit
 ps_mem
 tree
@@ -84,6 +101,7 @@ upower
 alsa-firmware
 alsa-utils
 alsa-plugins
+pavucontrol
 volumeicon
 
 ## connect packages
@@ -101,24 +119,20 @@ openssh
 traceroute
 whois
 
-## bluetooth
-blueman
-bluez
-
 ## network
 firewalld
-python-pyqt5  # dep of firewall-applet
 network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
+python-pyqt5  # dep of firewall-applet
 
 ## core
 arandr
 conky-lua-nv
 dunst
-exo-gtk3
+exo
 i3lock
 imagemagick
 jgmenu
@@ -151,8 +165,8 @@ freetype2
 ## system
 accountsservice
 gnome-keyring
+gtk-engine-murrine
 gtk3
-manjaro-hotfixes
 polkit
 polkit-gnome
 python-xdg
@@ -163,7 +177,7 @@ xdg-utils
 zensu
 
 ## xorg
-xf86-input-libinput
+xorg-drivers
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
