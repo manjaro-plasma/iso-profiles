@@ -14,7 +14,7 @@ evince
 >extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme-19.0 #branding theme for GDM: 19.0 
+manjaro-gdm-theme #branding theme for GDM
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 #manjaro-gnome-vanilla
