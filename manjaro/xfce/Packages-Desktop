@@ -85,7 +85,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra apparmor
 #>extra gnome-software-snap
 >extra flatpak
->extra bauh
+#>extra bauh
 pamac
 >extra snapd
 >extra snapd-glib
@@ -182,7 +182,7 @@ xcursor-vanilla-dmz-aa
 catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
+firefox
 # >extra flashplugin
 >extra galculator-gtk2
 gcolor2
@@ -201,7 +201,7 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
+#>basic midori
 >extra mlocate
 mousepad
 mugshot
