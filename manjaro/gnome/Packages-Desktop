@@ -5,7 +5,6 @@ alsa-firmware
 >extra baobab
 >extra dconf-editor
 dmidecode
->extra hexchat
 gthumb
 evince
 >basic epiphany
@@ -46,7 +45,6 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
->extra bijiben
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -170,7 +168,7 @@ xorg-xinit
 >extra gnome-calendar
 >extra lollypop
 >extra empathy
->extra telepathy-accounts-signon
+>extra telepathy
 >extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
