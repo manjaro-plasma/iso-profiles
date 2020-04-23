@@ -152,6 +152,8 @@ htop
 inxi
 numlockx
 powertop
+xclip
+xsel
 
 ## network
 network-manager-applet
