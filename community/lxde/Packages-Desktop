@@ -160,6 +160,7 @@ lightdm-gtk-greeter-settings
 inxi
 dmidecode
 htop
+micro
 mlocate
 numlockx
 pastebinit
