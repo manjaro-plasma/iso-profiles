@@ -76,7 +76,7 @@
 #>extra libreoffice-still
 
 ## Graphics
->extra pinta
+#>extra pinta
 
 ## Internet applications
 >extra trojita
