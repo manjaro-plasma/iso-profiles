@@ -122,6 +122,7 @@ xfwm4
 
 ## XFCE Extras
 blueman
+libappindicator-gtk3 # for blueman appindicator plugin
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gksu

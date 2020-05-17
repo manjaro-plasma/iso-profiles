@@ -125,7 +125,7 @@ manjaro-application-utility
 >extra splix
 
 ## Optional dependencies for hplip
->extra pyqt5-common
+#>extra pyqt5-common
 >extra python-pillow
 >extra python-pip
 >extra python-pyqt5
@@ -203,6 +203,7 @@ skype-web-jak
 slack-web-jak
 onlyoffice-desktopeditors
 elisa
+kajongg
 
 ## Themes QT/GTK/SDDM
 #breeze
