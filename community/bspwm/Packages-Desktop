@@ -10,7 +10,6 @@
 >extra adwaita-maia
 >extra dconf
 >extra dunstify
->extra etcher
 >extra ffmpegthumbnailer
 >extra file-roller
 >extra firefox
@@ -38,8 +37,8 @@
 >extra picom
 >extra pulseaudio-ctl
 >extra thunar-gtk3
->extra thunar-archive-plugin-gtk3
 >extra thunar-shares-plugin-gtk3
+>extra thunar-archive-plugin-gtk3
 >extra timeshift
 >extra tumbler
 >extra zathura-pdf-poppler
@@ -83,6 +82,7 @@ micro-manjaro
 moc
 mpv
 ncdu
+neofetch
 nerd-fonts-noto-sans-mono
 networkmanager
 networkmanager-dmenu
@@ -96,6 +96,7 @@ pacui
 papirus-maia-icon-theme
 perl-file-mimeinfo
 poppler
+popsicle
 ps_mem
 ranger
 manjaro-ranger-settings
