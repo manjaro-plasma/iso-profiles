@@ -116,7 +116,6 @@ terminus-font
 >extra ttf-liberation
 >extra xarchiver
 >extra xcursor-breeze
-xdg-su
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev

@@ -139,7 +139,6 @@ ttf-bitstream-vera
 >extra udiskie
 vi
 >extra xcursor-chameleon-pearl-deepin
-xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xed

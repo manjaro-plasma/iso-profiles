@@ -75,7 +75,6 @@ pavucontrol
 pa-applet
 rofi
 xcape
-xdg-su
 xdg-user-dirs
 xdg-utils
 xfce4-settings-gtk3

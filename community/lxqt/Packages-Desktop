@@ -206,7 +206,6 @@ perl-file-mimeinfo
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
