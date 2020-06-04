@@ -306,7 +306,6 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
 >extra timeshift
 >extra kernel-alive
 
