@@ -56,7 +56,7 @@ htop
 inxi
 json-c
 kvantum-manjaro
->multilib lib32-flex
+#>multilib lib32-flex # profile-validate fail
 >extra libdvdcss
 >extra libgpod
 libtool
@@ -86,8 +86,8 @@ moc
 modemmanager
 morc_menu
 mousepad
->multilib lib32-flex
->multilib lib32-mesa-demos
+#>multilib lib32-flex # profile-validate fail
+#>multilib lib32-mesa-demos # profile-validate fail
 ncdu
 netctl
 networkmanager

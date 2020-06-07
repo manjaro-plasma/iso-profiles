@@ -76,7 +76,7 @@ mesa-demos
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
->multilib lib32-mesa-demos
+#>multilib lib32-mesa-demos # profile-validate fail
 mutter
 nautilus
 nautilus-admin
@@ -147,7 +147,7 @@ timeshift
 >extra kernel-alive
 # >extra flashplugin
 >extra libdvdcss
->extra steam-manjaro
+>extra #>steam-manjaro # profile-validate fail
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
