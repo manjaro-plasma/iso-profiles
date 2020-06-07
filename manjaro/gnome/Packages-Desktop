@@ -92,7 +92,7 @@ mesa-demos
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
-#>multilib lib32-mesa-demos # profile-validate fail
+>multilib lib32-mesa-demos
 mutter
 nautilus
 nautilus-admin
@@ -175,7 +175,7 @@ xorg-xinit
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
 >extra libdvdcss
->x86_64 >extra #>steam-manjaro # profile-validate fail
+>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer

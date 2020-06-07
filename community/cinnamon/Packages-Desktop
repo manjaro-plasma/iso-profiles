@@ -60,7 +60,7 @@ icon-naming-utils
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-#>multilib lib32-flex # profile-validate fail
+>multilib lib32-flex
 libtool
 >extra libdvdcss
 >extra libgsf
@@ -85,7 +85,7 @@ manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra microsoft-office-web-jak
 >extra mugshot
-#>multilib lib32-mesa-demos # profile-validate fail
+>multilib lib32-mesa-demos
 # >extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview

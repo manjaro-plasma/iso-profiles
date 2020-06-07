@@ -58,7 +58,7 @@ htop
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-#>multilib lib32-flex # profile-validate fail
+>multilib lib32-flex
 >extra libdvdcss
 >extra libimobiledevice
 >extra libreoffice-fresh
@@ -80,7 +80,7 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
-#>multilib lib32-mesa-demos # profile-validate fail
+>multilib lib32-mesa-demos
 netctl
 networkmanager
 networkmanager-openconnect

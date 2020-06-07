@@ -67,7 +67,7 @@ mesa-demos
 mobile-broadband-provider-info
 modemmanager
 usb_modeswitch
-#>multilib lib32-mesa-demos # profile-validate fail
+>multilib lib32-mesa-demos
 netctl
 network-manager-applet
 networkmanager-openconnect
@@ -127,7 +127,7 @@ caja-open-terminal
 >extra kernel-alive 							#after a kernel update this maintain usable the modules
 # >extra flashplugin
 >extra libdvdcss
->extra #>steam-manjaro # profile-validate fail
+>extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
 >extra vala-panel-appmenu-mate
