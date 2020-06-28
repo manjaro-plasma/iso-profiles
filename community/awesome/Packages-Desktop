@@ -247,7 +247,6 @@ xorg-server
 ## Desktop Utils
 >extra perl-file-mimeinfo
 >extra xdg-utils
->extra xdg-su
 >extra timeshift
 >extra kernel-alive
 

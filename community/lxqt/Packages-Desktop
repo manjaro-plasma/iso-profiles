@@ -48,9 +48,6 @@
 >extra system-config-printer
 >extra simple-scan
 
-## Graphics
->extra pinta
-
 ## Internet applications
 >extra trojita
 
@@ -199,7 +196,6 @@ perl-file-mimeinfo
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
