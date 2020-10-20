@@ -7,7 +7,8 @@
 >basic xlogin
 >extra accountsservice
 >extra adapta-maia-theme
->extra adwaita-maia
+>extra adwaita-maia-gtk3
+>extra compton
 >extra dconf
 >extra dunstify
 >extra ffmpegthumbnailer
@@ -34,13 +35,9 @@
 >extra mate-polkit
 >extra mygtkmenui
 >extra pavucontrol
->extra picom
+>extra pcmanfm-gtk3
 >extra pulseaudio-ctl
->extra thunar-gtk3
->extra thunar-shares-plugin-gtk3
->extra thunar-archive-plugin-gtk3
 >extra timeshift
->extra tumbler
 >extra zathura-pdf-poppler
 >extra xreader
 >multilib manjaro-alsa
@@ -82,7 +79,6 @@ micro-manjaro
 moc
 mpv
 ncdu
-neofetch
 nerd-fonts-noto-sans-mono
 networkmanager
 networkmanager-dmenu
@@ -96,7 +92,6 @@ pacui
 papirus-maia-icon-theme
 perl-file-mimeinfo
 poppler
-popsicle
 ps_mem
 ranger
 manjaro-ranger-settings
@@ -112,6 +107,7 @@ tree
 udevil
 xcape
 xcursor-breeze
+xdg-su
 xdg-user-dirs
 xdg-utils
 xf86-input-elographics

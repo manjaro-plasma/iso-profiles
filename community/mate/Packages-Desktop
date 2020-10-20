@@ -12,15 +12,17 @@ lightdm-slick-greeter
 lightdm-settings
 grub-theme-manjaro
 mate-wallpapers
-manjaro-wallpapers-17.0
+manjaro-wallpapers-18.0
+wallpapers-2018
 mate-icon-theme
 papirus-maia-icon-theme
+matcha-gtk-theme
+kvantum-theme-matchama
 xcursor-breeze
 mate
 marco
 brisk-menu
 mate-notification-theme-slate
-mate-menus
 mate-control-center
 mate-calc
 mate-desktop
@@ -36,10 +38,13 @@ mozo
 gnome-disk-utility
 gnome-keyring
 manjaro-mate-settings
+manjaro-application-utility
 mc # Midnight Commander
 pacui
 mhwd-tui
+xterm
 gparted
+squashfs-tools
 grilo-plugins
 gst-libav
 gst-plugins-bad
@@ -63,6 +68,8 @@ manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-hello
+>extra bauh
+>extra snapd
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -77,7 +84,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac-gtk
+pamac
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
@@ -96,13 +103,12 @@ ttf-indic-otf
 ttf-liberation
 manjaro-mate-panel-layout
 vino
+xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 xorg-twm
 xorg-xinit
@@ -112,20 +118,20 @@ caja-open-terminal
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra mate-themes
->extra mate-tweak
+#>extra mate-tweak
 >extra mate-screensaver
->extra libreoffice-fresh
+#>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
 >extra vlc
+>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra timeshift 								#backup utility
->extra kernel-alive 							#after a kernel update this maintain usable the modules
-# >extra flashplugin
+timeshift 								#backup utility
+>extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
@@ -133,7 +139,6 @@ caja-open-terminal
 >extra vala-panel-appmenu-mate
 >extra mate-applet-dock
 >extra mate-applets
->extra mate-menus
 >extra plank
 >extra ffmpegthumbnailer
 #>extra autoconf

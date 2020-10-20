@@ -17,11 +17,11 @@ manjaro-wallpapers-18.0
 wallpapers-2018
 manjaro-icons
 matcha-gtk-theme
+libappindicator-gtk3
 baobab
 dconf-editor
 hexchat
 evince
-libappindicator-gtk3
 gnome-calculator
 gnome-control-center
 gnome-calendar
@@ -39,8 +39,6 @@ gnome-screenshot
 grilo-plugins
 gucharmap
 mousetweaks
-nautilus
-nautilus-empty-file
 file-roller
 sushi
 vino
@@ -61,6 +59,8 @@ gvfs-mtp
 gvfs-smb
 inxi
 imagewriter
+kvantum-theme-matcha
+kvantum-theme-matchama
 mc # Midnight Commander
 #pacui
 mhwd-tui
@@ -72,6 +72,7 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-hello
 manjaro-application-utility
+>extra snapd
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -91,6 +92,7 @@ nss-mdns
 numlockx
 openresolv
 pamac-gtk
+pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -116,13 +118,12 @@ ttf-indic-otf
 ttf-liberation
 budgie-wallpapers
 vino
+xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 xorg-twm
 xorg-xinit
@@ -134,9 +135,10 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra libreoffice-fresh
+#>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
+>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero
@@ -145,13 +147,12 @@ yelp
 >extra jre8-openjdk-headless
 timeshift
 >extra kernel-alive
-# >extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
-#AUR complete support ( base devel + yaourt )
+#AUR complete support ( base devel )
 #>extra autoconf
 #>extra automake
 #>extra binutils
@@ -166,5 +167,4 @@ timeshift
 #>extra make
 #>extra patch
 #>extra subversion
-#>extra yaourt
 manjaro-aur-support

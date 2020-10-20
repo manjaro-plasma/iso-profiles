@@ -1,14 +1,22 @@
+## The following is only temp until we find a better solution
+>office libreoffice-still
+>office freeoffice
+
+## Normal MHWD package list
+
 KERNEL-bbswitch
 KERNEL-broadcom-wl
-KERNEL-r8168
+#KERNEL-r8168
 KERNEL-zfs
 zfs-utils
 #KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
+KERNEL-headers
+zfs-dkms
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
->multilib lib32-libva-vdpau-driver 
+>multilib lib32-libva-vdpau-driver
 libxaw
 libxpm
 libxvmc
@@ -16,23 +24,25 @@ mesa-vdpau
 >multilib lib32-mesa-vdpau
 >multilib lib32-libxvmc
 >multilib lib32-primus
->nonfree_default catalyst-utils
->nonfree_default KERNEL-catalyst
->nonfree_default KERNEL-nvidia
->nonfree_default KERNEL-nvidia-340xx
->nonfree_default KERNEL-nvidia-390xx
->nonfree_default nvidia-340xx-utils
->nonfree_default nvidia-390xx-utils
->nonfree_default nvidia-utils
->nonfree_multilib lib32-catalyst-utils
->nonfree_multilib lib32-nvidia-utils
->nonfree_multilib lib32-nvidia-340xx-utils
->nonfree_multilib lib32-nvidia-390xx-utils
+#>nonfree_default catalyst-utils
+#>nonfree_default KERNEL-catalyst
+#>nonfree_default KERNEL-nvidia-340xx
+#>nonfree_default KERNEL-nvidia-390xx
+>nonfree_x86_64 KERNEL-nvidia-455xx
+#>nonfree_default nvidia-340xx-utils
+#>nonfree_default nvidia-390xx-utils
+>nonfree_x86_64 nvidia-455xx-utils
+#>nonfree_multilib lib32-catalyst-utils
+>nonfree_multilib lib32-nvidia-455xx-utils
+#>nonfree_multilib lib32-nvidia-340xx-utils
+#>nonfree_multilib lib32-nvidia-390xx-utils
 opencl-mesa
 open-vm-tools
-pangox-compat
 primus
 bumblebee
+nvidia-prime
+gtkmm3
+spice-vdagent
 virtualbox-guest-utils
 vulkan-radeon
 >multilib lib32-vulkan-radeon

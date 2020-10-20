@@ -1,19 +1,21 @@
 adwaita-icon-theme
 adwaita-maia
 alsa-firmware
+>extra alacarte
 >extra apparmor
 >extra baobab
 >extra dconf-editor
+>extra webapp-manager
 dmidecode
 gthumb
->extra etcher
 evince
+manjaro-log-helper
+>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
-manjaro-gdm-tweak
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -22,7 +24,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-control-center
 gnome-desktop
-#gnome-disk-utility
+gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
@@ -45,6 +47,7 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
+>extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -75,8 +78,8 @@ bmenu
 ########
 manjaro-alsa
 manjaro-artwork
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
@@ -132,9 +135,9 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
-noto-fonts               # default font
+noto-fonts               		# default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-ttf-bitstream-vera
+qgnomeplatform
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
@@ -152,7 +155,7 @@ xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
 >extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
@@ -175,7 +178,7 @@ xorg-xinit
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
 >extra libdvdcss
->x86_64 >extra steam-manjaro
+#>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer
