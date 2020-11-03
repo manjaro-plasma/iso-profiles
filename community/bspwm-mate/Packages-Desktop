@@ -15,9 +15,8 @@ evince
 nautilus-typeahead
 gedit
 gedit-plugins
-gedit-code-assistance
 gnome-disk-utility
-vlc-nightly
+vlc
 transmission-gtk
 sterminal
 pavucontrol
@@ -37,7 +36,6 @@ bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
 compton
-compton-conf
 dbus-x11
 dunstify
 desktop-file-utils
@@ -75,7 +73,7 @@ mate-power-manager
 mate-netbook
 mate-menus
 manjaro-bspwm-mate-settings
-manjaro-browser-settings-native
+manjaro-browser-settings
 mygtkmenui
 mozo
 network-manager-applet
@@ -89,7 +87,6 @@ terminus-font
 testdisk
 thermald
 xcape
-xdg-su
 xdg-user-dirs
 xdg-utils
 xf86-input-elographics
@@ -162,7 +159,7 @@ manjaro-pulse
 
 # Themes
 xcursor-breeze
-adwaita-maia-gtk3
+adwaita-maia
 breeze-maia-icon-themes
 gtk-theme-breath
 kvantum-manjaro

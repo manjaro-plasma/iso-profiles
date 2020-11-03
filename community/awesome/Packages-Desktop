@@ -265,5 +265,4 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
->extra compton-conf
 >extra transmission-gtk

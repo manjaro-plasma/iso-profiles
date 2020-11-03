@@ -22,7 +22,6 @@ deepin-kwin
 >extra deepin-movie
 >extra deepin-music
 >extra deepin-picker
->extra deepin-screen-recorder
 >extra deepin-screenshot
 >extra deepin-system-monitor
 deepin-wallpapers-temp-fix
@@ -83,7 +82,6 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
->extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
