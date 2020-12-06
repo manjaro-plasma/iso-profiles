@@ -4,16 +4,12 @@
 >extra cups
 >extra cups-pdf
 >extra cups-pk-helper
-
-### CUPS
 >extra ghostscript
 >extra gsfonts
 >extra gutenprint
 >extra splix
 >extra system-config-printer
 >extra simple-scan
-
-### HP printer
 >extra hplip
 
 ## FIREWALL
@@ -24,7 +20,8 @@
 >extra python-gobject  # hplip
 
 ## Office
->extra libreoffice-fresh
+>extra onlyoffice-desktopeditors
+#>extra libreoffice-fresh
 
 ## MEDIA PACKAGES
 ### PLAYERS
@@ -32,31 +29,6 @@
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
-
-### CODECS
->extra faad2
->extra ffmpeg
->extra flac
->extra imlib2
->extra libdvdcss
->extra libdvdnav
->extra libdvdread
->extra libmad
->extra libmicrodns
->extra libvorbis
->extra mpg123
->extra protobuf
->extra twolame
->extra zlib
-
-### PULSE AUDIO
->extra pamixer
->extra paprefs
->extra pasystray
->extra pavucontrol
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
 
 ## SETTINGS MANAGER
 >extra xfce4-settings
@@ -86,31 +58,6 @@
 ### GUI ARCHIVE MANAGER
 >extra engrampa
 
-### CLI ARCHIVE MANAGER
->extra p7zip
->extra unarchiver
->extra unzip
-
-### VFS MOUNT
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
-
-### REMOVABLE DEVICES
->extra udiskie
->extra udisks2
-
-## COMMANDLINE UTILITIES
-### SYSINFO
->extra dmidecode
->extra upower
->extra hddtemp
->extra htop
->extra inxi
->extra ps_mem
->extra tree
-
 ### IMAGE
 >extra imagemagick
 
@@ -118,8 +65,6 @@
 >extra manjaro-application-utility
 >extra manjaro-documentation-en
 >extra manjaro-hello
->extra manjaro-settings-manager
->extra mhwd
 >extra pamac-cli
 >extra pamac-gtk
 
@@ -127,24 +72,78 @@
 >extra font-manager
 >extra exo
 
-## WEBBROWSER
->extra firefox
-
-## EMAIL
+## WEB APPLICATIONS
 >extra thunderbird
 
 ###################################################3#
-# file manager (thunar)
+# file manager (pcmanfm)
 # basic text editing (xed, micro)
 # terminal emulator (termite, xterm)
 # xorg drivers (graphics, input)
-# audio drivers (alsa)
-# basic audio configuration tools (alsa)
+# audio drivers and configuration tools
 # web browser (firefox)
+# archivers
+
+### CLI ARCHIVE MANAGER
+p7zip
+unarj
+unrar
+unzip
+
+### VFS MOUNT
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
+### REMOVABLE DEVICES
+udiskie
+udisks2
+
+## COMMANDLINE UTILITIES
+### SYSINFO
+dmidecode
+upower
+hddtemp
+htop
+inxi
+ps_mem
+time
+tree
+
+### CODECS
+faad2
+ffmpeg
+flac
+imlib2
+libdvdcss
+libdvdnav
+libdvdread
+libmad
+libmicrodns
+libvorbis
+mpg123
+protobuf
+twolame
+zlib
+
+### PULSE AUDIO
+pamixer
+paprefs
+pasystray
+pavucontrol
+playerctl
+pulseaudio
+pulseaudio-alsa
+pulseaudio-zeroconf
 
 ## BACKUP - RECOVERY TOOLS
 timeshift
 testdisk
+
+## TIMEZONE CLOCK
+tzclock
+libdial
 
 ## PDFVIEW
 qpdfview
@@ -153,12 +152,15 @@ qpdfview
 xed
 micro
 
+## terminal
+sakura
+
 ## FILEMANAGER
 mc
-pcmanfm
+pcmanfm-gtk3
 
 ## WEB BROWSER
-epiphany
+firefox
 
 ## PARTITION MANAGER
 gparted
@@ -172,17 +174,23 @@ openssh
 traceroute
 whois
 openresolv
-iwd
-connman
+
+### CONNECTION MANAGER
+networkmanager
+network-manager-applet
+networkmanager-openvpn
 
 ## FONTS - THEMING - ICONS - CURSORS
+breath2-wallpaper
+grub-theme-manjaro
+manjaro-openbox-common
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
+manjaro-openbox-flatred-theme
 manjaro-openbox-scripts
-manjaro-pacbang-grub-theme
-manjaro-pacbang-gtk-theme
-manjaro-pacbang-lxdm-theme
+manjaro-flatred-lxdm-theme
 manjaro-pacbang-wallpapers
+
 manjaro-zsh-config
 masalla-icon-theme
 terminus-font
@@ -195,6 +203,7 @@ ttf-shadow-fonts
 ## SETTINGS MANAGEMENT
 kvantum-qt5
 lxappearance-gtk3
+manjaro-settings-manager
 obconf
 qt5-styleplugins
 qt5ct
@@ -211,6 +220,7 @@ gpicview-gtk3
 gsimplecal
 i3lock
 jgmenu
+libnotify
 nitrogen
 numlockx
 picom
@@ -261,7 +271,7 @@ xcursor-vanilla-dmz
 freetype2
 ttf-dejavu
 
-### AUDIO FIRMWARE
+### ALSA AUDIO
 alsa-firmware
 alsa-lib
 alsa-plugins
@@ -287,7 +297,7 @@ xf86-input-libinput
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
-xorg-drivers
+xorg-drivers      # input and display drivers
 xorg-server
 xorg-server-common
 xorg-server-xephyr
