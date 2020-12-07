@@ -28,7 +28,6 @@ deepin-kwin
 deepin-wallpapers-temp-fix
 deepin-terminal
 deepin-turbo
->extra deepin-voice-recorder
 >extra deluge
 dmidecode
 >extra downgrade
@@ -83,7 +82,6 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
->extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
@@ -94,8 +92,9 @@ networkmanager-vpnc
 nss-mdns
 ntp
 openresolv
-pamac
+pamac-gtk
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 patch
 >extra patchutils
 pkg-config
