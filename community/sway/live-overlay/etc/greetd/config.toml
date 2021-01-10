@@ -4,3 +4,7 @@ vt = "next"
 [default_session]
 command = "tuigreet --cmd sway"
 user = "greeter"
+ 
+[initial_session]
+command = "sway"
+user = "manjaro"
