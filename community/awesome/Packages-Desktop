@@ -144,7 +144,6 @@ lxterminal
 >extra light-locker
 network-manager-applet
 >extra menulibre
->extra orage
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -265,5 +264,4 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
->extra compton-conf
 >extra transmission-gtk
