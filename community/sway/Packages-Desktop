@@ -1,5 +1,5 @@
 # Base
-boredland/manjaro-sway-settings-git
+manjaro-sway/manjaro-sway-settings
 
 # Sway Extras
 >extra flashfocus # nicer flashing on focus change
@@ -7,6 +7,7 @@ boredland/manjaro-sway-settings-git
 >extra wlsunset # time & place based light temperature
 >extra kanshi # automatically load matching output profiles
 >extra autotiling # automated tiling
+>extra kitty # advanced terminal application
 
 # Wayland support
 xorg-xwayland # xorg-wayland bridge
@@ -14,14 +15,14 @@ xorg-xwayland # xorg-wayland bridge
 qt5-wayland
 gnome-keyring # unlock keyring on login
 polkit-gnome # polkit for visual superuser access
+>extra xdg-desktop-portal-wlr
+>extra libpipewire02
 
 # Greeter
 greetd
 greetd-tuigreet
 
 # Browser
-w3m
-qutebrowser
 firefox
 firefox-ublock-origin
 
@@ -30,7 +31,7 @@ qt5ct
 kvantum-qt5
 kvantum-theme-matchama
 >extra lxappearance
-gtk3-classic
+gtk3-nocsd
 matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
@@ -38,6 +39,7 @@ grub-theme-manjaro
 
 # File systems access
 ranger
+pcmanfm-gtk3
 >extra file-roller
 
 # Sound, video and bluetooth
@@ -81,10 +83,12 @@ manjaro-hotfixes
 
 # Package Management
 >extra yay
+>extra manjaro-aur-support
 pamac-gtk
 
 # extra
 apparmor
+>extra xdg-user-dirs
 >extra manjaro-printer
 >extra atool
 
@@ -96,4 +100,4 @@ jq
 oh-my-zsh
 tlp
 wget
-wl-clipboard # wayland clipboard application
+>extra wl-clipboard # wayland clipboard application
