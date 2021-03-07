@@ -9,13 +9,13 @@ alsa-firmware
 dmidecode
 gthumb
 evince
-manjaro-log-helper
->extra mntray
+>extra manjaro-log-helper
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
+>extra plymouth-theme-manjaro
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -30,6 +30,7 @@ gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
+gnome-initial-setup
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -44,6 +45,7 @@ gnome-tweak-tool
 >extra gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
+gnome-firmware
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
@@ -86,7 +88,8 @@ manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
->extra gnome-layout-switcher
+gnome-layout-switcher
+manjaro-gnome-postinstall
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
@@ -107,6 +110,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
+>extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
 #>extra flatpak
@@ -152,6 +156,7 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit
@@ -190,3 +195,11 @@ xorg-xinit
 
 >basic lighter-gnome
 >basic disable-tracker
+grub-theme-manjaro
+manjaro-gnome-tour
+
+# Accessibility packages
+espeak-ng
+espeakup
+orca
+qt-at-spi
