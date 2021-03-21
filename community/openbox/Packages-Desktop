@@ -161,7 +161,7 @@ bind-tools
 firewalld
 net-tools
 network-manager-applet
-network-manager-openvpn
+networkmanager-openvpn
 networkmanager
 openresolv
 openssh
