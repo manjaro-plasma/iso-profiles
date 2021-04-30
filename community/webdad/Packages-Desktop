@@ -47,7 +47,6 @@ software-center-web-jak # for url handler's and discover
 >extra lightdm-gtk-greeter-settings
 >extra gufw
 >extra deja-dup
->extra syncthing-gtk
 >extra hardinfo
 >extra gthumb
 >extra evince
@@ -80,7 +79,6 @@ openresolv
 
 ## Base
 manjaro-settings-manager-notifier
-manjaro-jade-settings
 gnome-keyring
 manjaro-hotfixes
 manjaro-hello
