@@ -96,10 +96,8 @@ wallpapers-juhraya
 xcursor-breeze
 
 ## display manager and greeter
-lightdm
-lightdm-slick-greeter
-lightdm-settings
-light-locker
+sddm
+norse-sddm-theme
 
 ## office
 qpdfview
