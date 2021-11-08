@@ -6,10 +6,11 @@ autoconf
 automake
 avahi
 >extra baobab
+#>extra bauh
 binutils
 bison
 >extra blueman
-#cinnamon-panel-chooser
+cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
@@ -19,7 +20,7 @@ dmidecode
 #>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
-#>extra firefox
+>extra firefox
 flatpak
 flex
 gvfs-goa
@@ -121,7 +122,6 @@ pkg-config
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-python2-ptyprocess
 python-ptyprocess
 qt5-styleplugins
 screenfetch
@@ -149,8 +149,6 @@ xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
 xorg-twm
->extra vivaldi
->extra vivaldi-ffmpeg-codecs
 xorg-xinit
 >extra xplayer
 >extra xreader

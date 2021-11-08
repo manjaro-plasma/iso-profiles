@@ -1,3 +1,6 @@
+# All extra packages are also part of netinstaller
+# https://gitlab.manjaro.org/packages/community/jade/calamares/-/blob/master/netinstall-applications.yaml
+
 ## Connect Packages
 >extra android-tools
 >extra android-udev
@@ -14,8 +17,13 @@
 
 
 ## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
 >multilib manjaro-alsa
-manjaro-pipewire
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
 >extra ffmpeg
 >extra grilo-plugins
 >extra gst-libav
@@ -32,15 +40,18 @@ nautilus
 software-center-web-jak # for url handler's and discover
 >extra chromium
 >extra nautilus-admin
+>extra nautilus-empty-file
+>extra dconf-editor
+>extra lxrandr
 >extra vlc
+>extra lightdm-gtk-greeter-settings
 >extra gufw
 >extra deja-dup
->extra syncthing-gtk
 >extra hardinfo
 >extra gthumb
 >extra evince
 >extra geary
->extra code
+gedit
 >extra file-roller
 
 
@@ -67,11 +78,10 @@ openresolv
 
 
 ## Base
-#manjaro-settings-manager-notifier
-manjaro-webdad-settings
+manjaro-settings-manager-notifier
 gnome-keyring
 manjaro-hotfixes
-#manjaro-hello
+manjaro-hello
 >basic squashfs-tools
 >basic disable-tracker
 xdg-user-dirs
@@ -84,7 +94,7 @@ xf86-input-libinput
 xf86-input-void
 xorg-server
 xorg-xinit
-#manjaro-browser-settings
+manjaro-browser-settings
 >extra xf86-input-wacom # Support for tablet and pen display ( wacom ecc. )
 >extra manjaro-settings-manager-notifier
 >extra mousetweaks
@@ -96,20 +106,23 @@ xorg-xinit
 >extra dmidecode
 >extra gtkhash-nautilus
 >extra fprintd #need for finger id reader
+>extra lxqt-powermanagement
+>extra lxappearance-gtk3
+>extra blueberry
 >extra usb_modeswitch
 >extra openssh
 
 # Dependencies for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
 >extra lrzip
+>extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra manjaro-printer
->extra simple-scan 
+>extra simple-scan
 >extra ffmpegthumbnailer
-#>extra kernel-alive
+>extra kernel-alive
 
 
 ## Package management
