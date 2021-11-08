@@ -113,7 +113,6 @@ manjaro-browser-settings
 >extra openssh
 
 # Dependencies for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
@@ -121,7 +120,7 @@ manjaro-browser-settings
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra manjaro-printer
->extra simple-scan 
+>extra simple-scan
 >extra ffmpegthumbnailer
 >extra kernel-alive
 

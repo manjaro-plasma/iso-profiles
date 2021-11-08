@@ -27,7 +27,6 @@ libcanberra
 >multilib lib32-libcanberra
 libcanberra-pulse
 >multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
@@ -78,7 +77,7 @@ pamac-cli
 #discover-snap
 #discover
 #packagekit-qt5
->extra fwupd 
+>extra fwupd
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor

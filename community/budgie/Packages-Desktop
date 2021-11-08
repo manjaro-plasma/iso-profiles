@@ -33,7 +33,6 @@ gnome-settings-daemon
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gnome-screensaver
 gnome-screenshot
 >extra gnome-backgrounds
 grilo-plugins
