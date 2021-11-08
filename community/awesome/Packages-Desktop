@@ -86,6 +86,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra apparmor
 #>extra gnome-software-snap
 >extra flatpak
+>extra bauh
 pamac
 >extra snapd
 >extra snapd-glib
@@ -143,6 +144,7 @@ lxterminal
 >extra light-locker
 network-manager-applet
 >extra menulibre
+>extra orage
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -247,7 +249,7 @@ xorg-server
 >extra xdg-utils
 #>extra xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 >extra gtkhash-thunar
@@ -263,4 +265,5 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
+>extra compton-conf
 >extra transmission-gtk

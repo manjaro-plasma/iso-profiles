@@ -116,20 +116,17 @@ caja-open-terminal
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra mate-themes
-#>extra mate-tweak
+>extra mate-tweak
 >extra mate-screensaver
-#>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
 >extra vlc
 >extra pidgin
 >extra uget
 >extra transmission-gtk
->extra brasero
->extra jre8-openjdk
->extra jre8-openjdk-headless
+>extra onlyoffice-desktopeditors
 timeshift 								#backup utility
->extra kernel-alive 					#after a kernel update this maintain usable the modules
+#>extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
