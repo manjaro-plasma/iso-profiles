@@ -1,18 +1,5 @@
 # OPENBOX PROFILE
 
-###################################################3#
-# file manager (thunar)
-# basic text editing (xed, micro)
-# terminal emulator (sakura, xterm)
-# xorg drivers (graphics, input)
-# audio drivers (alsa)
-# basic audio configuration tools (alsa)
-# web browser (firefox)
-
-## BACKUP - RECOVERY TOOLS
-timeshift
-testdisk
-
 ## PDFVIEW
 qpdfview
 
@@ -22,7 +9,7 @@ micro
 
 ## FILEMANAGER
 mc
-pcmanfm
+pcmanfm-gtk3
 
 ## WEB BROWSER
 firefox
@@ -33,7 +20,6 @@ gparted
 ## NETWORK
 ### CLI UTILS
 arp-scan
-bind-tools
 firewalld
 net-tools
 network-manager-applet
@@ -46,13 +32,8 @@ traceroute
 whois
 
 ## FONTS - THEMING - ICONS - CURSORS
-manjaro-openbox-config
-manjaro-openbox-desktop-settings
 manjaro-openbox-scripts
-manjaro-pacbang-grub-theme
-manjaro-pacbang-gtk-theme
-manjaro-pacbang-wallpapers
-manjaro-zsh-config
+norse-theme
 masalla-icon-theme
 terminus-font
 ttf-font-awesome
@@ -73,20 +54,14 @@ norse-sddm-theme
 
 ## CONFIGURATION DEPENDENCIES
 arandr
-conky-lua-nv
 dunst
 fzf
 gpicview
 gsimplecal
 i3lock
 jgmenu
-kmscon
-libdrm
-libva
-nitrogen
 numlockx
 picom
-polybar
 rofi
 sakura
 skippy-xd
@@ -94,18 +69,6 @@ tint2
 xcape
 xdialog
 zenity
-
-#### POLYBAR DEPENDENCIES
-cairo
-curl
-jsoncpp
-libmpdclient
-libnl
-libpulse
-xcb-util-cursor
-xcb-util-image
-xcb-util-wm
-xcb-util-xrm
 
 ## CORE
 ### WINDOW MANAGER
@@ -117,6 +80,11 @@ obmenu-generator        # pipe menu generator
 openbox                 # window manager
 wmctrl
 
+## alsa
+alsa-utils
+alsa-firmware
+sof-firmware
+
 ### SYSTEM ICON THEMES
 adwaita-icon-theme
 gnome-icon-theme
@@ -126,17 +94,11 @@ gnome-themes-extra
 hicolor-icon-theme
 
 ### SYSTEM CURSOR THEME
-xcursor-vanilla-dmz
+xcursor-pinux
 
 ### SYSTEM FONTS
 freetype2
 ttf-dejavu
-
-### AUDIO FIRMWARE
-alsa-firmware
-alsa-lib
-alsa-plugins
-alsa-utils
 
 ### system
 accountsservice
@@ -151,12 +113,8 @@ squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-zensu
 
 ### XORG
-xf86-input-libinput
-xf86-video-dummy
-xf86-video-fbdev
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
@@ -170,3 +128,13 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xorg-xwininfo
+
+## Xorg drivers
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-vmmouse
+xf86-video-amdgpu
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa
