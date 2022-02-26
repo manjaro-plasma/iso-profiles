@@ -98,7 +98,6 @@ xorg-xinit
 >extra openssh
 
 # Dependencies for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
