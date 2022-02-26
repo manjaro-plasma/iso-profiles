@@ -11,6 +11,7 @@ lightdm-settings
 grub-theme-manjaro
 budgie-desktop
 budgie-extras
+budgie-desktop-view #support for desktop icons
 manjaro-budgie-settings
 papirus-maia-icon-theme
 manjaro-wallpapers-18.0
@@ -33,6 +34,7 @@ gnome-settings-daemon
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
+budgie-screensaver
 gnome-screenshot
 >extra gnome-backgrounds
 grilo-plugins
@@ -59,7 +61,6 @@ gvfs-smb
 inxi
 imagewriter
 kvantum-theme-matcha
-kvantum-theme-matchama
 mc # Midnight Commander
 #pacui
 mhwd-tui
@@ -132,8 +133,7 @@ yelp
 >extra unrar
 >extra unace
 >extra lrzip
->extra gtk3-print-backends
-#>extra libreoffice-fresh
+>extra onlyoffice
 >extra thunderbird
 >extra lollypop
 >extra pidgin
@@ -144,7 +144,7 @@ yelp
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift
->extra kernel-alive
+#>extra kernel-alive
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer

@@ -136,13 +136,13 @@ lxterminal
 >extra blueman
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
 >extra freetype2          # tumbler - for font thumbnails
->extra gksu
 >extra gnome-keyring      # fix wlan segfault
 >extra libgsf             # tumbler - for ODF thumbnails
 >extra libopenraw         # tumbler - for RAW thumbnails
 >extra light-locker
 network-manager-applet
 >extra menulibre
+>extra orage
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -171,7 +171,7 @@ grub-theme-manjaro
 # >extra engrampa  # redundant with file-roller
 >extra firefox
 # >extra flashplugin
->extra galculator
+>extra galculator-gtk2
 >extra gcolor2
 >extra gimp
 >extra gparted
@@ -247,7 +247,7 @@ xorg-server
 >extra xdg-utils
 #>extra xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 >extra gtkhash-thunar
@@ -263,4 +263,5 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
+>extra compton-conf
 >extra transmission-gtk
