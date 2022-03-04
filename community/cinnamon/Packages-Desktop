@@ -33,7 +33,7 @@ ttf-dejavu
 >extra ttf-liberation
 
 ## Games
-
+# ?
 
 ## Package management
 pamac-gtk
@@ -43,37 +43,6 @@ pamac-gtk
 ## Printing
 >extra manjaro-printer
 >system-config-printer             # Optional for cinnamon
-
-## Cinnamon group                  # ?
-cinnamon
-cinnamon-control-center
-cinnamon-desktop
-cinnamon-menus
-cinnamon-screensaver                # Required by cinnamon
-cinnamon-session
-cinnamon-settings-daemon
-cinnamon-sounds
-cinnamon-translations              # Optional for cinnamon
-cjs
-muffin
-nemo
->extra pix
-xed
-xreader
->basic xviewer
->extra xviewer-plugins
-
-## Cinnamon Extra group            # ?
-
-
-## X-App group                     # Pointless ?
-#bulky
-#pix
-#xed
-#xreader
-#xviewer
-#xviewer-plugins
-
 
 ## GNOME group
 >extra baobab
@@ -114,6 +83,15 @@ xcursor-breeze
 >extra apparmor
 >extra bulky
 celluloid
+cinnamon
+cinnamon-control-center
+cinnamon-desktop
+cinnamon-menus
+cinnamon-screensaver                # Required by cinnamon
+cinnamon-session
+cinnamon-settings-daemon
+cinnamon-sounds
+cinnamon-translations              # Optional for cinnamon
 >extra ffmpegthumbnailer
 >basic midori                      # Why?
 >extra gnome-online-accounts       # Optional for cinnamon-control-center, required by gvfs-goa
@@ -131,6 +109,7 @@ manjaro-hello
 manjaro-settings-manager-notifier
 >extra mintstick
 mousetweaks                        # Optional for onboard
+nemo
 >extra nemo-audio-tab
 #>extra nemo-emblems
 >extra nemo-fileroller
@@ -141,6 +120,7 @@ mousetweaks                        # Optional for onboard
 >extra nemo-share
 #>extra nemo-terminal
 #onboard                           # Accessibility keyboard ?
+>extra pix
 redshift
 #>extra seahorse
 #>extra sticky
@@ -158,6 +138,10 @@ redshift
 #>extra xapp-raw-thumbnailer
 xdg-user-dirs-gtk
 xdg-utils
+xed
+xreader
+>basic xviewer
+>extra xviewer-plugins
 
 ## Optional dependencies for file-roller
 >extra p7zip
