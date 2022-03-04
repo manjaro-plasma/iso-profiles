@@ -42,7 +42,7 @@ pamac-gtk
 
 ## Printing
 >extra manjaro-printer
->system-config-printer             # Optional for cinnamon
+system-config-printer             # Optional for cinnamon
 
 ## GNOME group
 >extra baobab
