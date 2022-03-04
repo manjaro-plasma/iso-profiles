@@ -74,7 +74,7 @@ yelp
 ## Themes
 adapta-maia-theme
 cinnamon-wallpapers
-gnome-themes-extra
+gnome-themes-extra                  # Required by cinnamon
 grub-theme-manjaro
 papirus-maia-icon-theme
 xcursor-breeze
@@ -84,12 +84,6 @@ xcursor-breeze
 >extra bulky
 celluloid
 cinnamon
-cinnamon-control-center
-cinnamon-desktop
-cinnamon-menus
-cinnamon-screensaver                # Required by cinnamon
-cinnamon-session
-cinnamon-settings-daemon
 cinnamon-sounds
 cinnamon-translations              # Optional for cinnamon
 >extra ffmpegthumbnailer
@@ -109,7 +103,6 @@ manjaro-hello
 manjaro-settings-manager-notifier
 >extra mintstick
 mousetweaks                        # Optional for onboard
-nemo
 >extra nemo-audio-tab
 #>extra nemo-emblems
 >extra nemo-fileroller
