@@ -1,163 +1,191 @@
-adapta-maia-theme
-alsa-firmware
-alsa-utils
->extra apparmor
-autoconf
-automake
-avahi
->extra baobab
-binutils
-bison
->extra blueman
->extra celluloid
-#cinnamon-panel-chooser
-cinnamon-sounds
-cinnamon-translations
->extra cinnamon-wallpapers
->extra dconf-editor
->extra deluge
-dmidecode
-#>extra etcher
-fakeroot
->extra ffmpegthumbnailer
-#>extra firefox
-flatpak
-flex
-gvfs-goa
-gvfs-google
->extra galculator
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra gcolor2
->extra gimp
->extra git
->extra gnome-disk-utility
-gnome-keyring
->extra gnome-online-accounts
->extra gnome-screenshot
-gnome-system-log
->extra gnome-system-monitor
-gnome-terminal
-gnome-themes-standard
-gnu-free-fonts
->extra gparted
->extra gprename
-grub-theme-manjaro-dev
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra gstreamer
-gtkhash-nemo
->extra gufw
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-htop
->extra hexchat
-icon-naming-utils
-inxi
->extra jre8-openjdk
->extra jre8-openjdk-headless
->multilib lib32-flex
-libtool
->extra libdvdcss
->extra libgsf
-lightdm-settings
-lightdm-slick-greeter
->extra lollypop
-m4
-make
-manjaro-alsa
-manjaro-application-utility
-manjaro-browser-settings
-manjaro-cinnamon-settings
->extra manjaro-documentation-en
-manjaro-hello
-manjaro-hotfixes
->extra manjaro-printer
-manjaro-pulse
-manjaro-settings-manager-notifier
->extra mesa-demos
->basic midori
->extra mobile-broadband-provider-info
->extra modemmanager
->extra mousetweaks
->extra microsoft-office-web-jak
->extra mugshot
->multilib lib32-mesa-demos
-# >extra nemo-bulk-rename
->extra nemo-fileroller
->extra nemo-preview
->extra nemo-python
->extra nemo-share
-netctl
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns
+## Network
+networkmanager
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra network-manager-sstp
+>extra networkmanager-strongswan
+>extra networkmanager-vpnc
 ntp
-numlockx
-openresolv
-openssh
->extra openvpn
->extra p7zip
-pamac
-papirus-maia-icon-theme
->extra parcellite
-patch
->extra patchutils
-pavucontrol
->extra pidgin-libnotify
->extra pix
-pkg-config
->extra poppler-data
->extra popsicle
->extra powertop
-#>extra pragha
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-python-ptyprocess
-screenfetch
->extra snapd
->basic squashfs-tools
->extra subversion
->extra system-config-printer
->extra terminus-font
->extra thunderbird
->extra timeshift
-tree
+#>extra modemmanager               # optional for networkmanager
+openresolv                         # optional for networkmanager
+> extra openssh
+>extra nss-mdns                    # optional for avahi; avahi required by gvfs
+
+## Btrfs
+
+
+## Libraries for Sound/Audio/Video
+#>extra blueberry                   # Optional for cinnamon, will likely be dropped in Mint 21 for blueman
+>extra blueman
+>extra libdvdcss
+>extra manjaro-alsa
+>extra manjaro-gstreamer
+>extra manjaro-pulse
+
+## Fonts
+#>extra terminus-font
+cantarell-fonts
 ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
->extra udiskie
-vi
->extra xcursor-chameleon-pearl-deepin
+
+## Games
+
+
+## Package management
+pamac-gtk
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
+
+## Printing
+>extra manjaro-printer
+>system-config-printer             # Optional for cinnamon
+
+## Cinnamon group                  # ?
+cinnamon
+cinnamon-control-center
+cinnamon-desktop
+cinnamon-menus
+cinnamon-screensaver                # Required by cinnamon
+cinnamon-session
+cinnamon-settings-daemon
+cinnamon-sounds
+cinnamon-translations              # Optional for cinnamon
+cjs
+muffin
+nemo
+>extra pix
+xed
+xreader
+>basic xviewer
+>extra xviewer-plugins
+
+## Cinnamon Extra group            # ?
+
+
+## X-App group                     # Pointless ?
+#bulky
+#pix
+#xed
+#xreader
+#xviewer
+#xviewer-plugins
+
+
+## GNOME group
+>extra baobab
+file-roller
+gnome-calculator
+gnome-calendar
+>extra gnome-characters
+gnome-disk-utility
+>extra gnome-font-viewer
+gnome-keyring
+>extra gnome-logs
+gnome-screenshot
+gnome-system-monitor
+gnome-terminal
+gvfs
+>extra gvfs-afc
+>extra gvfs-goa
+#gvfs-google                       # optional for gnome-online-accounts
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra simple-scan
+yelp
+
+## GNOME extra group
+>extra dconf-editor
+
+## Themes
+adapta-maia-theme
+cinnamon-wallpapers
+gnome-themes-extra
+grub-theme-manjaro
+papirus-maia-icon-theme
+xcursor-breeze
+
+## Applications
+>extra apparmor
+>extra bulky
+celluloid
+>extra ffmpegthumbnailer
+>basic midori                      # Why?
+>extra gnome-online-accounts       # Optional for cinnamon-control-center, required by gvfs-goa
+gnome-system-log
+gparted
+>extra gtkhash-nemo
+>extra gufw
+inxi
+>extra libreoffice-still          # Or onlyoffice-desktopeditors ?
+lightdm
+lightdm-slick-greeter
+lollypop
+manjaro-application-utility
+manjaro-hello
+manjaro-settings-manager-notifier
+>extra mintstick
+mousetweaks                        # Optional for onboard
+>extra nemo-audio-tab
+#>extra nemo-emblems
+>extra nemo-fileroller
+#>extra nemo-image-converter
+#>extra nemo-pastebin
+>extra nemo-preview
+#>extra nemo-seahorse
+>extra nemo-share
+#>extra nemo-terminal
+#onboard                           # Accessibility keyboard ?
+redshift
+#>extra seahorse
+#>extra sticky
+>extra thingy
+>extra thunderbird
+>extra timeshift
+>extra transmission-gtk
+>extra warpinator
+>extra webapp-manager
+>extra vivaldi
+>extra vivaldi-ffmpeg-codecs       # Optional for vivaldi
+>extra xapp-appimage-thumbnailer
+#>extra xapp-epub-thumbnailer
+>extra xapp-mp3-thumbnailer
+#>extra xapp-raw-thumbnailer
 xdg-user-dirs-gtk
 xdg-utils
-xed
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-xf86-input-void
-xorg-twm
->extra vivaldi
->extra vivaldi-ffmpeg-codecs
-xorg-xinit
-#>extra xplayer
->extra xreader
->extra xviewer-plugins
+
+## Optional dependencies for file-roller
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
+>extra squashfs-tools
+
+## Optional dependencies for inxi
+dmidecode
+mesa-utils
+
+## Documentation
+>extra manjaro-documentation-en
+
+## Settings packages
+lightdm-settings
+manjaro-base-skel
+#manjaro-browser-settings
+manjaro-cinnamon-settings
+
+## Xorg Input Drivers
+>extra manjaro-input
+
+## Xorg Server
+numlockx
+xorg-mkfontscale
 xorg-server
-xorg-xhost
-xorg-xkill
->extra xorg-xrandr
->extra yay
-yelp
-zensu
+xorg-twm
+xorg-xinit
+
