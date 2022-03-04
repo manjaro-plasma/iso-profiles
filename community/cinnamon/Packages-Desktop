@@ -86,12 +86,14 @@ cinnamon
 cinnamon-sounds
 cinnamon-translations              # Optional for cinnamon
 >extra ffmpegthumbnailer
->basic midori                      # Why?
+>extra deluge
 >extra gnome-online-accounts       # Optional for cinnamon-control-center, required by gvfs-goa
 gnome-system-log
 gparted
 >extra gtkhash-nemo
 >extra gufw
+>extra hexchat
+htop
 inxi
 >extra libreoffice-still          # Or onlyoffice-desktopeditors ?
 lightdm
@@ -100,6 +102,7 @@ lollypop
 manjaro-application-utility
 manjaro-hello
 manjaro-settings-manager-notifier
+>basic midori
 >extra mintstick
 mousetweaks                        # Optional for onboard
 >extra nemo-audio-tab
@@ -114,12 +117,13 @@ mousetweaks                        # Optional for onboard
 #onboard                           # Accessibility keyboard ?
 >extra pix
 redshift
+screenfetch
 #>extra seahorse
 #>extra sticky
 >extra thingy
 >extra thunderbird
 >extra timeshift
->extra transmission-gtk
+tree
 >extra warpinator
 >extra webapp-manager
 >extra vivaldi
