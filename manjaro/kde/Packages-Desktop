@@ -67,10 +67,10 @@ terminus-font
 pamac-gtk
 pamac-tray-icon-plasma
 pamac-cli
->extra apparmor
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
