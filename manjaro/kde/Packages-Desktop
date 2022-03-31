@@ -81,7 +81,7 @@ packagekit-qt5
 #octopi-repoeditor
 #octopi-notifier-frameworks
 #pamac-qt
-manjaro-application-utility
+#manjaro-application-utility
 
 ## Printing
 >extra manjaro-printer
