@@ -41,14 +41,6 @@ grub-btrfs
 timeshift-autosnap-manjaro
 
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 kamera
 mtpfs
 udiskie
