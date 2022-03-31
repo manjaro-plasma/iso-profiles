@@ -224,7 +224,7 @@ powertop
 #>extra qbittorrent
 neofetch
 systemd-kcm
->extra thunderbird
+#>extra thunderbird
 >extra vlc
 yakuake
 matray
