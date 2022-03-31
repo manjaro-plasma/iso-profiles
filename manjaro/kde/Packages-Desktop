@@ -144,15 +144,14 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
 kfind
 kdeconnect
 okular
->extra >x86_64 kget
->extra >x86_64 libktorrent
+#>extra >x86_64 kget
+#>extra >x86_64 libktorrent
 #>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
@@ -186,14 +185,6 @@ ruby                      # installing new service menus with GHNS
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
-
-## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
