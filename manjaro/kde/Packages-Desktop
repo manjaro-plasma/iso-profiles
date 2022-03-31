@@ -220,7 +220,7 @@ manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
->extra qbittorrent
+#>extra qbittorrent
 neofetch
 systemd-kcm
 >extra thunderbird
