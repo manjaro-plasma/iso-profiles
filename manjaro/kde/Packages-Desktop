@@ -261,7 +261,6 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-zensu
 >extra timeshift
 #>extra kernel-alive
 
