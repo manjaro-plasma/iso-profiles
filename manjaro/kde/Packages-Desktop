@@ -70,7 +70,7 @@ terminus-font
 >extra ttf-droid
 
 ## Package management
->extra appimagelauncher
+#>extra appimagelauncher
 pamac-gtk
 pamac-tray-icon-plasma
 pamac-cli
