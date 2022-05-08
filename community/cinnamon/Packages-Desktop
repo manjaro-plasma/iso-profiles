@@ -42,13 +42,13 @@ pamac-gtk
 
 ## Printing
 >extra manjaro-printer
-system-config-printer             # Optional for cinnamon
+system-config-printer              # Optional for cinnamon
 
 ## GNOME group
 >extra baobab
 file-roller
 gnome-calculator
-gnome-calendar
+#gnome-calendar                    # pulls in gnome-control-center
 >extra gnome-characters
 gnome-disk-utility
 >extra gnome-font-viewer
@@ -88,7 +88,6 @@ cinnamon-translations              # Optional for cinnamon
 >extra ffmpegthumbnailer
 >extra deluge
 >extra gnome-online-accounts       # Optional for cinnamon-control-center, required by gvfs-goa
-gnome-system-log
 gparted
 >extra gtkhash-nemo
 >extra gufw
