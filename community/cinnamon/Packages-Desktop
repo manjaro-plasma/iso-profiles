@@ -46,8 +46,6 @@ system-config-printer              # Optional for cinnamon
 
 ## GNOME group
 >extra baobab
-file-roller
-gnome-calculator
 #gnome-calendar                    # pulls in gnome-control-center
 >extra gnome-characters
 gnome-disk-utility
@@ -60,7 +58,7 @@ gnome-terminal
 gvfs
 >extra gvfs-afc
 >extra gvfs-goa
-#gvfs-google                       # optional for gnome-online-accounts
+>extra gvfs-google                       # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
@@ -87,6 +85,7 @@ cinnamon-sounds
 cinnamon-translations              # Optional for cinnamon
 >extra ffmpegthumbnailer
 >extra deluge
+galculator
 >extra gnome-online-accounts       # Optional for cinnamon-control-center, required by gvfs-goa
 gparted
 >extra gtkhash-nemo
