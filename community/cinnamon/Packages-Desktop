@@ -16,7 +16,7 @@ openresolv                         # optional for networkmanager
 
 
 ## Libraries for Sound/Audio/Video
-#>extra blueberry                   # Optional for cinnamon, will likely be dropped in Mint 21 for blueman
+#>extra blueberry                  # Optional for cinnamon, will likely be dropped in Mint 21 for blueman
 >extra blueman
 >extra libdvdcss
 >extra manjaro-alsa
