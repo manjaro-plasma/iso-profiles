@@ -141,7 +141,6 @@ lxterminal
 >extra light-locker
 network-manager-applet
 >extra menulibre
->extra orage
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -169,7 +168,6 @@ grub-theme-manjaro
 # >extra engrampa  # redundant with file-roller
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
 >extra gcolor2
 >extra gimp
 >extra gparted
@@ -261,6 +259,5 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
->extra compton-conf
 >extra transmission-gtk
 
