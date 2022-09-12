@@ -80,7 +80,6 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
-# >x86_64 >extra steam-manjaro  # removed to reduce iso size (-74MB)
 
 ## Package management
 >extra apparmor
@@ -142,6 +141,7 @@ lxterminal
 >extra light-locker
 network-manager-applet
 >extra menulibre
+>extra orage
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -156,7 +156,6 @@ network-manager-applet
 >extra manjaro-wallpapers-18.0
 # >extra wallpapers-2018  # removed to reduce iso size (-15MB)
 # >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
->extra gnome-icon-theme
 >extra gnome-themes-standard
 grub-theme-manjaro
 >extra matcha-gtk-theme
@@ -170,6 +169,7 @@ grub-theme-manjaro
 # >extra engrampa  # redundant with file-roller
 >extra firefox
 # >extra flashplugin
+>extra galculator-gtk2
 >extra gcolor2
 >extra gimp
 >extra gparted
@@ -261,4 +261,6 @@ ufw  # firewall needs to be in every iso
 >extra downgrade
 >extra bmenu
 >extra compton
+>extra compton-conf
 >extra transmission-gtk
+

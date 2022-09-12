@@ -8,6 +8,7 @@ networkmanager
 >extra networkmanager-vpnc
 ntp
 >extra modemmanager                # optional for networkmanager
+usb_modeswitch                     # Optional for modemmanager
 openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
 >extra nss-mdns                    # optional for avahi; avahi required by gvfs
@@ -20,18 +21,20 @@ btrfsmaintenance
 ## Libraries for Sound/Audio/Video
 >extra manjaro-alsa
 >extra manjaro-gstreamer
+#>extra manjaro-modem              # ?
 >extra manjaro-pulse
 >extra libdvdcss
 
 ## Fonts
 ttf-dejavu
 ttf-droid
+ttf-hack
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-compat
-# >extra noto-fonts-emoji
+>extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
 adobe-source-han-sans-jp-fonts
@@ -39,7 +42,6 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
 ## Games
-#>x86_64 >extra steam-manjaro
 
 ## Package management
 pamac-gtk
@@ -67,14 +69,14 @@ gnome-calculator
 gnome-disk-utility
 >extra gnome-font-viewer
 #yelp                              # required by gnome-user-docs
->extra gnome-logs
->extra gnome-maps
+gnome-logs
+#>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
-gnome-screenshot
-# totem                            # celluloid included instead
->extra gnome-weather
-gdm
+#gnome-screenshot                  # New screenshot tool integrated
+totem
+gnome-weather
+>basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
 gnome-control-center
 gnome-keyring
@@ -88,8 +90,8 @@ gnome-user-docs
 grilo-plugins
 gvfs
 >extra gvfs-afc
-#gvfs-goa                          # optional for gnome-control-center
-#gvfs-google                       # optional for gnome-online-accounts
+#>extra gvfs-goa                   # required by gvfs-google; optional for gnome-control-center
+>extra gvfs-google                 # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
@@ -114,7 +116,7 @@ gnome-terminal
 ## GNOME Extra applications
 >extra dconf-editor
 >extra geary
->extra gnome-tweaks
+gnome-tweaks
 #gnome-usage
 #gnome-sound-recorder
 >extra gnome-todo
@@ -124,8 +126,6 @@ gnome-terminal
 #devhelp
 #gnome-documents
 #evolution                         # geary included instead
-#five-or-more
-#four-in-a-row
 #gnome-games
 #glade
 #gnome-code-assistance
@@ -137,6 +137,8 @@ gnome-terminal
 #sysprof
 
 ## GNOME Extra games
+#five-or-more
+#four-in-a-row
 >extra gnome-chess
 >extra gnome-mines
 >extra iagno
@@ -155,27 +157,37 @@ gnome-terminal
 #tali
 
 ## GNOME Shell Extensions
->extra gnome-shell-extension-x11gestures
->extra gnome-shell-extension-gnome-ui-tune
->extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-dash-to-panel
+>extra gnome-shell-extension-desktop-icons-ng
+>extra gnome-shell-extension-gnome-ui-tune
+>extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-material-shell
+>extra gnome-shell-extension-x11gestures
 
 ## Themes
->extra adwaita-maia
->extra manjaro-gdm-theme
->extra firefox-gnome-theme-maia
+#adwaita-maia
+adw-gtk-theme
+firefox-gnome-theme-maia
+manjaro-gdm-branding
+#manjaro-gdm-theme                 # Needs updating for GNOME 42
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
->extra gnome-wallpapers
->extra papirus-maia-icon-theme
->extra grub-theme-manjaro
->extra manjaro-artwork
+gnome-wallpapers
+papirus-maia-icon-theme
+grub-theme-manjaro
+manjaro-artwork
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 >extra illyria-wallpaper
-qgnomeplatform
+qgnomeplatform-qt5
+qgnomeplatform-qt6
 gnome-themes-extra
+xcursor-breeze
 
 ## Applications
 >extra apparmor
@@ -187,13 +199,13 @@ gthumb
 >extra manjaro-log-helper
 firefox
 >extra gnome-layout-switcher
->extra gtksourceview-pkgbuild #highlight for PKGBUILD
-fprintd #need for finger id reader
-gnome-system-log
+>extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
+fprintd                            # needed for fingerprint reader
 >extra gnome-firmware
 gparted
 >extra seahorse
 >extra gufw
+htop
 ibus
 manjaro-hello
 manjaro-application-utility
@@ -205,12 +217,10 @@ nautilus-empty-file
 >extra onlyoffice-desktopeditors
 polkit-gnome
 >extra timeshift
-usb_modeswitch
 xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
 lollypop
-celluloid
 >extra fragments
 >extra ffmpegthumbnailer
 >extra cheese
@@ -220,13 +230,15 @@ celluloid
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra gnome-appfolders-manager
 >extra gnuchess                    # optional for gnome-chess to play against computer
+gnome-browser-connector
+>extra deja-dup
 
 ## Optional dependencies for file-roller
 >extra p7zip
 >extra unrar
 >extra unace
 >extra lrzip
->basic squashfs-tools
+>extra squashfs-tools
 
 ## Optional dependencies for inxi
 dmidecode
@@ -237,7 +249,8 @@ mesa-utils
 
 ## Settings packages
 manjaro-base-skel
->extra manjaro-gnome-assets
+manjaro-gnome-settings
+>extra manjaro-gnome-extension-settings
 >extra lighter-gnome
 #manjaro-browser-settings
 
@@ -255,4 +268,5 @@ xorg-xinit
 >extra pacui
 # manjaro-ranger-settings          # dependency atool only in AUR
 >extra bmenu
+
 
