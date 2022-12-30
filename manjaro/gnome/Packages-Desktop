@@ -58,7 +58,7 @@ pamac-gtk
 #epiphany                          # Firefox included as default browser
 evince
 file-roller
-#basic gdm                         # gdm-plymouth used instead
+#>basic gdm                        # gdm-plymouth used instead
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -79,7 +79,7 @@ gnome-logs
 #>extra gnome-remote-desktop       # optional for gnome-control-center
 gnome-session
 gnome-settings-daemon
-#gnome-shell                       # custom gnome-shell-maia used
+>basic gnome-shell                 # gnome-shell-maia used only in full edition
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
@@ -163,7 +163,7 @@ gnome-tweaks
 >extra gnome-shell-extension-gtk4-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
->extra gnome-shell-extension-legacy-theme-auto-switcher
+gnome-shell-extension-legacy-theme-auto-switcher
 >extra gnome-shell-extension-material-shell
 >extra gnome-shell-extension-x11gestures
 
@@ -171,22 +171,23 @@ gnome-tweaks
 adw-gtk-theme
 bibata-cursor-theme
 gdm-plymouth
-gnome-shell-maia
+>extra gnome-shell-maia
 gnome-themes-extra
 #gnome-wallpapers
 grub-theme-manjaro
-kvantum-manjaro
+>extra kvantum-manjaro
 #>extra illyria-wallpaper
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
-papirus-maia-icon-theme
+>basic papirus-icon-theme
+>extra papirus-maia-icon-theme
 plymouth-theme-manjaro
-#qgnomeplatform-qt5
-#qgnomeplatform-qt6
-qt5ct
-qt6ct
+>basic qgnomeplatform-qt5
+>basic qgnomeplatform-qt6
+>extra qt5ct
+>extra qt6ct
 #>extra wallpapers-2018
 #>extra wallpapers-juhraya
 
@@ -247,11 +248,12 @@ mesa-utils
 #manjaro-documentation-en
 
 ## Settings packages
->extra lighter-gnome
+#>extra lighter-gnome              # optional for manjaro-gnome-settings
 manjaro-base-skel
 manjaro-browser-settings
 >extra manjaro-gnome-extension-settings
-manjaro-gnome-settings
+>extra manjaro-gnome-settings
+>basic manjaro-gnome-settings-minimal
 
 ## Xorg Input Drivers
 >extra manjaro-input
