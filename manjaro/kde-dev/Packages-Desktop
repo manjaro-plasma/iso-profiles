@@ -31,7 +31,7 @@ manjaro-alsa
 manjaro-gstreamer
 >extra manjaro-modem
 manjaro-pipewire
-phonon-qt5-gstreamer
+phonon-qt6-vlc
 
 ## Btrfs
 grub-btrfs
@@ -71,7 +71,7 @@ pamac-cli
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
-packagekit-qt5
+packagekit-qt6
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -109,19 +109,17 @@ kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
 kwallet-pam
 kwayland-integration
 kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+qt6-virtualkeyboard                # required by plasma-workspace
 kwrited
 milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-simplemenu
-#plasma-wayland-session # seems to need sddm-git
-plasma-workspace
+plasma-systemmonitor               # plasma-meta, replaces ksysguard
+plasma-workspace                   # required by plasma-desktop, etc., replaces plasma-wayland-session
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
@@ -131,7 +129,7 @@ xdg-desktop-portal-kde
 plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
-gnome-themes-standard
+gnome-themes-extra
 oxygen # needed to provide KDE system sounds
 oxygen-icons
 sddm-breath-theme
@@ -158,8 +156,6 @@ okular
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
-khotkeys
-kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
@@ -184,11 +180,8 @@ kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
 
 ## Optional dependencies for gwenview
-kimageformats5     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-
-## Optional dependencies for kaccounts-integration
-kaccounts-providers
+kimageformats                      # support for dds, xcf, exr, psd, and more image formats
+qt6-imageformats                   # support for tiff, webp, and more image formats
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
@@ -210,6 +203,7 @@ dmidecode # for inxi -m output
 firefox
 htop
 inxi
+kaccounts-providers                # required by kio-gdrive
 #>extra krita
 #ms-office-online
 #>extra onlyoffice-desktopeditors
