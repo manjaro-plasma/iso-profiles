@@ -118,7 +118,6 @@ sddm
 sddm-kcm
 
 ## Plasma5
-ocean-sound-theme
 audiocd-kio
 bluedevil
 kde-gtk-config
@@ -150,7 +149,9 @@ plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
 gnome-themes-standard
-oxygen # needed to provide KDE system sounds
+ocean-sound-theme
+oxygen
+oxygen-sounds
 oxygen-icons
 sddm-breath-theme
 grub-theme-manjaro
