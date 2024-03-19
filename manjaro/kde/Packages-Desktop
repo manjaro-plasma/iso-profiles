@@ -45,7 +45,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+#cantarell-fonts          # required by gnome-themes-extra
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -131,7 +131,7 @@ xdg-desktop-portal-kde
 plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
-gnome-themes-standard
+gnome-themes-extra
 oxygen # needed to provide KDE system sounds
 oxygen-icons
 sddm-breath-theme
