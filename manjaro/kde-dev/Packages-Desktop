@@ -217,7 +217,6 @@ plasma-systemmonitor
 powertop
 #>extra qbittorrent
 neofetch
-systemd-kcm
 plymouth-kcm
 #>extra thunderbird
 >extra vlc
