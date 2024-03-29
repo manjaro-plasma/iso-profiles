@@ -162,7 +162,7 @@ manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
 #>basic midori                     # dropped to AUR
 mintstick
 >extra mousetweaks                 # optional for onboard
->extra mugshot
+#>extra mugshot                    # obsolete
 >multilib lib32-mesa-utils         # Why?
 >extra onboard
 >extra parcellite
