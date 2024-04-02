@@ -114,7 +114,7 @@ packagekit-qt5
 sddm
 sddm-kcm
 
-## Plasma5
+## Plasma6
 audiocd-kio
 bluedevil
 kde-gtk-config
@@ -128,13 +128,12 @@ ksshaskpass
 kwallet-pam
 kwayland-integration
 kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+qt6-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
 milou
 plasma-desktop
 plasma-nm
 plasma-pa
-#plasma-simplemenu
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -238,7 +237,6 @@ plasma-systemmonitor
 powertop
 #>extra qbittorrent
 neofetch
-systemd-kcm
 plymouth-kcm
 #>extra thunderbird
 >extra vlc
@@ -248,7 +246,7 @@ yakuake
 #manjaro-documentation-en
 
 ## Settings packages
-#manjaro-kde-settings
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
