@@ -162,7 +162,7 @@ konsole
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager
+#partitionmanager
 >extra print-manager
 >extra skanlite
 spectacle
