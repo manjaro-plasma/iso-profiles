@@ -59,7 +59,6 @@ cinnamon-translations              # optional for various cinnamon packages
 
 ## Nemo extensions
 
-gtkhash-nemo
 #nemo-audio-tab
 #>extra nemo-bulk-rename
 #nemo-compare                      # AUR

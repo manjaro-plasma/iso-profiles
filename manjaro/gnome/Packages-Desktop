@@ -238,7 +238,6 @@ gnome-firmware
 >extra gnome-layout-switcher
 >extra gnuchess                    # optional for gnome-chess to play against computer
 >extra gthumb                      # loupe in minimal edition
-#>extra gtkhash-nautilus           # not compatible with Nautilus 43, collision included instead
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 htop
