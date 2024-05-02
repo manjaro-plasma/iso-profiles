@@ -164,7 +164,7 @@ mintstick
 #>extra mugshot                    # obsolete
 >multilib lib32-mesa-utils         # Why?
 >extra onboard
->extra parcellite
+>extra clipit
 pavucontrol
 >extra poppler-data                # required by gimp
 >extra powertop
