@@ -147,7 +147,6 @@ flatpak
 #>extra gprename                    # required by nemo-bulk-rename
 >extra gufw
 htop
->extra hexchat                     # depends on gtk2, replace?
 icon-naming-utils
 inxi
 >extra libgsf                      # optional for nemo
