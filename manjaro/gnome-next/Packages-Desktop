@@ -97,7 +97,7 @@ gnome-shell
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
-#gnome-text-editor                 # gedit included instead
+gnome-text-editor
 gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
@@ -139,7 +139,7 @@ xdg-user-dirs-gtk
 #evolution                         # thunderbird included instead
 file-roller
 #>extra geary                      # thunderbird included instead
-gedit
+#gedit                             # using gnome-text-editor for now
 #ghex
 #gitg
 #glade
