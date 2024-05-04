@@ -59,7 +59,6 @@ cinnamon-translations              # optional for various cinnamon packages
 
 ## Nemo extensions
 
-gtkhash-nemo
 #nemo-audio-tab
 #>extra nemo-bulk-rename
 #nemo-compare                      # AUR
@@ -148,7 +147,6 @@ flatpak
 #>extra gprename                    # required by nemo-bulk-rename
 >extra gufw
 htop
->extra hexchat                     # depends on gtk2, replace?
 icon-naming-utils
 inxi
 >extra libgsf                      # optional for nemo
@@ -158,14 +156,13 @@ lightdm-slick-greeter              # required by lightdm-settings
 manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
 manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
->extra microsoft-office-web-jak
 #>basic midori                     # dropped to AUR
 mintstick
 >extra mousetweaks                 # optional for onboard
 #>extra mugshot                    # obsolete
 >multilib lib32-mesa-utils         # Why?
 >extra onboard
->extra parcellite
+>extra clipit
 pavucontrol
 >extra poppler-data                # required by gimp
 >extra powertop
