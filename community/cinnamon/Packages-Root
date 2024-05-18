@@ -69,7 +69,6 @@ rsync
 s-nail
 sed
 shadow
-spectre-meltdown-checker
 sudo
 sysfsutils
 systemd-sysvcompat
