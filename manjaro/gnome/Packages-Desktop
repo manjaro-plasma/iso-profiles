@@ -224,7 +224,6 @@ qt6ct
 ## Applications
 
 >extra apparmor
-#>extra caffeine-ng
 >extra collision
 >extra deja-dup
 >extra ffmpegthumbnailer

@@ -218,7 +218,6 @@ qt6ct
 ## Applications
 
 >extra apparmor
->extra caffeine-ng
 >extra collision
 >extra deja-dup
 >extra ffmpegthumbnailer
@@ -238,7 +237,7 @@ gnome-firmware
 htop
 ibus
 inxi
-#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
+#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
 lollypop
 manjaro-application-utility
 #manjaro-gnome-vanilla             # unmaintained, needs updating
