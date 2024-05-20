@@ -244,7 +244,7 @@ ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
 lollypop
-#manjaro-application-utility       # required by manjaro-hello, no need to be explicitly installed
+manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
 manjaro-settings-manager
