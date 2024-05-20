@@ -294,7 +294,7 @@ manjaro-gnome-settings
 ## Xorg Server
 #numlockx                          # not used and not needed
 #xorg-mkfontscale                  # not needed by anything
-xorg-server
+xorg-server                        # required by gdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
-xorg-xinit
+#xorg-xinit                        # not needed by anything
 
