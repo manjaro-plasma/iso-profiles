@@ -246,7 +246,7 @@ inxi
 >basic falkon
 ms-office-online
 >extra libreoffice-fresh
-manjaro-settings-manager-kcm
+#manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent

@@ -254,7 +254,7 @@ libreoffice-still
 #calligra
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-kcm
+#manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
 qbittorrent

@@ -287,7 +287,7 @@ inxi
 #>extra libreoffice-still
 #>extra calligra
 #manjaro-hello
-manjaro-settings-manager-kcm
+#manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
