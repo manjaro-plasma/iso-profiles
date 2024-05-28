@@ -264,6 +264,6 @@ power-profiles-daemon
 >basic squashfs-tools
 
 ## OEM
-calamares
+calamares5
 calamares-oem-modules
 calamares-oem-kde-settings

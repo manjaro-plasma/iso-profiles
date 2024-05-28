@@ -254,5 +254,6 @@ timeshift
 #kernel-alive
 
 ## OEM
+calamares5
 calamares-oem-modules
 calamares-oem-infbkpro-xfce-settings

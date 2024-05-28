@@ -7,7 +7,7 @@ nvidia-utils
 optimus-manager-plasma
 
 ## OEM
-calamares
+calamares5
 calamares-oem-modules
 calamares-oem-kde-settings
 #slimbookintelcontroller # redundant for Hero as it has a dedicated performance button

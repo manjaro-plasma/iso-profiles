@@ -246,7 +246,7 @@ xiccd # enable color profile settings
 tlp
 
 ## OEM
-calamares
+calamares5
 calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
 #starlabs-tweaks
