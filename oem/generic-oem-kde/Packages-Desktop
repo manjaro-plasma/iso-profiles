@@ -26,15 +26,12 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
 libdvdcss
 manjaro-alsa
-manjaro-pulse
-phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
+phonon-qt6-vlc
 
 ## Btrfs
 grub-btrfs
@@ -64,7 +61,7 @@ terminus-font
 
 ## Package management
 #>extra appimagelauncher
-pamac-gtk
+pamac-gtk3
 pamac-tray-icon-plasma
 pamac-cli
 #>extra apparmor
@@ -74,7 +71,7 @@ pamac-cli
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
-packagekit-qt5
+packagekit-qt6
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -112,32 +109,35 @@ kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
 kwallet-pam
 kwayland-integration
 kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+qt6-virtualkeyboard                # required by plasma-workspace
 kwrited
 milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-simplemenu
-#plasma-wayland-session # drop wayland support for now
-plasma-workspace
+plasma-systemmonitor               # plasma-meta, replaces ksysguard
+plasma-workspace                   # required by plasma-desktop, etc., replaces plasma-wayland-session
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
 plasma-browser-integration
 xdg-desktop-portal-kde
+#plasma-welcome
+plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
-gnome-themes-standard
-oxygen # needed to provide KDE system sounds
-oxygen-icons
+gnome-themes-extra
+#oxygen # needed to provide KDE system sounds
+#oxygen-icons
 sddm-breath-theme
 grub-theme-manjaro
+breeze5 # Fore Qt5 Breeze style
 breeze-gtk
+plymouth
+plymouth-theme-manjaro
 
 ## KDE Applications
 ark
@@ -157,15 +157,13 @@ okular
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
-khotkeys
-kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager
+#partitionmanager
 >extra print-manager
 >extra skanlite
 spectacle
@@ -183,11 +181,8 @@ kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
 
 ## Optional dependencies for gwenview
-kimageformats5     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-
-## Optional dependencies for kaccounts-integration
-kaccounts-providers
+kimageformats                      # support for dds, xcf, exr, psd, and more image formats
+qt6-imageformats                   # support for tiff, webp, and more image formats
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
@@ -209,9 +204,10 @@ dmidecode # for inxi -m output
 firefox
 htop
 inxi
+kaccounts-providers                # required by kio-gdrive
 #>extra krita
 #ms-office-online
->extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors
 #>extra freeoffice
 #>extra libreoffice-still
 manjaro-hello
@@ -222,7 +218,7 @@ plasma-systemmonitor
 powertop
 #>extra qbittorrent
 neofetch
-systemd-kcm
+plymouth-kcm
 #>extra thunderbird
 >extra vlc
 yakuake
@@ -243,10 +239,10 @@ xf86-input-void
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+#>multilib lib32-libva-vdpau-driver
 libva-intel-driver
 libva-mesa-driver
-libva-vdpau-driver
+#libva-vdpau-driver
 mesa-utils
 >multilib lib32-mesa-utils
 numlockx
@@ -262,6 +258,7 @@ perl-file-mimeinfo
 xdg-utils
 >extra timeshift
 #>extra kernel-alive
+power-profiles-daemon
 
 ## Misc
 >basic squashfs-tools

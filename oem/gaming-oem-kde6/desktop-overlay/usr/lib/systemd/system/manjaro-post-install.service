@@ -1,9 +1,0 @@
-[Unit]
-Description=Manjaro Post Install.
-
-[Service]
-Type=simple
-ExecStart=/usr/bin/manjaro-post-install
-
-[Install]
-WantedBy=default.target

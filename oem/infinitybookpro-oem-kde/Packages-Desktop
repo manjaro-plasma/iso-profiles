@@ -5,6 +5,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-l2tp
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -25,103 +26,80 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
 libdvdcss
 manjaro-alsa
-manjaro-pulse
-phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
+phonon-qt6-vlc
+
+## Btrfs
+grub-btrfs
+>extra timeshift-autosnap-manjaro
 
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 kamera
 mtpfs
 udiskie
 udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
-# Extra packages for AUR support
-git
-patchutils
-subversion
-
 ## Fonts
+ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-noto-fonts-emoji
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
+>extra noto-fonts-emoji
 terminus-font
-ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
-
-## Games
->x86_64 steam-manjaro
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
 
 ## Package management
-appimagelauncher
-pamac
-pamac-tray-appindicator
+#>extra appimagelauncher
+pamac-gtk3
+pamac-tray-icon-plasma
 pamac-cli
-apparmor
-snapd
-snapd-glib
-pamac-snap-plugin
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 #discover-snap
 #discover
-#packagekit-qt5
-flatpak
-fwupd
+packagekit-qt6
+>extra fwupd 
+#octopi
+#octopi-cachecleaner
+#octopi-repoeditor
+#octopi-notifier-frameworks
 #pamac-qt
-manjaro-application-utility
+#manjaro-application-utility
 
 ## Printing
-manjaro-printer
-gtk3-print-backends
+>extra manjaro-printer
+>extra gtk3-print-backends
 
 ## Optional dependencies for hplip
-python-pillow
-python-pip
-python-pyqt5
-python-reportlab
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
 
 ## Optional dependencies for print-manager
-system-config-printer  # auto-detect the printer driver
-python-pysmbc          # SMB browser support
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
 sddm-kcm
 
 ## Plasma5
+audiocd-kio
 bluedevil
 kde-gtk-config
 kdeplasma-addons
@@ -131,69 +109,63 @@ kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
 kwallet-pam
 kwayland-integration
 kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+qt6-virtualkeyboard                # required by plasma-workspace
 kwrited
 milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-simplemenu
-plasma-workspace
-plasma-workspace-wallpapers
+plasma-systemmonitor               # plasma-meta, replaces ksysguard
+plasma-workspace                   # required by plasma-desktop, etc., replaces plasma-wayland-session
+>extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
-user-manager
+plasma-browser-integration
+xdg-desktop-portal-kde
+#plasma-welcome
+plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
-#breeze
-#breeze-gtk
-gnome-themes-standard
-gtk-theme-breath
-oxygen # needed to provide KDE system sounds
-oxygen-icons
-sddm-breath2-theme
+gnome-themes-extra
+#oxygen # needed to provide KDE system sounds
+#oxygen-icons
+sddm-breath-theme
 grub-theme-manjaro
-illyria-wallpaper
-wallpapers-juhraya
-wallpapers-2018
-manjaro-wallpapers-18.0
-wallpapers-tuxedo
+breeze5 # Fore Qt5 Breeze style
+breeze-gtk
+plymouth
+plymouth-theme-manjaro
 
 ## KDE Applications
 ark
-audiocd-kio
-#digikam
+#>extra digikam
 dolphin
 dolphin-plugins
-filelight
-k3b
+>extra filelight
 kate
 kcalc
-keditbookmarks
+>extra keditbookmarks
 kfind
 kdeconnect
 okular
->x86_64 kget
->x86_64 libktorrent
->i686 kdenetwork-kget
+#>extra >x86_64 kget
+#>extra >x86_64 libktorrent
+#>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
-#kdenlive
+#>extra kdenlive
 khelpcenter
-khotkeys
 kio-extras
-#kleopatra
+#>extra kleopatra
 konsole
-konversation
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager
-print-manager
-skanlite
+#partitionmanager
+>extra print-manager
+>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -201,82 +173,61 @@ p7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#kipi-plugins  # export to various online services
-#hugin         # panorama tool
+#>extra kipi-plugins  # export to various online services
+#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
-kimageformats5     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-
-## Optional dependencies for k3b
-cdparanoia    # for cd ripping support
-cdrdao        # for disk-at-once (DAO) mode support
-dvd+rw-tools  # for dvd burning support
-emovix        # for bootable multimedia cd/dvd support
-transcode     # for advanced mpeg conversion support
-vcdimager     # for vcd burning support
-
-## Optional dependencies for kaccounts-integration
-kaccounts-providers
+kimageformats                      # support for dds, xcf, exr, psd, and more image formats
+qt6-imageformats                   # support for tiff, webp, and more image formats
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#cdrtools         # for creation of DVD ISO images
-#dvdauthor        # for creation of DVD
-#dvgrab           # for firewire capture
-#recordmydesktop  # for screen capture
-#vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#movit            # for GPU video processing
+#>extra cdrtools         # for creation of DVD ISO images
+#>extra dvdauthor        # for creation of DVD
+#>extra dvgrab           # for firewire capture
+#>extra recordmydesktop  # for screen capture
+#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
+#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
-cantata
-crossover
-crossover-extras
+>extra elisa
 dmidecode # for inxi -m output
-htop
-imagewriter
-inxi
-#krita
 firefox
-ms-office-online
-#freeoffice
-libreoffice-still
-#calligra
+htop
+inxi
+kaccounts-providers                # required by kio-gdrive
+#>extra krita
+#ms-office-online
+#>extra onlyoffice-desktopeditors
+#>extra freeoffice
+#>extra libreoffice-still
 manjaro-hello
 manjaro-application-utility
 #manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
+plasma-systemmonitor
 powertop
-qbittorrent
-screenfetch
-systemd-kcm
-thunderbird
-vlc
+#>extra qbittorrent
+neofetch
+plymouth-kcm
+#>extra thunderbird
+>extra vlc
 yakuake
 
-## Optional dependencis for cantata
-mpd       # playback
-perl-uri  # dynamic playlist
-
-## Optional dependencies for libreoffice
-jre8-openjdk
-jdk8-openjdk
-
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
-manjaro-kde-tx-settings
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -288,10 +239,10 @@ xf86-input-void
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+#>multilib lib32-libva-vdpau-driver
 libva-intel-driver
 libva-mesa-driver
-libva-vdpau-driver
+#libva-vdpau-driver
 mesa-utils
 >multilib lib32-mesa-utils
 numlockx
@@ -300,13 +251,14 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
-timeshift
-#kernel-alive
+>extra timeshift
+#>extra kernel-alive
+power-profiles-daemon
 
 ## Misc
 bootsplash-theme-manjaro
