@@ -105,12 +105,15 @@ gnome-weather
 >extra grilo-plugins               # optional for totem
 gvfs
 >extra gvfs-afc
-#>extra gvfs-goa                   # required by gvfs-google
+>extra gvfs-dnssd
+#>extra gvfs-goa                   # required by gvfs-google, optional for gnome-online-accounts
 >extra gvfs-google                 # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
+>extra gvfs-onedrive               # optional for gnome-online-accounts
 >extra gvfs-smb
+>extra gvfs-wsdd
 >basic loupe                       # gthumb in full edition
 >extra malcontent                  # optional for gnome-control-center
 nautilus
@@ -291,7 +294,7 @@ manjaro-gnome-settings
 ## Xorg Server
 #numlockx                          # not used and not needed
 #xorg-mkfontscale                  # not needed by anything
-xorg-server
+xorg-server                        # required by gdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
-xorg-xinit
+#xorg-xinit                        # not needed by anything
 
