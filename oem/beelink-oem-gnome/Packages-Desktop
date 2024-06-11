@@ -209,7 +209,6 @@ gnome-themes-extra                 # optional for gtk2
 grub-theme-manjaro
 kvantum-manjaro
 #>extra illyria-wallpaper
-manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
