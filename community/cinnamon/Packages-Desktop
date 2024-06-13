@@ -136,7 +136,7 @@ qt5ct                              # required by manjaro-cinnamon settings
 >extra celluloid
 >extra deluge
 >extra ffmpegthumbnailer
-#>extra firefox
+firefox
 flatpak
 >extra galculator
 >extra gcolor3
@@ -156,7 +156,6 @@ lightdm-slick-greeter              # required by lightdm-settings
 manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
 manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
-#>basic midori                     # dropped to AUR
 mintstick
 >extra mousetweaks                 # optional for onboard
 #>extra mugshot                    # obsolete

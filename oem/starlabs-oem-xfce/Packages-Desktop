@@ -159,7 +159,7 @@ bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
+firefox
 # >extra flashplugin
 >extra galculator
 gcolor3
@@ -178,7 +178,6 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-#>basic midori                     # dropped to AUR
 >extra mlocate
 mousepad
 mugshot

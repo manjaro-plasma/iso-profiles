@@ -176,7 +176,6 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-#>basic midori                     # dropped to AUR
 >extra mlocate
 mousepad
 mugshot
