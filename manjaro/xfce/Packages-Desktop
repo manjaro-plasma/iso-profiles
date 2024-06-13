@@ -158,7 +158,7 @@ bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
+firefox
 # >extra flashplugin
 >extra galculator
 gcolor3
