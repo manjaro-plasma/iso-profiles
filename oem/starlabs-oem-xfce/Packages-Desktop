@@ -28,11 +28,10 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libdvdcss
->multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+manjaro-alsa
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
 
 ## Connect Packages
 android-tools
@@ -104,7 +103,7 @@ freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
-# light-locker
+# light-locker     # remove it for now as it might double-lock in certain cases
 xfce4-screensaver
 network-manager-applet
 menulibre
@@ -167,13 +166,12 @@ gcolor3
 gparted
 gufw
 >extra audacious
->extra hexchat
 htop
 inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
->extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -216,10 +214,10 @@ xf86-input-void
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+#>multilib lib32-libva-vdpau-driver
 libva-intel-driver
 libva-mesa-driver
-libva-vdpau-driver
+#libva-vdpau-driver
 mesa-utils
 >multilib lib32-mesa-utils
 numlockx
@@ -232,17 +230,16 @@ xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
-xdg-utils
 xdg-desktop-portal-gtk
+xdg-utils
 #xdg-su
 >extra timeshift
 #>extra kernel-alive
 
 ## Misc
-gtkhash-thunar
 >basic squashfs-tools
 xiccd # enable color profile settings
-tlp
+#tlp
 
 ## OEM
 calamares5
