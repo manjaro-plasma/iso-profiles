@@ -248,7 +248,6 @@ manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-manjaro-starter
 #mousetweaks
 >extra nautilus-admin
 nautilus-empty-file
