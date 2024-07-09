@@ -23,8 +23,8 @@ import libcalamares
 import os
 import logging
 import crypt
+from shutil import copytree
 from os.path import join, exists
-from distutils.dir_util import copy_tree
 from libcalamares.utils import target_env_call
 
 
@@ -69,15 +69,19 @@ class ConfigOem:
 
     def copy_folder(self, source, target):
         if exists("/" + source):
-            copy_tree("/" + source, join(self.root, target), preserve_symlinks=1)
+            copytree("/" + source, join(self.root, target), symlinks=True, ignore_dangling_symlinks=True, dirs_exist_ok=True)
 
     def run(self):
         target_env_call(['groupadd', 'autologin'])
-        target_env_call(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', self.groups, 'gamer'])
-        self.change_user_password('gamer', 'gamer')
-        path = os.path.join(self.root, "etc/sudoers.d/g_gamer")
+        target_env_call(['mv', '/etc/skel', '/etc/skel_'])
+        target_env_call(['mv', '/etc/oemskel', '/etc/skel'])
+        target_env_call(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', self.groups, 'oem'])
+        target_env_call(['mv', '/etc/skel', '/etc/oemskel'])
+        target_env_call(['mv', '/etc/skel_', '/etc/skel'])
+        self.change_user_password('oem', 'oem')
+        path = os.path.join(self.root, "etc/sudoers.d/g_oem")
         with open(path, "w") as oem_file:
-            oem_file.write("gamer ALL=(ALL) NOPASSWD: ALL")
+            oem_file.write("oem ALL=(ALL) NOPASSWD: ALL")
 
         # Remove symlinks before copying   
         self.remove_symlink('root')
@@ -88,13 +92,6 @@ class ConfigOem:
         # Enable 'menu_auto_hide' when supported in grubenv
         if exists(join(self.root, "usr/bin/grub-set-bootflag")):
             target_env_call(["grub-editenv", "-", "set", "menu_auto_hide=1", "boot_success=1"])
-
-        # Remove unneeded ucode
-        cpu_ucode = target_env_call(["hwinfo", "--cpu", "|", "grep", "Vendor:", "-m1", "|", "cut", "-d\'\"\'", "-f2"])
-        if cpu_ucode == "AuthenticAMD":
-            self.remove_pkg("intel-ucode", "boot/intel-ucode.img")
-        elif cpu_ucode == "GenuineIntel":
-            self.remove_pkg("amd-ucode", "boot/amd-ucode.img")
 
         return None
 
