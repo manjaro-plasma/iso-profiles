@@ -75,13 +75,13 @@ class ConfigOem:
         target_env_call(['groupadd', 'autologin'])
         target_env_call(['mv', '/etc/skel', '/etc/skel_'])
         target_env_call(['mv', '/etc/oemskel', '/etc/skel'])
-        target_env_call(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', self.groups, 'oem'])
+        target_env_call(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', self.groups, 'gamer'])
         target_env_call(['mv', '/etc/skel', '/etc/oemskel'])
         target_env_call(['mv', '/etc/skel_', '/etc/skel'])
-        self.change_user_password('oem', 'oem')
-        path = os.path.join(self.root, "etc/sudoers.d/g_oem")
+        self.change_user_password('gamer', 'gamer')
+        path = os.path.join(self.root, "etc/sudoers.d/g_gamer")
         with open(path, "w") as oem_file:
-            oem_file.write("oem ALL=(ALL) NOPASSWD: ALL")
+            oem_file.write("gamer ALL=(ALL) NOPASSWD: ALL")
 
         # Remove symlinks before copying   
         self.remove_symlink('root')
