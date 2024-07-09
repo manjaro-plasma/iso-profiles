@@ -5,6 +5,6 @@ mkinitcpio-nfs-utils
 nbd
 
 ## OEM
-calamares
+calamares5
 calamares-oem-modules
 calamares-oem-kde-settings
