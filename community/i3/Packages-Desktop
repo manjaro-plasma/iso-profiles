@@ -27,7 +27,7 @@ fakeroot
 >extra flac
 flex
 >extra gcc
-gcolor3
+gcolor3-xorg
 #gconf
 >extra gimp
 >extra git

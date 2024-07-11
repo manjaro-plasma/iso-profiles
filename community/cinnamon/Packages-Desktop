@@ -139,7 +139,7 @@ qt5ct                              # required by manjaro-cinnamon settings
 >basic firefox                     # vivaldi included in full edition
 flatpak
 >extra galculator
->extra gcolor3
+>extra gcolor3-xorg
 >extra gimp
 >extra gnome-online-accounts       # optional for cinnamon-control-center, required by gnome-control-center
 >extra gnome-screenshot
