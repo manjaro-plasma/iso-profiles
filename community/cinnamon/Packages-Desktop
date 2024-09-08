@@ -27,6 +27,7 @@ manjaro-pipewire
 
 cantarell-fonts                    # required by manjaro-cinnamon settings
 gnu-free-fonts                     # required by vivaldi
+noto-fonts-cjk
 >extra terminus-font
 ttf-comfortaa                      # required by manjaro-cinnamon settings
 ttf-dejavu                         # required by thunderbird
