@@ -69,9 +69,6 @@ pamac-cli
 #>extra snapd-glib
 #>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
-#discover-snap
-#discover
-packagekit-qt6
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
