@@ -33,6 +33,8 @@ KERNEL-acpi_call
 >multilib lib32-gamemode
 >extra opengamepadui-bin
 >extra opengamepadui-session-git
+>extra inputplumber-bin
+>extra powerstation-bin
 >extra winetricks
 >extra discord
 >extra mangohud
