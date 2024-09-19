@@ -125,7 +125,7 @@ sushi
 #tecla                             # required by gnome-control-center
 totem
 tracker3-miners
-xdg-desktop-portal-gnome
+#xdg-desktop-portal-gnome          # required by gnome-session
 xdg-user-dirs-gtk
 #yelp                              # required by gnome-user-docs
 
