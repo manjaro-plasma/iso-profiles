@@ -1,5 +1,6 @@
 ## Network
 
+>extra manjaro-modem
 networkmanager                     # optional for gnome-control-center
 >extra networkmanager-openconnect
 >extra networkmanager-openvpn
@@ -27,7 +28,6 @@ grub-btrfs
 >extra libdvdcss
 >extra manjaro-alsa
 >extra manjaro-gstreamer
->extra manjaro-modem
 >extra manjaro-pipewire
 
 
