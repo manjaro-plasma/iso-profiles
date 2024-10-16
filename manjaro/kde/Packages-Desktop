@@ -10,7 +10,6 @@ nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
 modemmanager
-openresolv
 openssh
 samba
 usb_modeswitch

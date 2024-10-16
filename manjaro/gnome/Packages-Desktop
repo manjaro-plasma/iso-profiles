@@ -11,7 +11,6 @@ networkmanager                     # optional for gnome-control-center
 >extra modemmanager                # optional for networkmanager
 >extra nss-mdns                    # optional for avahi; avahi required by gvfs
 #ntp
-openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
 #usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
 

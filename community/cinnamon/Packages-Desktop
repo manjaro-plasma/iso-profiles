@@ -9,7 +9,6 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns                           # optional for avahi
 ntp
-openresolv                         # optional for networkmanager
 openssh                            # required by gnome-keyring
 >extra openvpn                     # required by networkmanager-openvpn
 
