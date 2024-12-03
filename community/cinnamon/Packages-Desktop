@@ -37,7 +37,7 @@ ttf-dejavu                         # required by thunderbird
 
 
 ## Package management
-pamac-gtk3
+pamac-gtk
 >extra pamac-flatpak-plugin
 #>extra pamac-snap-plugin
 
