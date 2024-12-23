@@ -4,7 +4,7 @@ nvidia-prime
 nvidia-settings
 nvidia-utils
 >multilib lib32-nvidia-utils
-optimus-manager-plasma
+plasma6-applets-optimus-gpu-switcher
 
 ## OEM
 calamares5
