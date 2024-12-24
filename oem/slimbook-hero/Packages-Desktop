@@ -115,8 +115,7 @@ pamac-cli
 #>extra snapd-glib
 #>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
->extra fwupd 
-#pamac-qt
+>extra fwupd
 #manjaro-application-utility
 
 ## Printing
