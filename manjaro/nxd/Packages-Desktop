@@ -94,10 +94,6 @@ pamac-cli
 >extra pamac-snap-plugin
 >extra flatpak
 >extra fwupd
-#octopi
-#octopi-cachecleaner
-#octopi-repoeditor
-#octopi-notifier-frameworks
 #pamac-qt
 manjaro-application-utility
 

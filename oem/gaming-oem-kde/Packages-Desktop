@@ -84,11 +84,7 @@ pamac-cli
 #>extra snapd-glib
 #>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
->extra fwupd 
-#octopi
-#octopi-cachecleaner
-#octopi-repoeditor
-#octopi-notifier-frameworks
+>extra fwupd
 #pamac-qt
 #manjaro-application-utility
 

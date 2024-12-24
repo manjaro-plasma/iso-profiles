@@ -86,10 +86,6 @@ terminus-font
 ## Package managemen
 flatpak
 #fwupd
-octopi
-octopi-cachecleaner
-octopi-repoeditor
-octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
 
