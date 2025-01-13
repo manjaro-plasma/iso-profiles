@@ -3,7 +3,6 @@ avahi
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
-networkmanager-pptp
 networkmanager-vpnc
 networkmanager-l2tp
 nss-mdns # NSS support for mDNS (optdepend for avahi)

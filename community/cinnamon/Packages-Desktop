@@ -5,7 +5,6 @@ avahi                              # required by gvfs
 netctl
 networkmanager-openconnect
 networkmanager-openvpn
-networkmanager-pptp
 networkmanager-vpnc
 nss-mdns                           # optional for avahi
 ntp
