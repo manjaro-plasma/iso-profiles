@@ -78,6 +78,7 @@ cinnamon-translations              # optional for various cinnamon packages
 ## X-Apps group
 
 >extra bulky
+gnome-online-accounts-gtk
 >extra pix
 #sticky
 #thingy
@@ -142,7 +143,6 @@ flatpak
 >extra galculator
 >extra gcolor3
 >extra gimp
->extra gnome-online-accounts       # optional for cinnamon-control-center, required by gnome-control-center
 >extra gnome-screenshot
 >extra gparted
 #>extra gprename                    # required by nemo-bulk-rename
