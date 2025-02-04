@@ -227,7 +227,6 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra python-pysmbc          # SMB browser support
 
 ## Applications
-appimagelauncher
 #>extra cantata
 dmidecode # for inxi -m output
 htop

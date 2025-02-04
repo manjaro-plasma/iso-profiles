@@ -83,7 +83,6 @@ terminus-font
 ## Games
 
 ## Package management
-#appimagelauncher
 pamac-gtk
 pamac-tray-appindicator
 pamac-cli

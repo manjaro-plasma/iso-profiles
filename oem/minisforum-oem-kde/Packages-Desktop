@@ -58,7 +58,6 @@ terminus-font
 >extra ttf-droid
 
 ## Package management
-#>extra appimagelauncher
 pamac-gtk3
 pamac-tray-icon-plasma
 pamac-cli
