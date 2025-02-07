@@ -62,7 +62,6 @@ pciutils
 perl
 procps-ng
 psmisc
-reiserfsprogs
 rsync
 s-nail
 sed
