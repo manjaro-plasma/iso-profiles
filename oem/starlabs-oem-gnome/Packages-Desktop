@@ -119,7 +119,7 @@ nautilus
 sushi
 #tecla                             # required by gnome-control-center
 totem
-tracker3-miners
+#tracker3-miners
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 #yelp                              # required by gnome-user-docs
@@ -186,7 +186,7 @@ gnome-tweaks
 
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arc-menu
->extra gnome-shell-extension-custom-accent-colors
+#>extra gnome-shell-extension-custom-accent-colors
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
 >extra gnome-shell-extension-forge
