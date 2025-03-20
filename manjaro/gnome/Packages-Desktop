@@ -123,7 +123,7 @@ sushi
 #tecla                             # required by gnome-control-center
 totem
 #xdg-desktop-portal-gnome          # required by gnome-session
-xdg-user-dirs-gtk                  # will be required by nautilus with next version
+#xdg-user-dirs-gtk                 # required by nautilus
 #yelp                              # required by gnome-user-docs
 
 
