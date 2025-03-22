@@ -70,7 +70,7 @@ pamac-gtk
 >extra baobab
 decibels
 #epiphany                          # Firefox included as default browser
-evince
+evince                             # required by sushi; evince soon to be replaced by papers
 gdm
 gnome-backgrounds
 gnome-calculator
