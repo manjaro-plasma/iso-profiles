@@ -31,24 +31,13 @@ grub-btrfs
 
 ## Fonts
 
-#adobe-source-code-pro-fonts       # required by gsettings-desktop-schemas
-#adobe-source-han-sans-cn-fonts
-#adobe-source-han-sans-hk-fonts
-#adobe-source-han-sans-jp-fonts
-#adobe-source-han-sans-kr-fonts
-#adobe-source-han-sans-otc-fonts
-#adobe-source-han-sans-tw-fonts
-#adobe-source-sans-fonts
+#adwaita-fonts                     # required by gsettings-desktop-schemas
 noto-fonts                         # default font
 >extra noto-fonts-cjk              # Asian fonts, optional for noto-fonts
 >extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
 >extra noto-fonts-extra            # additional languages, optional for noto-fonts
-#ttf-dejavu                        # required by firefox
-#ttf-droid                         # required by firefox
 ttf-hack                           # default monspace font
-#ttf-inconsolata
 >extra ttf-indic-otf               # India fonts
-#ttf-liberation                    # required by firefox
 
 
 ## Package management
