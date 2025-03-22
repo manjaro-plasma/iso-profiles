@@ -68,6 +68,7 @@ pamac-gtk
 ## GNOME group
 
 >extra baobab
+decibels
 #epiphany                          # Firefox included as default browser
 evince
 gdm
