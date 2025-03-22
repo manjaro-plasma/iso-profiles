@@ -78,7 +78,7 @@ gnome-calendar
 gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
-#gnome-console                     # gnome-terminal included instead
+gnome-console
 >extra gnome-contacts
 gnome-control-center
 gnome-disk-utility
@@ -154,7 +154,7 @@ file-roller
 #gnome-photos
 #gnome-recipes
 #gnome-sound-recorder
-gnome-terminal
+#gnome-terminal                   # gnome-console used instead
 gnome-tweaks
 #gnome-usage
 #polari
