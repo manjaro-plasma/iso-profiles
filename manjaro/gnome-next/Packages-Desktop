@@ -150,7 +150,6 @@ file-roller
 #gnome-dictionary
 #gnome-games
 #gnome-multi-writer
-#gnome-nettool
 #gnome-notes
 #gnome-photos
 #gnome-recipes
@@ -165,8 +164,6 @@ gnome-tweaks
 
 ## GNOME Extra games
 
-#five-or-more
-#four-in-a-row
 #gnome-2048
 >extra gnome-chess
 #gnome-klotski
