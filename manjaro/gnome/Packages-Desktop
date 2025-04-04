@@ -31,24 +31,13 @@ grub-btrfs
 
 ## Fonts
 
-#adobe-source-code-pro-fonts       # required by gsettings-desktop-schemas
-#adobe-source-han-sans-cn-fonts
-#adobe-source-han-sans-hk-fonts
-#adobe-source-han-sans-jp-fonts
-#adobe-source-han-sans-kr-fonts
-#adobe-source-han-sans-otc-fonts
-#adobe-source-han-sans-tw-fonts
-#adobe-source-sans-fonts
+#adwaita-fonts                     # required by gsettings-desktop-schemas
 noto-fonts                         # default font
 >extra noto-fonts-cjk              # Asian fonts, optional for noto-fonts
 >extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
 >extra noto-fonts-extra            # additional languages, optional for noto-fonts
-#ttf-dejavu                        # required by firefox
-#ttf-droid                         # required by firefox
-ttf-hack                           # default monspace font
-#ttf-inconsolata
+ttf-hack-nerd                      # default monospace font
 >extra ttf-indic-otf               # India fonts
-#ttf-liberation                    # required by firefox
 
 
 ## Package management
@@ -68,8 +57,9 @@ pamac-gtk
 ## GNOME group
 
 >extra baobab
+decibels
 #epiphany                          # Firefox included as default browser
-evince
+evince                             # required by sushi; evince soon to be replaced by papers
 gdm
 gnome-backgrounds
 gnome-calculator
@@ -78,7 +68,7 @@ gnome-calendar
 gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
-#gnome-console                     # gnome-terminal included instead
+gnome-console
 >extra gnome-contacts
 gnome-control-center
 gnome-disk-utility
@@ -149,12 +139,11 @@ file-roller
 #gnome-dictionary
 #gnome-games
 #gnome-multi-writer
-#gnome-nettool
 #gnome-notes
 #gnome-photos
 #gnome-recipes
 #gnome-sound-recorder
-gnome-terminal
+#gnome-terminal                   # gnome-console used instead
 gnome-tweaks
 #gnome-usage
 #polari
@@ -164,8 +153,6 @@ gnome-tweaks
 
 ## GNOME Extra games
 
-#five-or-more
-#four-in-a-row
 #gnome-2048
 >extra gnome-chess
 #gnome-klotski
