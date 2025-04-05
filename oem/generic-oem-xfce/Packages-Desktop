@@ -238,6 +238,6 @@ xiccd # enable color profile settings
 tlp
 
 ## OEM
-calamares5
+calamares
 calamares-oem-modules
 calamares-oem-xfce-settings

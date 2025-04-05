@@ -251,7 +251,7 @@ power-profiles-daemon
 >basic squashfs-tools
 
 ## OEM
-calamares5
+calamares
 calamares-oem-modules
 calamares-oem-starlabs-kde-settings
 #starlabs-tweaks

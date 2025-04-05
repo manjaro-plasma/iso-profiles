@@ -255,6 +255,6 @@ power-profiles-daemon
 >extra xdg-desktop-portal-kde
 
 ## OEM
-calamares5
+calamares
 calamares-oem-modules
 calamares-oem-kde-settings
