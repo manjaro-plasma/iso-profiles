@@ -133,7 +133,7 @@ w3m
 >extra wallpapers-juhraya
 wmutils
 >extra xarchiver
-xautolock
+#xautolock  ## dropped to AUR             
 >extra xcursor-maia
 xdg-utils
 xdotool
