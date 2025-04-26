@@ -29,6 +29,7 @@ inetutils
 intel-ucode
 jfsutils
 KERNEL
+KERNEL-headers
 less
 logrotate
 lvm2

@@ -1,18 +1,26 @@
 ## Hardware Specific
-handygccs-git #not needed when OGUI-QAM is used
-game-devices-udev
+asusctl
+device-quirks-git
+dmidecode
+evtest
+gamescope-display-spec-zotac
+gamescope-plus
+gamescope-session-steam-plus-git
+ryzenadj
+ryzen_smu-dkms
+inputplumber-git
 
 ## Games
 >extra protonutils
 >extra protonup-qt
 >extra steam
->extra steam-deckify
+>extra decklike
 >extra gamescope-plus
 >extra gamemode
 >multilib lib32-gamemode
 >extra opengamepadui-git
 >extra opengamepadui-session-git
->extra powerstation-bin
+>extra powerstation-git
 
 ## Network
 avahi
