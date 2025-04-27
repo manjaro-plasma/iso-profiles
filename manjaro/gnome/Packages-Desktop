@@ -238,6 +238,7 @@ manjaro-settings-manager-notifier
 #mousetweaks
 >extra nautilus-admin
 nautilus-empty-file
+nautilus-open-any-terminal
 #>extra onlyoffice-desktopeditors  # office program is chosen during install
 #polkit-gnome                      # deprecated
 power-profiles-daemon              # optional for gnome-control-center
