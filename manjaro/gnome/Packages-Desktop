@@ -37,6 +37,7 @@ noto-fonts                         # default font
 >extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
 >extra noto-fonts-extra            # additional languages, optional for noto-fonts
 ttf-hack-nerd                      # default monospace font
+ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-config
 >extra ttf-indic-otf               # India fonts
 
 
