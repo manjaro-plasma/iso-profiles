@@ -249,19 +249,24 @@ power-profiles-daemon              # optional for gnome-control-center
 >extra webapp-manager
 #xdg-utils                         # already a dependency of anything that requires it
 
+
 ## Optional dependencies for file-roller
->extra lrzip
->extra p7zip
+>extra 7zip
 >extra squashfs-tools
 >extra unace
 >extra unrar
+#>extra unzip                      # required by gnome-shell
+>extra zip
+
 
 ## Optional dependencies for inxi
 dmidecode
 mesa-utils
 
+
 ## Documentation
 #manjaro-documentation-en
+
 
 ## Settings packages
 #>extra lighter-gnome
@@ -271,8 +276,10 @@ manjaro-browser-settings
 manjaro-gnome-settings
 >extra manjaro-settings-samba
 
+
 ## Xorg Input Drivers
 >extra manjaro-input
+
 
 ## Xorg Server
 #numlockx                          # not used and not needed

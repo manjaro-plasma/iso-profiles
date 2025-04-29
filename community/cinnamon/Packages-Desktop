@@ -140,6 +140,7 @@ qt5ct                              # required by manjaro-cinnamon settings
 >extra celluloid
 >extra deluge
 >extra ffmpegthumbnailer
+file-roller
 >basic firefox                     # vivaldi included in full edition
 flatpak
 >extra galculator
@@ -183,11 +184,12 @@ xdg-utils
 zensu                              # Why?
 
 ## Optional dependencies for file-roller
->extra p7zip
->extra unrar
->extra unace
->extra lrzip
+>extra 7zip
 >extra squashfs-tools
+>extra unace
+>extra unrar
+>extra unzip
+>extra zip
 
 
 ## Optional dependencies for inxi
