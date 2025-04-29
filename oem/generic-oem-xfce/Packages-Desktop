@@ -233,7 +233,6 @@ xdg-utils
 
 ## Misc
 gtkhash-thunar
->basic squashfs-tools
 xiccd # enable color profile settings
 tlp
 
@@ -241,3 +240,6 @@ tlp
 calamares
 calamares-oem-modules
 calamares-oem-xfce-settings
+
+## Misc
+

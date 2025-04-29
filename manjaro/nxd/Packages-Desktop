@@ -331,7 +331,7 @@ xdg-utils
 #>extra kernel-alive
 
 ## Misc
->basic squashfs-tools
+
 
 ## Flatpak support
 >extra flatpak
