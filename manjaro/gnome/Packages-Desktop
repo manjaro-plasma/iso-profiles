@@ -32,10 +32,11 @@ grub-btrfs
 ## Fonts
 
 #adwaita-fonts                     # required by gsettings-desktop-schemas
-noto-fonts                         # default font
+noto-fonts                         # default font, provides ttf-font
 >extra noto-fonts-cjk              # Asian fonts, optional for noto-fonts
 >extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
 >extra noto-fonts-extra            # additional languages, optional for noto-fonts
+>extra ttf-dejavu                  # provides ttf-font, improved Arabic fonts
 ttf-hack-nerd                      # default monospace font
 ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-config
 >extra ttf-indic-otf               # India fonts

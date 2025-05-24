@@ -68,7 +68,7 @@ noto-fonts-cjk         # big package, ~76 mb compressed
 noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
+ttf-dejavu               # provides ttf-font, improved Arabic fonts
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation

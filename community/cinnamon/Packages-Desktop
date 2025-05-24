@@ -23,16 +23,16 @@ manjaro-pipewire
 
 ## Fonts
 
-cantarell-fonts                    # required by manjaro-cinnamon settings
+cantarell-fonts                    # required by manjaro-cinnamon-settings
 gnu-free-fonts                     # required by vivaldi
 noto-fonts-cjk
 >extra terminus-font
 ttf-comfortaa                      # required by manjaro-cinnamon settings
-ttf-dejavu                         # required by thunderbird
->extra ttf-droid                   # required by thunderbird
+ttf-dejavu
+>extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
->extra ttf-liberation              # required by thunderbird
+>extra ttf-liberation
 
 
 ## Package management
