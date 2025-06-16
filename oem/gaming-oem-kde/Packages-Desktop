@@ -232,7 +232,7 @@ manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
 #>extra qbittorrent
-neofetch
+fastfetch
 plymouth-kcm
 #>extra thunderbird
 >extra vlc
