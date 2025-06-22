@@ -201,8 +201,9 @@ kaccounts-providers                # required by kio-gdrive
 #>extra libreoffice-still
 manjaro-hello
 manjaro-application-utility
+manjaro-settings-manager
 #manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
+#manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
 #>extra qbittorrent
@@ -239,6 +240,7 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
+plasma-x11-session
 
 ## Desktop Utils
 perl-file-mimeinfo
