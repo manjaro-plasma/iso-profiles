@@ -14,7 +14,7 @@ calamares-oem-kde-settings
 slimbook-qc71-dkms
 slimbook-rgb-keyboard
 slimbook_service
-slimbookbattery 
+#slimbookbattery 
 KERNEL-headers
 KERNEL-acpi_call
 
