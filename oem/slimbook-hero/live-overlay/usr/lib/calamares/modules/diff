@@ -1,0 +1,52 @@
+--- main.py	2025-05-01 14:52:21.155734375 +0200
++++ oemuser/main.py	2025-06-26 14:59:23.799579371 +0200
+@@ -24,7 +24,7 @@ import os
+ import logging
+ import hashlib
+ import secrets
+-from shutil import copytree
++from shutil import copy2, copytree
+ from os.path import join, exists
+ from libcalamares.utils import target_env_call
+ 
+@@ -33,8 +33,8 @@ class ConfigOem:
+     def __init__(self):
+         self.__root = libcalamares.globalstorage.value("rootMountPoint")
+         self.__groups = 'video,audio,power,disk,storage,optical,network,lp,scanner,wheel,autologin'
+-        libcalamares.globalstorage.insert("autoLoginUser", "oem")
+-        libcalamares.globalstorage.insert("username", "oem")
++        libcalamares.globalstorage.insert("autoLoginUser", "gamer")
++        libcalamares.globalstorage.insert("username", "gamer")
+ 
+     @property
+     def root(self):
+@@ -70,6 +70,10 @@ class ConfigOem:
+                 if os.path.islink(path):
+                     os.unlink(path)
+ 
++    def copy_file(self, file):
++        if exists("/" + file):
++            copy2("/" + file, join(self.root, file))
++
+     def copy_folder(self, source, target):
+         if exists("/" + source):
+             copytree("/" + source, join(self.root, target), symlinks=True, ignore_dangling_symlinks=True,
+@@ -87,12 +91,17 @@ class ConfigOem:
+         with open(path, "w") as oem_file:
+             oem_file.write("oem ALL=(ALL) NOPASSWD: ALL")
+ 
+-        # Remove symlinks before copying
++        # Remove symlinks before copying   
+         self.remove_symlink('root')
+ 
+         # Copy skel to root
+         self.copy_folder('etc/skel', 'root')
+ 
++        # Workaround for BTRFS amd-ucode.img bug
++        # https://gitlab.manjaro.org/release-plan/calamares/-/issues/2
++        # We have to copy the amd-ucode.img from the live-session over to target
++        self.copy_file('boot/amd-ucode.img')
++
+         # Enable 'menu_auto_hide' when supported in grubenv
+         if exists(join(self.root, "usr/bin/grub-set-bootflag")):
+             target_env_call(["grub-editenv", "-", "set", "menu_auto_hide=1", "boot_success=1"])
