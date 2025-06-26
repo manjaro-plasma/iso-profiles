@@ -41,7 +41,7 @@ KERNEL-acpi_call
 
 ## Proprietary bundles
 >extra crossover
->extra crossover-extras
+#>extra crossover-extras
 
 #### Regular Profile
 
