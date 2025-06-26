@@ -292,4 +292,4 @@ perl-file-mimeinfo
 xdg-utils
 >extra timeshift
 #>extra kernel-alive
-power-profiles-daemon
+#power-profiles-daemon
