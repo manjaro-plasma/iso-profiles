@@ -31,10 +31,10 @@ KERNEL-acpi_call
 #>extra gamescope-session-git
 >extra gamemode
 >multilib lib32-gamemode
->extra opengamepadui-bin
+>extra opengamepadui-git
 >extra opengamepadui-session-git
->extra inputplumber-bin
->extra powerstation-bin
+>extra inputplumber-git
+>extra powerstation-git
 >extra winetricks
 >extra discord
 >extra mangohud

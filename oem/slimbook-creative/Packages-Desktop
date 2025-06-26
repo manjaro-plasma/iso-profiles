@@ -10,7 +10,7 @@ plasma6-applets-optimus-gpu-switcher
 calamares
 calamares-oem-modules
 calamares-oem-kde-settings
-#slimbookintelcontroller # redundant for Hero as it has a dedicated performance button
+#slimbookamdcontroller # redundant for Creative as it has a dedicated performance button
 slimbook-qc71-dkms
 slimbook-rgb-keyboard
 slimbook_service
@@ -31,10 +31,10 @@ KERNEL-acpi_call
 #>extra gamescope-session-git
 >extra gamemode
 >multilib lib32-gamemode
->extra opengamepadui-bin
+>extra opengamepadui-git
 >extra opengamepadui-session-git
->extra inputplumber-bin
->extra powerstation-bin
+>extra inputplumber-git
+>extra powerstation-git
 >extra winetricks
 >extra discord
 >extra mangohud
