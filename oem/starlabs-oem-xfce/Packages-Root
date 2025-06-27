@@ -53,6 +53,7 @@ inetutils
 intel-ucode
 jfsutils
 KERNEL
+linux-firmware
 less
 logrotate
 lvm2
