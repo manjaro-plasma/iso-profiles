@@ -15,6 +15,7 @@ inputplumber-git
 >extra protonup-qt
 >extra steam
 >extra decklike
+>extra os-session-select-opengamepadui
 >extra gamescope-plus
 >extra gamemode
 >multilib lib32-gamemode
