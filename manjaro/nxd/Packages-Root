@@ -39,6 +39,7 @@ iproute2
 iputils
 jfsutils
 KERNEL
+linux-firmware
 less
 licenses
 logrotate

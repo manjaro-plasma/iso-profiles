@@ -8,6 +8,7 @@ gcc-libs
 glibc
 grub-quiet
 KERNEL
+linux-firmware
 lsb-release
 >manjaro manjaro-release
 systemd-sysvcompat
