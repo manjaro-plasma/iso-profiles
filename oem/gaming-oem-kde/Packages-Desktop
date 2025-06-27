@@ -1,18 +1,25 @@
 ## Hardware Specific
-#handygccs-git #not needed when OGUI-QAM is used
-game-devices-udev
+asusctl
+device-quirks-git
+dmidecode
+evtest
+ryzenadj
+ryzen_smu-dkms
+>extra inputplumber-git
 
 ## Games
 >extra protonutils
 >extra protonup-qt
->extra steam
->extra decklike
+>extra steam-installer
+>extra manjaro-handheld
+>extra gamescope-session-steam-bigpicture-git
+>extra os-session-select-opengamepadui
 >extra gamescope-plus
 >extra gamemode
 >multilib lib32-gamemode
 >extra opengamepadui-git
 >extra opengamepadui-session-git
->extra powerstation-bin
+>extra powerstation-git
 
 ## Network
 avahi
@@ -277,4 +284,5 @@ xdg-utils
 power-profiles-daemon
 
 ## Misc
+>basic squashfs-tools
 qt5-tools
