@@ -270,11 +270,13 @@ xorg-mkfontscale
 #spirv-tools
 vulkan-headers
 vulkan-radeon
+vulkan-mesa-layers
 #vulkan-intel
 vulkan-tools
 #vkd3d
 >multilib lib32-vulkan-radeon
 #>multilib lib32-vulkan-intel
+>multilib lib32-vulkan-mesa-layers
 
 ## Desktop Utils
 perl-file-mimeinfo
