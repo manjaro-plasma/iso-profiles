@@ -28,6 +28,7 @@ haveged
 inetutils
 intel-ucode
 jfsutils
+linux-firmware
 KERNEL
 KERNEL-headers
 less
