@@ -33,8 +33,6 @@ class ConfigOem:
     def __init__(self):
         self.__root = libcalamares.globalstorage.value("rootMountPoint")
         self.__groups = 'video,audio,power,disk,storage,optical,network,lp,scanner,wheel,autologin'
-        libcalamares.globalstorage.insert("autoLoginUser", "gamer")
-        libcalamares.globalstorage.insert("username", "gamer")
 
     @property
     def root(self):
