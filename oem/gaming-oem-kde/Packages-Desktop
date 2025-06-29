@@ -181,6 +181,7 @@ steam-installer
 steam-removable-media-git
 umu-launcher
 rare
+brightnessctl
 
 # Multilib
 lib32-gamemode
