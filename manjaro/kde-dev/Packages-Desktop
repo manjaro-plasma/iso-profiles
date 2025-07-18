@@ -205,7 +205,7 @@ kaccounts-providers                # required by kio-gdrive
 #>extra libreoffice-still
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 #manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
