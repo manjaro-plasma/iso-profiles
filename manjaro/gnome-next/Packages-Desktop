@@ -121,7 +121,6 @@ totem
 ## GNOME Extra applications
 
 #accerciser
-#cheese                            # snapshot included instead
 #d-spy                             # developer tools
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
