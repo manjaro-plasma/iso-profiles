@@ -121,7 +121,7 @@ totem
 ## GNOME Extra applications
 
 #accerciser
-#chatty
+#chatty                            # gnome-mobile
 #d-spy                             # developer tools
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
@@ -134,6 +134,7 @@ file-roller
 #gitg
 #glade
 >extra gnome-boxes                 # developer tools
+#gnome-calls                       # gnome-mobile
 #gnome-builder                     # developer tools
 #gnome-multi-writer
 #gnome-notes
