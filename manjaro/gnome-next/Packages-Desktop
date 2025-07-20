@@ -138,7 +138,6 @@ file-roller
 #gnome-notes
 #gnome-recipes
 #gnome-sound-recorder
-#gnome-terminal                   # gnome-console used instead
 gnome-tweaks
 #gnome-usage
 #polari
@@ -219,6 +218,7 @@ gnome-firmware
 #gnome-games
 >extra gnome-layout-switcher
 #gnome-photos
+#gnome-terminal
 >extra gnuchess                    # optional for gnome-chess to play against computer
 #>extra gthumb
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
