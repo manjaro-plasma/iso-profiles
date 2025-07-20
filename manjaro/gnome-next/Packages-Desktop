@@ -138,7 +138,6 @@ file-roller
 #gnome-builder                     # developer tools
 #gnome-devel-docs
 #gnome-dictionary
-#gnome-games
 #gnome-multi-writer
 #gnome-notes
 #gnome-photos
@@ -221,6 +220,7 @@ fprintd                            # needed for fingerprint reader, optional for
 >extra fragments
 gnome-browser-connector
 gnome-firmware
+#gnome-games
 >extra gnome-layout-switcher
 >extra gnuchess                    # optional for gnome-chess to play against computer
 >extra gthumb                      # loupe in minimal edition
