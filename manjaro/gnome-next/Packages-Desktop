@@ -128,7 +128,6 @@ totem
 >extra endeavour
 #evolution                         # thunderbird included instead
 file-roller
-#>extra geary                      # thunderbird included instead
 #gedit                             # using gnome-text-editor for now
 #ghex
 #gitg
