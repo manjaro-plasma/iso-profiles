@@ -96,6 +96,15 @@ class ConfigOem:
         # We have to copy the amd-ucode.img from the live-session over to target
         self.copy_file('boot/amd-ucode.img')
 
+        # There is a nasty bug in *something*, probably grub and BTRFS, that causes us to be completely
+        # unable to boot once the system is installed with a kernel higher than 6.12
+        # https://codeberg.org/Calamares/calamares/issues/2440
+        # We have to do some nasty dd nonsense to fix it
+        # TODO remove me when this is fixed
+        if exists(join(self.root, "usr/bin/dd")):
+            # Create temporary directory, copy /boot/vmlinuz-* to it, copy back with dd
+            target_env_call(["sh", "-c", 'mkdir -p /tmp/vmlinuz-hack && mv /boot/vmlinuz-* /tmp/vmlinuz-hack/ && find /tmp/vmlinuz-hack/ -maxdepth 1 -type f -exec sh -c \'dd if="$1" of="/boot/$(basename "$1")"\' sh {} \;'])
+
         # Enable 'menu_auto_hide' when supported in grubenv
         if exists(join(self.root, "usr/bin/grub-set-bootflag")):
             target_env_call(["grub-editenv", "-", "set", "menu_auto_hide=1", "boot_success=1"])
