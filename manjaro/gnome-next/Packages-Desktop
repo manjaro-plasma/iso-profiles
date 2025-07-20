@@ -125,7 +125,6 @@ totem
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
 >extra endeavour
-#eog                               # loupe included instead
 #evolution                         # thunderbird included instead
 file-roller
 #>extra geary                      # thunderbird included instead
@@ -208,6 +207,7 @@ qt6ct
 >extra apparmor
 >extra collision
 >extra deja-dup
+#eog
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
