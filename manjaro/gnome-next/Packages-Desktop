@@ -79,7 +79,7 @@ gnome-disk-utility
 gnome-logs
 >extra gnome-maps
 #gnome-menus                       # optional for gnome-shell-extension-arc-menu
-#gnome-music                       # lollypop included instead
+gnome-music
 >extra gnome-remote-desktop        # optional for gnome-control-center
 #gnome-session                     # required by gdm & gnome-shell
 #gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
@@ -227,7 +227,7 @@ htop
 ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
-lollypop
+#lollypop
 manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
