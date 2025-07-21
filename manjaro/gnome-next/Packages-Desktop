@@ -150,7 +150,6 @@ gnome-tweaks
 #gnome-nibbles
 #gnome-robots
 #gnome-sudoku
->extra iagno
 #lightsoff
 >extra quadrapassel
 #swell-foop
@@ -216,6 +215,7 @@ gnome-firmware
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 htop
+>extra iagno
 ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
