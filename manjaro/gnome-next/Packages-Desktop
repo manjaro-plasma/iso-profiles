@@ -125,7 +125,6 @@ totem
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
 >extra endeavour
-#evolution                         # thunderbird included instead
 file-roller
 #gedit                             # using gnome-text-editor for now
 #ghex
@@ -195,6 +194,7 @@ qt6ct
 >extra collision
 >extra deja-dup
 #eog
+#evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
