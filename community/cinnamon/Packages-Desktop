@@ -78,6 +78,7 @@ cinnamon-translations              # optional for various cinnamon packages
 ## X-Apps group
 
 >extra bulky
+fingwit
 gnome-online-accounts-gtk
 >extra pix
 #sticky
