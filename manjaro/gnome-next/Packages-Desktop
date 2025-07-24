@@ -153,6 +153,8 @@ gnome-tweaks
 
 
 ## GNOME Circle group
+
+>extra fragments
 #gnome-podcasts
 
 
@@ -204,7 +206,6 @@ qt6ct
 firefox
 fprintd                            # needed for fingerprint reader, optional for gdm
 #fwupd                             # required by gnome-firmware, optional for gnome-control-center
->extra fragments
 gnome-browser-connector
 gnome-firmware
 #gnome-games
