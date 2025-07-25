@@ -158,6 +158,7 @@ gnome-tweaks
 #binary
 #bustle
 #commit
+>extra deja-dup
 #elastic
 #emblem
 #forge-sparks
@@ -215,7 +216,6 @@ qt6ct
 
 >extra apparmor
 >extra collision
->extra deja-dup
 #eog
 #evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
