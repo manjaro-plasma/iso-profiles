@@ -135,7 +135,6 @@ file-roller
 #gnome-sound-recorder
 gnome-tweaks
 #gnome-usage
-#polari
 #sysprof                           # developer tools
 
 
@@ -164,6 +163,7 @@ gnome-tweaks
 #gaphor
 #gnome-podcasts
 #newsflash
+#polari
 #share-preview
 #webfont-kit-generator
 
