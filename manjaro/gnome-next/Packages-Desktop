@@ -228,7 +228,6 @@ qt6ct
 
 >extra apparmor
 >extra collision
-#eog
 #evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
