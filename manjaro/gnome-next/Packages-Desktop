@@ -187,7 +187,7 @@ gnome-tweaks
 #resources
 #share-preview
 #switcheroo
-#tangram
+>extra tangram
 #textpieces
 #tuba
 #valuta
@@ -275,7 +275,6 @@ power-profiles-daemon              # optional for gnome-control-center
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
 #>extra touche                     # only works with Xorg
->extra webapp-manager
 #xdg-utils                         # already a dependency of anything that requires it
 
 
