@@ -161,6 +161,7 @@ gnome-tweaks
 #blanket
 #bustle
 #citations
+>extra collision
 #commit
 #curtail
 #eartag
@@ -237,7 +238,6 @@ qt6ct
 ## Applications
 
 >extra apparmor
->extra collision
 #evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
