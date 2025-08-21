@@ -128,7 +128,6 @@ totem
 file-roller
 #gedit                             # using gnome-text-editor for now
 #ghex
-#glade
 >extra gnome-boxes                 # developer tools
 #gnome-calls                       # gnome-mobile
 #gnome-builder                     # developer tools
