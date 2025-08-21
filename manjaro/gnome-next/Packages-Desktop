@@ -129,8 +129,8 @@ file-roller
 #gedit                             # using gnome-text-editor for now
 #ghex
 >extra gnome-boxes                 # developer tools
-#gnome-calls                       # gnome-mobile
 #gnome-builder                     # developer tools
+#gnome-calls                       # gnome-mobile
 #gnome-sound-recorder
 gnome-tweaks
 #gnome-usage
