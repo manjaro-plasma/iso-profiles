@@ -1,0 +1,28 @@
+# -*- mode: ini -*-
+
+# SPDX-FileCopyrightText: 2025 Kristen McWilliam <kristen@kde.org>
+#
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+# systemd service file for loading the KDE Initial System Setup application
+#
+# This service instructs kde-initial-system-setup to run in first user mode,
+# which is used to set up the initial user account and perform first-run tasks.
+#
+# This service is intended to be enabled after the system installation if 
+# new user setup is desired, and will be disabled after the initial user is created.
+#
+# systemd/system/kde-initial-system-setup.service
+
+[Unit]
+Description=KDE Initial System Setup First Run
+After=systemd-user-sessions.service plymouth-quit.service systemd-logind.service
+Before=display-manager.service
+
+[Service]
+Type=oneshot
+ExecStartPre=-/usr/bin/plymouth quit --retain-splash
+ExecStart=/usr/lib/libexec/kde-initial-system-setup-bootutil --first-run
+
+[Install]
+WantedBy=multi-user.target
