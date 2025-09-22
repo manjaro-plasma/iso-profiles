@@ -91,7 +91,7 @@ gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 gnome-weather
->extra grilo-plugins               # optional for totem
+#>extra grilo-plugins               # required by gnome-music, optional for totem
 gvfs
 >extra gvfs-afc
 >extra gvfs-dnssd
@@ -109,11 +109,12 @@ nautilus
 #orca
 papers
 >extra rygel                       # optional for gnome-control-center
+showtime
 >extra simple-scan
 >extra snapshot
 #sushi
 #tecla                             # required by gnome-control-center
-totem
+#totem
 #xdg-desktop-portal-gnome          # required by gnome-session
 #xdg-user-dirs-gtk                 # required by nautilus
 #yelp                              # required by gnome-user-docs
