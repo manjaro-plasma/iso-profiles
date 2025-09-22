@@ -61,7 +61,7 @@ pamac-gtk
 >extra baobab
 decibels
 #epiphany                          # Firefox included as default browser
-evince                             # required by sushi; evince soon to be replaced by papers
+#evince                             # required by sushi
 gdm
 gnome-backgrounds
 gnome-calculator
@@ -107,10 +107,11 @@ loupe
 malcontent                         # optional for gnome-control-center
 nautilus
 #orca
+papers
 >extra rygel                       # optional for gnome-control-center
 >extra simple-scan
 >extra snapshot
-sushi
+#sushi
 #tecla                             # required by gnome-control-center
 totem
 #xdg-desktop-portal-gnome          # required by gnome-session
