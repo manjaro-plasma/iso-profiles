@@ -228,7 +228,6 @@ gnome-shell-extensions
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
 >extra gnome-shell-extension-space-bar
-#>extra gnome-shell-extension-x11gestures  # not updated for GNOME 48
 
 
 ## Themes
