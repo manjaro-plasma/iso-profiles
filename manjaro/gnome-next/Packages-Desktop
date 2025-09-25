@@ -61,7 +61,6 @@ pamac-gtk
 >extra baobab
 decibels
 #epiphany                          # Firefox included as default browser
-#evince                             # required by sushi
 gdm
 gnome-backgrounds
 gnome-calculator
@@ -252,6 +251,7 @@ qt6ct
 ## Applications
 
 >extra apparmor
+#evince                            # required by sushi
 #evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
@@ -329,7 +329,7 @@ manjaro-gnome-settings
 ## Xorg Server
 #numlockx                          # not used and not needed
 #xorg-mkfontscale                  # not needed by anything
-xorg-server                        # required by gdm
+xorg-server                        # optional for libgdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
 #xorg-xinit                        # not needed by anything
 
