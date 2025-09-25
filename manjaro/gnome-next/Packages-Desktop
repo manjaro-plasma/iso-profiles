@@ -270,9 +270,9 @@ gnome-firmware
 >extra gufw
 htop
 >extra iagno
-ibus
+#ibus                              # required by gnome-shell
 inxi
-#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
+#>extra libappindicator-gtk3       # no longer required?
 #lollypop
 manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
