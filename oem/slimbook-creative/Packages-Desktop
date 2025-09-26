@@ -256,7 +256,7 @@ powertop
 fastfetch
 plymouth-kcm
 #>extra thunderbird
->extra vlc
+#>extra vlc
 yakuake
 
 ## Documentation
