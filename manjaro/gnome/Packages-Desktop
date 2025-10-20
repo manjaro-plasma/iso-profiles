@@ -247,6 +247,7 @@ power-profiles-daemon              # optional for gnome-control-center
 #tlp                               # conflicts with power-profiles-daemon
 #>extra touche                     # only works with Xorg
 >extra webapp-manager
+wl-clipboard                       # optional for micro, required for clipboard functionality on Wayland
 #xdg-utils                         # already a dependency of anything that requires it
 
 
