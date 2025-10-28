@@ -191,7 +191,7 @@ gnome-tweaks
 
 adw-gtk-theme
 bibata-cursor-theme
-gnome-themes-extra                 # optional for gtk2
+gnome-themes-extra
 #gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro
