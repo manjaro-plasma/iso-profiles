@@ -46,7 +46,6 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -143,7 +142,6 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft

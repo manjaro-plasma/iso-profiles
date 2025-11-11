@@ -70,7 +70,6 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -177,7 +176,6 @@ startup-notification # needed for waterfox
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-themes-standard
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
