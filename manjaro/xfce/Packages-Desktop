@@ -48,12 +48,16 @@ udisks2
 ttf-dejavu
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-emoji  # optional for noto-fonts
+>extra noto-fonts-extra  # additional languages, optional for noto-fonts
 adobe-source-sans-pro-fonts
 # adobe-source-han-sans-jp-fonts
 # adobe-source-han-sans-kr-fonts
 # adobe-source-han-sans-cn-fonts
 # >extra noto-fonts-emoji
 terminus-font
+ttf-hack-nerd                      # default monospace font
+ttf-meslo-nerd-font-powerlevel10k  # default font for manjaro-zsh-config
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
