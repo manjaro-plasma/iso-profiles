@@ -61,7 +61,6 @@ pamac-gtk
 >extra baobab
 decibels
 #epiphany                          # Firefox included as default browser
-evince                             # required by sushi; evince soon to be replaced by papers
 gdm
 gnome-backgrounds
 gnome-calculator
@@ -78,13 +77,12 @@ gnome-disk-utility
 #gnome-keyring                     # required by xdg-desktop-portal-gnome
 gnome-logs
 >extra gnome-maps
-#gnome-menus                       # optional for gnome-shell-extension-arc-menu
-#gnome-music                       # lollypop included instead
+#gnome-menus                       # required by gnome-shell-extension-arc-menu
+gnome-music
 >extra gnome-remote-desktop        # optional for gnome-control-center
 #gnome-session                     # required by gdm & gnome-shell
 #gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
 gnome-shell
-gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
 gnome-text-editor
@@ -92,7 +90,7 @@ gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 gnome-weather
->extra grilo-plugins               # optional for totem
+#>extra grilo-plugins               # required by gnome-music, optional for totem
 gvfs
 >extra gvfs-afc
 >extra gvfs-dnssd
@@ -104,16 +102,17 @@ gvfs
 >extra gvfs-onedrive               # optional for gnome-online-accounts
 >extra gvfs-smb
 >extra gvfs-wsdd
->basic loupe                       # gthumb in full edition
+loupe
 malcontent                         # optional for gnome-control-center
 nautilus
 #orca
+papers
 >extra rygel                       # optional for gnome-control-center
+showtime
 >extra simple-scan
 >extra snapshot
-sushi
+#sushi
 #tecla                             # required by gnome-control-center
-totem
 #xdg-desktop-portal-gnome          # required by gnome-session
 #xdg-user-dirs-gtk                 # required by nautilus
 #yelp                              # required by gnome-user-docs
@@ -121,60 +120,102 @@ totem
 
 ## GNOME Extra applications
 
-#accerciser
-#cheese                            # snapshot included instead
+#chatty                            # gnome-mobile
 #d-spy                             # developer tools
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
 >extra endeavour
-#eog                               # loupe included instead
-#evolution                         # thunderbird included instead
 file-roller
-#>extra geary                      # thunderbird included instead
-#gedit                             # using gnome-text-editor for now
 #ghex
-#gitg
-#glade
 >extra gnome-boxes                 # developer tools
 #gnome-builder                     # developer tools
-#gnome-devel-docs
-#gnome-dictionary
-#gnome-games
-#gnome-multi-writer
-#gnome-notes
-#gnome-photos
-#gnome-recipes
+#gnome-calls                       # gnome-mobile
 #gnome-sound-recorder
-#gnome-terminal                   # gnome-console used instead
 gnome-tweaks
 #gnome-usage
-#polari
->extra seahorse
 #sysprof                           # developer tools
 
 
 ## GNOME Extra games
 
-#gnome-2048
 >extra gnome-chess
-#gnome-klotski
 #gnome-mahjongg
 >extra gnome-mines
 #gnome-nibbles
 #gnome-robots
 #gnome-sudoku
-#gnome-taquin
-#gnome-tetravex
-#hitori
->extra iagno
 #lightsoff
 >extra quadrapassel
 #swell-foop
-#tali
+
+
+## GNOME Circle group
+
+#amberol
+#apostrophe
+#audio-sharing
+#authenticator
+#biblioteca
+#binary
+#blanket
+#bustle
+#cartridges
+#chess-clock
+#citations
+#clairvoyant
+>extra collision
+#commit
+#curtail
+#decoder
+>extra deja-dup
+#dialect
+#eartag
+#elastic
+#eyedropper
+#emblem
+#errands
+#forge-sparks
+>extra fragments
+#fretboard
+#gaphor
+#gnome-podcasts
+#graphs
+#health
+#hieroglyphic
+#identity
+#impression
+#iotas
+#junction
+#komikku
+#letterpress
+#lorem
+#mousai
+#newsflash
+#obfuscate
+#paper-clip
+#pika-backup
+#polari
+#raider
+#railway
+#resources
+#secrets
+#share-preview
+#shortwave
+#solanum
+#switcheroo
+#tangram
+#textpieces
+#tuba
+#valuta
+#video-trimmer
+#warp
+#webfont-kit-generator
+#wike
 
 
 ## GNOME Shell Extensions
 
+gnome-shell-extensions
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arc-menu
 >extra gnome-shell-extension-dash-to-dock
@@ -196,7 +237,6 @@ gnome-themes-extra
 grub-theme-manjaro
 kvantum-manjaro
 #>extra illyria-wallpaper
-#manjaro-gdm-theme                 # Needs updating for GNOME 42
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
@@ -210,26 +250,30 @@ qt6ct
 ## Applications
 
 >extra apparmor
->extra collision
->extra deja-dup
+#evince                            # required by sushi
+#evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
 fprintd                            # needed for fingerprint reader, optional for gdm
 #fwupd                             # required by gnome-firmware, optional for gnome-control-center
->extra fragments
+#gedit                             # using gnome-text-editor
 gnome-browser-connector
 gnome-firmware
+#gnome-games
 >extra gnome-layout-switcher
+#gnome-photos
+#gnome-terminal
 >extra gnuchess                    # optional for gnome-chess to play against computer
->extra gthumb                      # loupe in minimal edition
+#>extra gthumb
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 htop
-ibus
+>extra iagno
+#ibus                              # required by gnome-shell
 inxi
-#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
-lollypop
+#>extra libappindicator-gtk3       # no longer required?
+#lollypop
 manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
@@ -242,9 +286,11 @@ nautilus-open-any-terminal
 #>extra onlyoffice-desktopeditors  # office program is chosen during install
 #polkit-gnome                      # deprecated
 power-profiles-daemon              # optional for gnome-control-center
+>extra seahorse
 >extra thunderbird
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
+#totem                             # replaced with showtime
 #>extra touche                     # only works with Xorg
 >extra webapp-manager
 wl-clipboard                       # optional for micro, required for clipboard functionality on Wayland
@@ -281,10 +327,11 @@ manjaro-gnome-settings
 ## Xorg Input Drivers
 >extra manjaro-input
 
+
 ## Xorg Server
 #numlockx                          # not used and not needed
 #xorg-mkfontscale                  # not needed by anything
-xorg-server                        # required by gdm
+xorg-server                        # optional for libgdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
 #xorg-xinit                        # not needed by anything
 
