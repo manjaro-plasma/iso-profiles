@@ -23,7 +23,7 @@ manjaro-pipewire
 
 ## Fonts
 
-cantarell-fonts                    # required by manjaro-cinnamon-settings
+#adwaita-icon-theme                # required by gtk3 & gtk4
 gnu-free-fonts                     # required by vivaldi
 noto-fonts-cjk
 >extra terminus-font
