@@ -67,7 +67,7 @@ cinnamon-translations              # optional for various cinnamon packages
 >extra nemo-fileroller
 #nemo-image-converter
 #nemo-pastebin
->extra nemo-preview
+# >extra nemo-preview              # AUR
 >extra nemo-python
 #nemo-repairer                     # AUR
 #nemo-seahorse
