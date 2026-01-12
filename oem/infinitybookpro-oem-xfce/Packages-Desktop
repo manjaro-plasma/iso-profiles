@@ -62,7 +62,6 @@ patchutils
 subversion
 
 ## Fonts
-cantarell-fonts
 noto-fonts             # default font
 noto-fonts-cjk         # big package, ~76 mb compressed
 noto-fonts-emoji
