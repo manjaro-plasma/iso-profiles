@@ -128,9 +128,9 @@ class ConfigController:
             target_env_call(["sh", "-c", 'mkdir -p /tmp/vmlinuz-hack && mv /boot/vmlinuz-* /tmp/vmlinuz-hack/ && find /tmp/vmlinuz-hack/ -maxdepth 1 -type f -exec sh -c \'dd if="$1" of="/boot/$(basename "$1")"\' sh {} \;'])
 
         # Enable KDE Initial System Setup when available
-        if exists(join(self.root, "usr/lib/libexec/kde-initial-system-setup-bootutil")):
+        if exists(join(self.root, "usr/lib/lib/plasma-setup-bootutil")):
             target_env_call(["systemd-sysusers"])
-            target_env_call(["systemctl", "enable", "kde-initial-system-setup.service"])
+            target_env_call(["systemctl", "enable", "plasma-setup.service"])
             target_env_call(["ln", "-sfv", "/usr/share/zoneinfo/Etc/UTC", "/etc/localtime"])
 
         # Enable 'menu_auto_hide' when supported in grubenv
