@@ -225,6 +225,7 @@ gnome-shell-extensions
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-papirus-folders-colorizer
 >extra gnome-shell-extension-space-bar
 
 
