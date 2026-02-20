@@ -131,6 +131,7 @@ mint-themes                        # required by manjaro-cinnamon settings
 mint-y-icons
 papirus-maia-icon-theme            # required by manjaro-cinnamon settings
 #plymouth-theme-manjaro-cinnamon   # optional for manjaro-cinnamon settings
+qt5ct
 qt6ct                              # required by manjaro-cinnamon settings
 
 
