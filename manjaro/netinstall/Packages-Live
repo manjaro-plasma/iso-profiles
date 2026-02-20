@@ -4,7 +4,7 @@ KERNEL-broadcom-wl
 KERNEL-r8168
 #KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
-breeze-cursors5
+breeze-cursors
 manjaro-live-skel
 mkinitcpio-nfs-utils
 nbd
