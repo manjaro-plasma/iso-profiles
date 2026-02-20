@@ -103,7 +103,7 @@ pkg-config
 polkit-gnome
 >extra poppler-data
 powertop
-qt5ct
+qt6ct
 ranger
 sbxkb
 screenfetch
