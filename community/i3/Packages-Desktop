@@ -21,6 +21,7 @@ dmidecode
 >extra downgrade
 mupdf
 fakeroot
+firefox
 >extra ffmpeg
 >extra ffmpegthumbnailer
 >extra flac
@@ -93,7 +94,6 @@ nss-mdns
 ntp
 openssh
 p7zip
-palemoon
 pamac
 patch
 patchutils
