@@ -94,8 +94,7 @@ gnome-weather
 gvfs
 >extra gvfs-afc
 >extra gvfs-dnssd
-#>extra gvfs-goa                   # required by gvfs-google, optional for gnome-online-accounts
->extra gvfs-google                 # optional for gnome-online-accounts
+>extra gvfs-goa                   # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
