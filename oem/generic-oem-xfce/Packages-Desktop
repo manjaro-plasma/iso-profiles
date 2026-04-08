@@ -108,12 +108,10 @@ menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin

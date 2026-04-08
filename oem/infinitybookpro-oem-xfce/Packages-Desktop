@@ -123,12 +123,10 @@ orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
