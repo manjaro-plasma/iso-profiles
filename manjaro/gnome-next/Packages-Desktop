@@ -325,14 +325,3 @@ manjaro-gnome-settings
 >extra manjaro-settings-samba
 
 
-## Xorg Input Drivers
->extra manjaro-input
-
-
-## Xorg Server
-#numlockx                          # not used and not needed
-#xorg-mkfontscale                  # not needed by anything
-xorg-server                        # optional for libgdm
-#xorg-twm                          # antiquated; optional for xorg-xinit
-#xorg-xinit                        # not needed by anything
-
