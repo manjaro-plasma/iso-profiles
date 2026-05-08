@@ -103,8 +103,7 @@ xed
 gnome-keyring
 >extra gnome-system-monitor
 gvfs-afc
-gvfs-goa                           # required by gvfs-google
-gvfs-google                        # optional for gnome-online-accounts
+gvfs-goa
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
