@@ -106,7 +106,7 @@ powertop
 qt5ct
 qt6ct
 ranger
-sbxkb
+#sbxkb  ## dropped to AUR
 screenfetch
 >extra snapd
 speedtest-cli
@@ -131,7 +131,7 @@ w3m
 >extra wallpapers-juhraya
 wmutils
 >extra xarchiver
-#xautolock  ## dropped to AUR             
+#xautolock  ## dropped to AUR
 >extra xcursor-maia
 xdg-utils
 xdotool
