@@ -25,8 +25,6 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 manjaro-gstreamer
@@ -255,4 +253,3 @@ xdg-utils
 power-profiles-daemon
 
 ## Misc
-
